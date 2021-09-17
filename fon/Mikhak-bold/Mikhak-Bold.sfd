@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1497005464
-ModificationTime: 1630336202
+ModificationTime: 1631809946
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -61,6 +61,9 @@ Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Arabic lookup 0" { "'cc
 Lookup: 1 9 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 2 9 0 "Multiple Substitution lookup 2" { "Multiple Substitution lookup 2 subtable"  } []
 Lookup: 2 9 0 "Multiple Substitution lookup 3" { "Multiple Substitution lookup 3 subtable"  } []
+Lookup: 1 9 0 "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4" { "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable"  } ['fina' ('arab' <'FAR ' 'dflt' > ) ]
+Lookup: 1 9 0 "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5" { "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable"  } ['medi' ('arab' <'FAR ' 'dflt' > ) ]
+Lookup: 1 9 0 "Mikhak-Light-'init' Initial Forms in Arabic lookup 6" { "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable"  } ['init' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 4" { "'fina' Terminal Forms in Arabic lookup 4 subtable"  } ['fina' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 5" { "'medi' Medial Forms in Arabic lookup 5 subtable"  } ['medi' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 6" { "'init' Initial Forms in Arabic lookup 6 subtable"  } ['init' ('arab' <'FAR ' 'dflt' > ) ]
@@ -70,9 +73,9 @@ Lookup: 6 1 0 "'calt' Contextual Alternates lookup 9" { "'calt' Contextual Alter
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 10" { "'liga' Standard Ligatures in Arabic lookup 10 subtable"  } ['liga' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 11" { "'liga' Standard Ligatures in Arabic lookup 11 subtable"  } ['liga' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('arab' <'FAR ' 'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1 subtable"  } ['kern' ('DFLT' <'dflt' > 'arab' <'FAR ' 'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 9 0 "'kern' Horizontal Kerning in Arabic lookup 2" { "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 0"  "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 1"  "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2"  "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3"  "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4"  } ['kern' ('arab' <'FAR ' 'dflt' > ) ]
-Lookup: 258 1 0 "'kern' Horizontal Kerning in Arabic lookup 3" { "'kern' Horizontal Kerning in Arabic lookup 3 per glyph data 0"  "'kern' Horizontal Kerning in Arabic lookup 3 per glyph data 1"  } ['kern' ('arab' <'FAR ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1 subtable" [307,0,0] } ['kern' ('DFLT' <'dflt' > 'arab' <'FAR ' 'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 9 0 "'kern' Horizontal Kerning in Arabic lookup 2" { "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 0" [307,30,0] "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 1" [307,30,0] "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" [307,30,0] "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" [307,30,0] "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4" [307,30,0] } ['kern' ('arab' <'FAR ' 'dflt' > ) ]
+Lookup: 258 1 0 "'kern' Horizontal Kerning in Arabic lookup 3" { "'kern' Horizontal Kerning in Arabic lookup 3 per glyph data 0" [307,30,0] "'kern' Horizontal Kerning in Arabic lookup 3 per glyph data 1" [307,30,0] } ['kern' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 4" { "'mark' Mark Positioning in Arabic lookup 4 subtable"  } ['mark' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 5" { "'mark' Mark Positioning in Arabic lookup 5 subtable"  } ['mark' ('arab' <'FAR ' 'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 6" { "'mark' Mark Positioning in Arabic lookup 6 subtable"  } ['mark' ('arab' <'FAR ' 'dflt' > ) ]
@@ -3864,7 +3867,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 294 21 9
+WinInfo: 385 11 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 455680 227840 151893 519168 -1048576 151893 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -25809,6 +25812,7 @@ SplineSet
  178 1307 178 1307 178 1316 c 0,39,40
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE82
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 11 subtable" uni0627 uni0653
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE82
 Substitution2: "Single Substitution lookup 1 subtable" uniE00A
@@ -25840,6 +25844,7 @@ Fore
 Refer: 247 1620 N 1 0 0 1 89 475 2
 Refer: 207 1575 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE84
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 11 subtable" uni0627 uni0654
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE84
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4" uni0623 dx=178 dy=0 dh=178 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -25879,6 +25884,7 @@ Fore
 Refer: 247 1620 N 1 0 0 1 241 -191 2
 Refer: 235 1608 N 1 0 0 1 -46 21 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE86
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 11 subtable" uni0648 uni0654
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE86
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4" uni06CC dx=89 dy=0 dh=89 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -25917,6 +25923,7 @@ Fore
 Refer: 248 1621 N 1 0 0 1 -34 121 2
 Refer: 207 1575 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE88
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 11 subtable" uni0627 uni0655
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE88
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 1" uni063A dx=-200 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -25947,6 +25954,9 @@ Fore
 Refer: 247 1620 N 1 0 0 1 118 -468 2
 Refer: 278 1740 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFE8B
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFE8C
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE8A
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 11 subtable" uni064A uni0654
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFE8B
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFE8C
@@ -26035,6 +26045,7 @@ SplineSet
  100 1307 100 1307 100 1316 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE8E
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE8E
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 1" uni063A dx=-200 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 1" uni0639 dx=-200 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -26064,6 +26075,9 @@ Fore
 Refer: 266 1646 N 1 0 0 1 0 0 2
 Refer: 304 57344 N 1 0 0 1 615 -498 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFE91
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFE92
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE90
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFE91
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFE92
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE90
@@ -26091,6 +26105,7 @@ Fore
 Refer: 234 1607 N 1 0 0 1 0 0 2
 Refer: 305 57345 N 1 0 0 1 60 1186 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE94
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE94
 EndChar
 
@@ -26116,6 +26131,9 @@ Fore
 Refer: 266 1646 N 1 0 0 1 0 0 2
 Refer: 305 57345 N 1 0 0 1 504 630 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFE97
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFE98
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE96
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFE97
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFE98
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE96
@@ -26143,6 +26161,9 @@ Fore
 Refer: 266 1646 N 1 0 0 1 0 0 2
 Refer: 307 57347 N 1 0 0 1 484 590 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFE9B
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFE9C
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE9A
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFE9B
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFE9C
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE9A
@@ -26170,6 +26191,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 489 -226 2
 Refer: 213 1581 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFE9F
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA0
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE9E
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFE9F
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFE9E
@@ -26305,6 +26329,9 @@ SplineSet
  1054 -426 1054 -426 1077 -426 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEA3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEA2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEA3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEA2
@@ -26332,6 +26359,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 234 1028 2
 Refer: 213 1581 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEA7
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA8
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEA6
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEA7
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEA8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEA6
@@ -26465,6 +26495,7 @@ SplineSet
  265 758 265 758 265 788 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAA
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAA
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -26497,6 +26528,7 @@ Fore
 Refer: 304 57344 N 1 0 0 1 211 1088 2
 Refer: 215 1583 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAC
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAC
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -26563,6 +26595,11 @@ SplineSet
  210 -557 210 -557 200 -557 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAE
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEAE
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -26663,6 +26700,11 @@ Fore
 Refer: 304 57344 N 1 0 0 1 369 768 2
 Refer: 217 1585 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -27055,6 +27097,9 @@ SplineSet
  2096 651 2096 651 2096 680 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEB3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEB4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEB3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEB4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB2
@@ -27082,6 +27127,9 @@ Fore
 Refer: 307 57347 N 1 0 0 1 1394 767 2
 Refer: 219 1587 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEB7
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEB8
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB6
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEB7
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEB8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEB6
@@ -27289,6 +27337,9 @@ SplineSet
  1130 274 1130 274 1130 304 c 0,14,15
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEBB
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEBC
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEBA
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEBB
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEBC
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEBA
@@ -27316,6 +27367,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 1800 1044 2
 Refer: 221 1589 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEBF
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC0
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEBE
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEBF
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEBE
@@ -27444,6 +27498,9 @@ SplineSet
  639 350 639 350 549 155 c 1,53,54
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEC3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEC2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEC3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEC2
@@ -27471,6 +27528,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 821 1026 2
 Refer: 223 1591 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEC7
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC8
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEC6
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEC7
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEC8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEC6
@@ -27694,6 +27754,9 @@ SplineSet
  830 632 l 2,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFECB
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFECC
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFECA
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFECB
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFECC
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFECA
@@ -27721,6 +27784,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 276 1500 2
 Refer: 225 1593 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFECF
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFED0
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFECE
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFECF
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFED0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFECE
@@ -27794,6 +27860,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 1031 1479 2
 Refer: 272 1697 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFED3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFED4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFED2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFED3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFED4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFED2
@@ -27821,6 +27890,9 @@ Fore
 Refer: 267 1647 N 1 0 0 1 0 0 2
 Refer: 305 57345 N 1 0 0 1 645 1022 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFED7
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFED8
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFED6
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFED7
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFED8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFED6
@@ -28164,6 +28236,9 @@ SplineSet
  982 993 982 993 982 970 c 0,45,46
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEDB
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEDC
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEDA
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEDB
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEDC
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEDA
@@ -28250,6 +28325,9 @@ SplineSet
  1054 1361 l 2,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEDF
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE0
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEDE
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEDF
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEDE
@@ -28485,6 +28563,9 @@ SplineSet
  50 -171 l 1,13,-1
 EndSplineSet
 Validated: 33
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEE3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEE2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEE3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEE2
@@ -28512,6 +28593,9 @@ Fore
 Refer: 304 57344 N 1 0 0 1 531 145 2
 Refer: 275 1722 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEE7
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE8
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEE6
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEE7
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEE8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEE6
@@ -28580,6 +28664,9 @@ SplineSet
  153 660 153 660 252 767 c 1,11,12
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEEB
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEEC
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEEA
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEEB
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEEC
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEEA
@@ -28691,6 +28778,7 @@ SplineSet
  522 146 522 146 597 168 c 1,36,37
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEEE
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEEE
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4" uni06CC dx=89 dy=0 dh=89 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 4" uni064A dx=89 dy=0 dh=89 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -28717,6 +28805,9 @@ LayerCount: 2
 Fore
 Refer: 278 1740 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFBE8
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFBE9
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEF0
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFBE8
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFBE9
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEF0
@@ -28744,6 +28835,9 @@ Fore
 Refer: 305 57345 N 1 0 0 1 367 -965 2
 Refer: 278 1740 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFEF3
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFEF4
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEF2
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFEF3
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFEF4
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFEF2
@@ -31668,6 +31762,7 @@ SplineSet
  1348 592 1348 592 1348 643 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBE8
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBE8
 EndChar
 
@@ -31851,6 +31946,7 @@ SplineSet
  919 743 919 743 1008 743 c 0,11,12
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniE005
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniE005
 EndChar
 
@@ -31947,6 +32043,9 @@ Fore
 Refer: 266 1646 N 1 0 0 1 0 0 2
 Refer: 306 57346 N 1 0 0 1 478 -770 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFB58
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFB59
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB57
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFB58
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFB59
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB57
@@ -31974,6 +32073,9 @@ Fore
 Refer: 306 57346 N 1 0 0 1 391 -429 2
 Refer: 213 1581 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFB7C
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFB7D
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB7B
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFB7C
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFB7D
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB7B
@@ -32001,6 +32103,11 @@ Fore
 Refer: 307 57347 N 1 0 0 1 318 740 2
 Refer: 217 1585 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB8B
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB8B
 Substitution2: "Single Substitution lookup 1 subtable" uniE010
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -32208,6 +32315,8 @@ SplineSet
  150 651 150 651 202 651 c 0,11,12
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniE006
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniE005
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniE006
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniE005
 EndChar
@@ -32347,6 +32456,9 @@ SplineSet
  1758 1502 1758 1502 1781 1502 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFB90
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFB91
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB8F
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFB90
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFB91
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB8F
@@ -32374,6 +32486,9 @@ Fore
 Refer: 311 57351 N 1 0 0 1 817 -71 2
 Refer: 273 1705 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFB94
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFB95
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB93
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFB94
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFB95
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFB93
@@ -32516,6 +32631,7 @@ Fore
 Refer: 247 1620 N 1 0 0 1 188 -59 2
 Refer: 234 1607 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBA5
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBA5
 EndChar
 
@@ -32677,6 +32793,9 @@ SplineSet
  1318 782 1318 782 1318 736 c 0,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uniFBFE
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uniFBFF
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBFD
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uniFBFE
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uniFBFF
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uniFBFD
@@ -35443,6 +35562,10 @@ Fore
 Refer: 307 57347 N 1 0 0 1 356 830 2
 Refer: 378 65198 N 1 0 0 1 0 0 2
 Validated: 1
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
 Substitution2: "Single Substitution lookup 1 subtable" uniE011
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -38020,6 +38143,10 @@ SplineSet
  492 470 492 470 492 483 c 0,0,1
 EndSplineSet
 Validated: 1
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB90 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -38119,6 +38246,10 @@ Fore
 Refer: 304 57344 N 1 0 0 1 429 768 2
 Refer: 378 65198 N 1 0 0 1 0 0 2
 Validated: 1
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762.init dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4.init dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni06a4 dx=-334 dy=0 dh=-334 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 2" uni0762 dx=-601 dy=0 dh=-601 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFEDB dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB94 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3" uniFB90 dx=-267 dy=0 dh=-267 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -44451,6 +44582,9 @@ SplineSet
 EndSplineSet
 Refer: 304 57344 S 1 0 0 1 726 1273 2
 Validated: 1
+Substitution2: "Mikhak-Light-'init' Initial Forms in Arabic lookup 6 subtable" uni0762.init
+Substitution2: "Mikhak-Light-'medi' Medial Forms in Arabic lookup 5 subtable" uni0762.medi
+Substitution2: "Mikhak-Light-'fina' Terminal Forms in Arabic lookup 4 subtable" uni0762.fina
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uni0762.init
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uni0762.medi
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uni0762.fina
@@ -44726,11 +44860,11 @@ StartChar: uni06bd.init
 Encoding: 463 -1 463
 Width: 532
 Flags: W
-AnchorPoint: "Anchor-2" 248 1071 basechar 0
-AnchorPoint: "Anchor-0" 178 89 basechar 0
+AnchorPoint: "Anchor-2" 246 832 basechar 0
+AnchorPoint: "Anchor-0" 142 -663 basechar 0
 LayerCount: 2
 Fore
-Refer: 306 57346 S 1 0 0 1 -44 -860 2
+Refer: 306 57346 S 1 0 0 1 -218 -790 2
 Refer: 336 64488 N 1 0 0 1 0 0 2
 EndChar
 
@@ -44738,11 +44872,11 @@ StartChar: uni06bd.medi
 Encoding: 464 -1 464
 Width: 861
 Flags: W
-AnchorPoint: "Anchor-2" 199 1032 basechar 0
-AnchorPoint: "Anchor-0" 211 0 basechar 0
+AnchorPoint: "Anchor-2" 233 565 basechar 0
+AnchorPoint: "Anchor-0" 235 -640 basechar 0
 LayerCount: 2
 Fore
-Refer: 306 57346 S 1 0 0 1 -44 -860 2
+Refer: 306 57346 S 1 0 0 1 -123 -770 2
 Refer: 337 64489 N 1 0 0 1 0 0 2
 EndChar
 
@@ -44905,6 +45039,7 @@ SplineSet
  150 651 150 651 202 651 c 0,14,15
 EndSplineSet
 Refer: 307 57347 S 1 0 0 1 849 1285 2
+Kerns2: 217 -2348 "'kern' Horizontal Kerning in Arabic lookup 2 per glyph data 3"
 Substitution2: "'init' Initial Forms in Arabic lookup 6 subtable" uni06a4.init
 Substitution2: "'medi' Medial Forms in Arabic lookup 5 subtable" uni06a4.medi
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uni06a4.fina
