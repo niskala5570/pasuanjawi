@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-10 0 1400 2048"
+   id="svg4"
+   sodipodi:docname="uniFEDA.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.12207031"
+     inkscape:cx="102.4"
+     inkscape:cy="942.08"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     id="path2-2"
+     style="opacity:1;fill:#000000;fill-opacity:1"
+     d="M 994.0469,255.90623 C 973.9375,255.81253 949.75,269.49998 943,285.99998 863,482.99998 761,671 609,800 c -18,15 -13,66 33,82 132,45.9999 213,52 328,155 46,42 48,166 -9,189 -92.6306,37.0522 -216.5759,48.6929 -263.0117,51.9707 -101.9517,5.3367 -212.67395,3.7957 -295.0918,-21.9766 -134,-42 -251,-115 -238,-307 3,-34 9,-64 20,-90 4,-8 4,-21 -9,-24 -39,-6 -117,102 -138,130 -42,57 -65,184 -20,257 98.7987,158.3486 515.46934,189.4854 633.4981,185.257 156.8778,-5.6202 362.1783,0.9382 468.6054,-87.2511 v 6 c 59,89 170,80 260,75 v -142 c -83,11 -139,-14 -180,-56 -6,-14 -9,-29 -7,-47 20,-232 -270,-337 -342,-340 -18,-10 -15,-39 -6,-48 91,-95 165,-177.00002 225,-295.00002 39,-76 -4,-172 -58,-212 -5,-3.5 -11.25,-5.0625 -17.9531,-5.09375 z"
+     sodipodi:nodetypes="sccccccccccccsccccccccccs" />
+</svg>
