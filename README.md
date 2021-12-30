@@ -4,5 +4,10 @@ Pasuan(Fon) yang telah diubah suai bagi menyokong tulisan [Melayu Jawi][wikims].
 
 Diilhamkan dari repositori [JawiFont oleh MNH48][jawifontms]
 
+Muat turun: [Google Drive][gdrive]
+
+Lesen: Sila lihat README.md di setiap folder.
+
 [wikims]: https://ms.wikipedia.org/wiki/Tulisan_Jawi?wprov=sfla1
 [jawifontms]: https://github.com/jawi-mnh48/jawifont/blob/master/README_ms.md
+[gdrive]: https://drive.google.com/drive/u/2/folders/1hIquuEN_Y7KD8_CUuR2vzKUz52kVdxa9
