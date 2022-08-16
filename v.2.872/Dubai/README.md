@@ -16,6 +16,11 @@ Untuk kegunaan laman web:
 [Untuk kegunaan QuickCSS Discord](https://gist.github.com/niskala5570/520e689d4d30fc1381c0caae8e0dadcd?permalink_comment_id=4259947#gistcomment-4259947)
 
 ---
+
+**Nota:** Di gambar kedua, aksara yg bewarna pudar itu masih baru di dalam Unicode versi 14 (September 2021), jadi pembentuk huruf bagi perisian yang
+belum mengemas kininya pasti akan memaparkan huruf tunggal sahaja tanpa bentuk sambungannya.
+
+---
 Muat turun:
 [_Nipis_](https://github.com/niskala5570/pasuanjawi/raw/2.872/v.2.872/Dubai/NKL-DUBAI-LIGHT.otf)
 [Biasa](https://github.com/niskala5570/pasuanjawi/raw/2.872/v.2.872/Dubai/NKL-DUBAI-REGULAR.otf)
