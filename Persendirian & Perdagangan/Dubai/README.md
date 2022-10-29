@@ -8,7 +8,7 @@ Untuk kegunaan laman web:
 
 ```
 <style>
-@import url('https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/v.2.872/Dubai/NKL%20Dubai.css');
+@import url('https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Dubai/NKL%20Dubai.css');
 </style>
 ```
 ---
