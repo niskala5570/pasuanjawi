@@ -1,13 +1,19 @@
 [ملايو جاوي](README_ms.md) // [Melayu](README.md)
-# Jawi Font
-Font that has been modified for [Malay Jawi][wikims] support.
 
-Inspired from [Jawifont by MNH48][jawifonten] repo.
+<p style="text-align: center; margin: 10px;">
+    <img src="gambar/kulit-lutsinar-en.png" width="auto" alt="Pasuan Jawi"></img>
+</p>
 
-Download: [Google Drive][gdrive]
+A small project in an effort to dignify [Jawi][wikijawi] and Malay Arabic script.
+Starting in 2.872, the [Pegon][wikipegon] and its family will also try to be supported so as not to be lost to time.
 
-License: Pls look at each README individual folder.
+Hopefully this project makes it a little easier for designers from adding the dots manually themselves and hopefully may also become a reference for
+type designers who are interested in adding Jawi-Pegon characters to their fonts.
 
-[wikims]: https://ms.wikipedia.org/wiki/Tulisan_Jawi?wprov=sfla1
-[jawifonten]: https://github.com/jawi-mnh48/jawifont/blob/master/README.md
+[wikijawi]: https://en.wikipedia.org/wiki/Jawi_script
+[jawifont]: https://github.com/jawi-mnh48/jawifont/blob/master/README_ms.md
 [gdrive]: https://drive.google.com/drive/u/2/folders/1hIquuEN_Y7KD8_CUuR2vzKUz52kVdxa9
+[kkMNH]: https://github.com/jawi-mnh48/jawi-keyboard
+[kkUKM]: https://sites.google.com/a/jawiware.org/www/keyboard-untuk-jawi
+[corakarab]: https://www.freepik.com/free-vector/arabic-ornamental-background-paper-style_13109366.htm
+[wikipegon]: https://en.wikipedia.org/wiki/Pegon_script
