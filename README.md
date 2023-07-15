@@ -1,4 +1,4 @@
-[~~ملايو جاوي~~](README_ms.md) // [~~English~~](README_en.md)
+[ملايو جاوي](README_ms.md) // [English](README_en.md)
 
 <p style="text-align: center; margin: 10px;">
     <img src="gambar/kulit-lutsinar.png" width="auto" alt="Pasuan Jawi"></img>
