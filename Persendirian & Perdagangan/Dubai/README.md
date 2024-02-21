@@ -1,3 +1,5 @@
+[English](README_en.md)
+
 Laman rasmi https://dubaifont.com/
 
 ---
