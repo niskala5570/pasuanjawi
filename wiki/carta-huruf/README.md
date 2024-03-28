@@ -3,17 +3,17 @@
 # Carta Huruf (Dalam Pembikinan)
 
 ## Huruf Jawi
-| Nama         | Gambar | Kod|  Rumi | Nota |
-|--------------|------------|--------------|--------------|--------------|
-| Ca (Ha Nipis Bertitik Tiga) | ![](gambar/ca.png)  | 0686 | C | |
-| Nga (Ain Bertitik Tiga) | ![](gambar/nga.png)  | 06A0 | Ng | |
-| Pa (Fa Bertitik Tiga) | ![](gambar/pa.png) | 06A4 | P | |
-| Kaf (Keheh) | ![](gambar/kaf.png) | 06A9 | K | |
-| Ga (Keheh Bertitik Satu) | ![](gambar/ga.png)  | 0762 | G | |
-| Nya (Nun Bertitik Tiga) | ![](gambar/nya.png)  | 06BD | Ny | |
-| Va (Wau Bertitik Satu) | ![](gambar/va.png)  | 06CF | V | |
-| Hamzah Tiga Suku | ![](gambar/hamzah-tigasuku.png)  | 0674 | - | Peggunaan untuk Hamzah Tinggi sudah tak disarankan, maka unicode padankan dengan Hamzah Tiga Suku.[^hamzahtinggi] Tetapi ada usulan yang baharu untuk menambahnya pada 11 Jan 2022[^hamzahtigasuku].|
-| Hamzah Berumah Ya | ![](gambar/hamzah-ya.png) | 08A8 | I | |
+| Nama                        	| Gambar                          	| Aksara 	| Kod  	| Rumi 	| Nota                                                                                                                                                                                                 	|
+|-----------------------------	|---------------------------------	|--------	|------	|------	|-----	|
+| Ca (Ha Nipis Bertitik Tiga) 	| ![](gambar/ca.png)              	| چ      	| 0686 	| C    	|                                                                                                                                                                                                      	|
+| Nga (Ain Bertitik Tiga)     	| ![](gambar/nga.png)             	| ڠ      	| 06A0 	| Ng   	|                                                                                                                                                                                                      	|
+| Pa (Fa Bertitik Tiga)       	| ![](gambar/pa.png)              	| ڤ      	| 06A4 	| P    	|                                                                                                                                                                                                      	|
+| Kaf (Keheh)                 	| ![](gambar/kaf.png)             	| ک      	| 06A9 	| K    	|                                                                                                                                                                                                      	|
+| Ga (Keheh Bertitik Satu)    	| ![](gambar/ga.png)              	| ݢ      	| 0762 	| G    	|                                                                                                                                                                                                      	|
+| Nya (Nun Bertitik Tiga)     	| ![](gambar/nya.png)             	| ڽ      	| 06BD 	| Ny   	|                                                                                                                                                                                                      	|
+| Va (Wau Bertitik Satu)      	| ![](gambar/va.png)              	| ۏ      	| 06CF 	| V    	|                                                                                                                                                                                                      	|
+| Hamzah Tiga Suku            	| ![](gambar/hamzah-tigasuku.png) 	| ٴ      	| 0674 	| -    	| Peggunaan untuk Hamzah Tinggi sudah tak disarankan, maka unicode padankan dengan Hamzah Tiga Suku.[^hamzahtinggi] Tetapi ada usulan yang baharu untuk menambahnya pada 11 Jan 2022[^hamzahtigasuku]. 	|
+| Hamzah Berumah Ya           	| ![](gambar/hamzah-ya.png)       	| ࢨ      	| 08A8 	| I    	|                                                                                                                                                                                                      	|
 
 [^hamzahtinggi] 
 
@@ -33,6 +33,19 @@
 | Tha (Ta Bertitik Tiga) | ![](gambar/tha.png)  | 069F | Th | Pegon |
 | Gaf (Kaf Bertitik Tiga Bawah) | ![](gambar/gaf-p.png)  | 06AE | G | Pegon |
 | Nya (Ya Bertitik Tiga Bawah) | ![](gambar/gaf-p.png)  | 06AE | G | Pegon |
+
+## Huruf Jawi Campa
+| Nama                        | Gambar | Aksara | Kod       | Rumi | Nota |
+|-----------------------------|--------|--------|-----------|------|------|
+| Alif Jazam                  |        | اۡ      | 0627+06E1 |      |      |
+| Alif Bertitik Tiga Atas     |        | اۛ      | 0627+06DB |      |      |
+| Ha Pedas Bertitik Tiga Atas |        | څ      | 0685      | nj   |      |
+| Fa Titik Satu Bawah         |        |        | 06A2      |      |      |
+| Dal Tiga Titik Atas         |        |        | 068E      |      |      |
+| Wau Bervi Terbalik Atas     |        |        | 06C9      |      |      |
+| Wau Bervi                   |        |        | 06C6      |      |      |
+| Ye Bervi Bawah              |        |        |           |      |      |
+| Ye Bervi Terbalik Bawah     |        |        |           |      |      |
 
 ## Tanda Baca Jawi
 | Nama         | Gambar | Kod | Nota |
