@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 0
 CreationTime: 1391161551
-ModificationTime: 1716484423
+ModificationTime: 1716524835
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,6 +57,7 @@ OS2XHeight: 851
 OS2Vendor: 'any '
 OS2CodePages: 00000041.00000000
 OS2UnicodeRanges: 00002001.00000000.00000008.00000000
+Lookup: 2 1 0 "'ccmp' Gabung" { "'ccmp' tandaV"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 9 0 "'isol' Isolated Forms in Arabic lookup 0" { "'isol' Isolated Forms in Arabic lookup 0 subtable"  } ['isol' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 1" { "'init' Initial Forms in Arabic lookup 1 subtable"  "'init' JAWI"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 2" { "'medi' Medial Forms in Arabic lookup 2 subtable"  "'medi' JAWI"  } ['medi' ('arab' <'dflt' > ) ]
@@ -64,7 +65,8 @@ Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 3" { "'fina' Terminal Form
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 4" { "'rlig' Required Ligatures in Arabic lookup 4 subtable"  "'rlig' Hamzah"  } ['rlig' ('arab' <'dflt' > ) ]
 Lookup: 4 1 1 "'liga' Standard Ligatures in Arabic lookup 5" { "'liga' Standard Ligatures in Arabic lookup 5 subtable"  } ['liga' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 6" { "'liga' Standard Ligatures in Arabic lookup 6 subtable"  "'liga' JAWI"  } ['liga' ('arab' <'dflt' > ) ]
-Lookup: 258 0 0 "'vkrn' Vertical Kerning lookup 0" { "'vkrn' Vertical Kerning lookup 0-1" [307,30,0] } ['vkrn' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 261 0 0 "'mark' JAWI Liga" { "'mark' JAWI Liga-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' JAWI" { "'mark' JAWI-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 1 0 "'kern' Hamzah" { "'kern' Hamzah" [307,30,4] } ['kern' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 0" { "'mark' Mark Positioning in Arabic lookup 0 subtable"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 1" { "'mark' Mark Positioning in Arabic lookup 1 subtable"  } ['mark' ('arab' <'dflt' > ) ]
@@ -72,8 +74,6 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 2" { "'mkmk' Mark to Mark 
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 3" { "'mkmk' Mark to Mark in Arabic lookup 3 subtable"  } ['mkmk' ('arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 1 1 "'vkrn' Vertical Kerning lookup 0-1"
- 0 {}
 TtTable: prep
 PUSHW_1
  511
@@ -761,15 +761,15 @@ GaspTable: 1 65535 2 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: Qabas
-DisplaySize: -24
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 400 25 10
+WinInfo: 550 10 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 46592 23296 15530 0 -1048576 15530 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Anchor-0" "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-2" "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-3" "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-4" "'mkmk' Mark to Mark in Arabic lookup 2 subtable" "Anchor-5" "'mkmk' Mark to Mark in Arabic lookup 3 subtable"
-BeginChars: 648 589
+AnchorClass2: "tandaV-liga" "'mark' JAWI Liga-1" "tandaV" "'mark' JAWI-1" "Anchor-0" "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-2" "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-3" "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-4" "'mkmk' Mark to Mark in Arabic lookup 2 subtable" "Anchor-5" "'mkmk' Mark to Mark in Arabic lookup 3 subtable"
+BeginChars: 648 590
 
 StartChar: .notdef
 Encoding: 220 -1 0
@@ -3407,6 +3407,7 @@ AltUni2: 00feed.ffffffff.0
 Width: 630
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 321 740 basechar 0
 AnchorPoint: "Anchor-1" 285 -433 basechar 0
 AnchorPoint: "Anchor-0" 213 850 basechar 0
 LayerCount: 2
@@ -3452,60 +3453,14 @@ AltUni2: 00feef.ffffffff.0
 Width: 1052
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 215 553 basechar 0
 AnchorPoint: "Anchor-1" 397 -207 basechar 0
 AnchorPoint: "Anchor-0" 285 708 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-238 514 m 5,0,-1
- 238 514 l 5,1,2
- 239 515 239 515 238 516 c 4,3,4
- 237 516 237 516 236 515 c 6,5,-1
- 111 391 l 6,6,7
- 86 362 86 362 92 295 c 132,-1,8
- 98 228 98 228 118 148 c 132,-1,9
- 138 68 138 68 157 3 c 5,10,11
- 536 3 536 3 916 2 c 5,12,-1
- 1052 139 l 5,13,-1
- 1040 139 l 5,14,15
- 918 143 918 143 819 188 c 132,-1,16
- 720 233 720 233 678 313 c 132,-1,17
- 636 393 636 393 683 500 c 5,18,19
- 729 487 729 487 783 436 c 132,-1,20
- 837 385 837 385 867 320.5 c 132,-1,21
- 897 256 897 256 872 204 c 4,22,23
- 871 203 871 203 872 202 c 4,24,25
- 873 202 873 202 874 202 c 6,26,-1
- 994 322 l 6,27,28
- 1033 365 1033 365 1015.5 425 c 132,-1,29
- 998 485 998 485 951 540 c 132,-1,30
- 904 595 904 595 854.5 622.5 c 132,-1,31
- 805 650 805 650 779 629 c 6,32,-1
- 642 492 l 6,33,34
- 537 384 537 384 524 294.5 c 132,-1,35
- 511 205 511 205 565 140 c 5,36,-1
- 293 140 l 5,37,38
- 266 233 266 233 241.5 344.5 c 132,-1,39
- 217 456 217 456 238 514 c 5,0,-1
-EndSplineSet
-Substitution2: "'fina' Terminal Forms in Arabic lookup 3 subtable" ye.fina
-Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" alefmaksuraarabm
-Substitution2: "'init' Initial Forms in Arabic lookup 1 subtable" alefmaksuraarabi
-Substitution2: "'isol' Isolated Forms in Arabic lookup 0 subtable" ye
-EndChar
-
-StartChar: ya
-Encoding: 61 1610 60
-AltUni2: 00fef1.ffffffff.0
-Width: 1052
-GlyphClass: 2
-Flags: W
-AnchorPoint: "Anchor-1" 285 -436 basechar 0
-AnchorPoint: "Anchor-0" 285 703 basechar 0
-LayerCount: 2
-Fore
-SplineSet
 238 514 m 1,0,-1
+ 238 514 l 1,1,2
  239 515 239 515 238 516 c 0,3,4
  237 516 237 516 236 515 c 2,5,-1
  111 391 l 2,6,7
@@ -3534,26 +3489,74 @@ SplineSet
  293 140 l 1,37,38
  266 233 266 233 241.5 344.5 c 128,-1,39
  217 456 217 456 238 514 c 1,0,-1
-692 -245 m 2,40,-1
- 599 -338 l 1,41,42
- 599 -338 599 -338 597 -338 c 0,43,44
- 596 -337 596 -337 597 -336 c 0,45,46
- 603 -304 603 -304 568.5 -268 c 128,-1,47
- 534 -232 534 -232 514 -215 c 1,48,-1
- 617 -112 l 1,49,50
- 630 -124 630 -124 655 -148 c 128,-1,51
- 680 -172 680 -172 694.5 -198.5 c 128,-1,52
- 709 -225 709 -225 692 -245 c 2,40,-1
-521 -245 m 2,53,-1
- 428 -338 l 2,54,55
- 427 -338 427 -338 426 -338 c 0,56,57
- 425 -337 425 -337 426 -336 c 0,58,59
- 431 -304 431 -304 397 -268 c 128,-1,60
- 363 -232 363 -232 342 -215 c 1,61,-1
- 445 -112 l 1,62,63
- 459 -124 459 -124 484 -148 c 128,-1,64
- 509 -172 509 -172 523.5 -198.5 c 128,-1,65
- 538 -225 538 -225 521 -245 c 2,53,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 3 subtable" ye.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" alefmaksuraarabm
+Substitution2: "'init' Initial Forms in Arabic lookup 1 subtable" alefmaksuraarabi
+Substitution2: "'isol' Isolated Forms in Arabic lookup 0 subtable" ye
+EndChar
+
+StartChar: ya
+Encoding: 61 1610 60
+AltUni2: 00fef1.ffffffff.0
+Width: 1052
+GlyphClass: 2
+Flags: W
+AnchorPoint: "tandaV" 215 553 basechar 0
+AnchorPoint: "Anchor-1" 285 -436 basechar 0
+AnchorPoint: "Anchor-0" 285 703 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+238 514 m 1,0,1
+ 239 515 239 515 238 516 c 0,2,3
+ 237 516 237 516 236 515 c 2,4,-1
+ 111 391 l 2,5,6
+ 86 362 86 362 92 295 c 128,-1,7
+ 98 228 98 228 118 148 c 128,-1,8
+ 138 68 138 68 157 3 c 1,9,10
+ 536 3 536 3 916 2 c 1,11,-1
+ 1052 139 l 1,12,-1
+ 1040 139 l 1,13,14
+ 918 143 918 143 819 188 c 128,-1,15
+ 720 233 720 233 678 313 c 128,-1,16
+ 636 393 636 393 683 500 c 1,17,18
+ 729 487 729 487 783 436 c 128,-1,19
+ 837 385 837 385 867 320.5 c 128,-1,20
+ 897 256 897 256 872 204 c 0,21,22
+ 871 203 871 203 872 202 c 0,23,24
+ 873 202 873 202 874 202 c 2,25,-1
+ 994 322 l 2,26,27
+ 1033 365 1033 365 1015.5 425 c 128,-1,28
+ 998 485 998 485 951 540 c 128,-1,29
+ 904 595 904 595 854.5 622.5 c 128,-1,30
+ 805 650 805 650 779 629 c 2,31,-1
+ 642 492 l 2,32,33
+ 537 384 537 384 524 294.5 c 128,-1,34
+ 511 205 511 205 565 140 c 1,35,-1
+ 293 140 l 1,36,37
+ 266 233 266 233 241.5 344.5 c 128,-1,38
+ 217 456 217 456 238 514 c 1,0,1
+692 -245 m 2,39,-1
+ 599 -338 l 1,40,41
+ 599 -338 599 -338 597 -338 c 0,42,43
+ 596 -337 596 -337 597 -336 c 0,44,45
+ 603 -304 603 -304 568.5 -268 c 128,-1,46
+ 534 -232 534 -232 514 -215 c 1,47,-1
+ 617 -112 l 1,48,49
+ 630 -124 630 -124 655 -148 c 128,-1,50
+ 680 -172 680 -172 694.5 -198.5 c 128,-1,51
+ 709 -225 709 -225 692 -245 c 2,39,-1
+521 -245 m 2,52,-1
+ 428 -338 l 2,53,54
+ 427 -338 427 -338 426 -338 c 0,55,56
+ 425 -337 425 -337 426 -336 c 0,57,58
+ 431 -304 431 -304 397 -268 c 128,-1,59
+ 363 -232 363 -232 342 -215 c 1,60,-1
+ 445 -112 l 1,61,62
+ 459 -124 459 -124 484 -148 c 128,-1,63
+ 509 -172 509 -172 523.5 -198.5 c 128,-1,64
+ 538 -225 538 -225 521 -245 c 2,52,-1
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 3 subtable" ya.fina
 Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" ya.medi
@@ -4353,6 +4356,7 @@ Encoding: 105 65162 83
 Width: 1096
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 492 225 basechar 0
 AnchorPoint: "Anchor-1" 397 -207 basechar 0
 AnchorPoint: "Anchor-0" 282 533 basechar 0
 LayerCount: 2
@@ -4810,46 +4814,46 @@ AnchorPoint: "Anchor-0" 282 1142 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-275 -83 m 1,0,-1
- 364 6 364 6 455 97 c 0,3,4
- 546 192 546 192 541 273 c 128,-1,5
- 536 354 536 354 487 422.5 c 128,-1,6
- 438 491 438 491 399 548.5 c 128,-1,7
- 360 606 360 606 383 654 c 0,8,9
- 383 655 383 655 382 656 c 256,10,11
- 381 657 381 657 380 656 c 2,12,-1
- 261 537 l 2,13,14
- 222 495 222 495 244.5 446 c 128,-1,15
- 267 397 267 397 312 340 c 128,-1,16
- 357 283 357 283 387 216.5 c 128,-1,17
- 417 150 417 150 393 72 c 1,18,19
- 316 143 316 143 241.5 164.5 c 128,-1,20
- 167 186 167 186 116 139 c 2,21,-1
- -2 21 l 2,22,23
- -3 20 -3 20 -2 19 c 256,24,25
- -1 18 -1 18 0 19 c 0,26,27
- 55 49 55 49 129 19.5 c 128,-1,28
- 203 -10 203 -10 275 -83 c 1,0,-1
-541 844 m 2,29,-1
- 449 751 l 2,30,31
- 448 750 448 750 447 751 c 256,32,33
- 446 752 446 752 446 753 c 0,34,35
- 452 785 452 785 417.5 820.5 c 128,-1,36
- 383 856 383 856 363 874 c 1,37,-1
- 466 977 l 1,38,39
- 479 965 479 965 504 941 c 128,-1,40
- 529 917 529 917 544 890.5 c 128,-1,41
- 559 864 559 864 541 844 c 2,29,-1
-370 844 m 2,42,-1
- 278 751 l 2,43,44
- 277 750 277 750 276 751 c 256,45,46
- 275 752 275 752 275 753 c 0,47,48
- 281 785 281 785 246.5 820.5 c 128,-1,49
- 212 856 212 856 192 874 c 1,50,-1
- 295 977 l 1,51,52
- 308 965 308 965 333 941 c 128,-1,53
- 358 917 358 917 373 890.5 c 128,-1,54
- 388 864 388 864 370 844 c 2,42,-1
+275 -83 m 1,0,1
+ 364 6 364 6 455 97 c 0,2,3
+ 546 192 546 192 541 273 c 128,-1,4
+ 536 354 536 354 487 422.5 c 128,-1,5
+ 438 491 438 491 399 548.5 c 128,-1,6
+ 360 606 360 606 383 654 c 0,7,8
+ 383 655 383 655 382 656 c 256,9,10
+ 381 657 381 657 380 656 c 2,11,-1
+ 261 537 l 2,12,13
+ 222 495 222 495 244.5 446 c 128,-1,14
+ 267 397 267 397 312 340 c 128,-1,15
+ 357 283 357 283 387 216.5 c 128,-1,16
+ 417 150 417 150 393 72 c 1,17,18
+ 316 143 316 143 241.5 164.5 c 128,-1,19
+ 167 186 167 186 116 139 c 2,20,-1
+ -2 21 l 2,21,22
+ -3 20 -3 20 -2 19 c 256,23,24
+ -1 18 -1 18 0 19 c 0,25,26
+ 55 49 55 49 129 19.5 c 128,-1,27
+ 203 -10 203 -10 275 -83 c 1,0,1
+541 844 m 2,28,-1
+ 449 751 l 2,29,30
+ 448 750 448 750 447 751 c 256,31,32
+ 446 752 446 752 446 753 c 0,33,34
+ 452 785 452 785 417.5 820.5 c 128,-1,35
+ 383 856 383 856 363 874 c 1,36,-1
+ 466 977 l 1,37,38
+ 479 965 479 965 504 941 c 128,-1,39
+ 529 917 529 917 544 890.5 c 128,-1,40
+ 559 864 559 864 541 844 c 2,28,-1
+370 844 m 2,41,-1
+ 278 751 l 2,42,43
+ 277 750 277 750 276 751 c 256,44,45
+ 275 752 275 752 275 753 c 0,46,47
+ 281 785 281 785 246.5 820.5 c 128,-1,48
+ 212 856 212 856 192 874 c 1,49,-1
+ 295 977 l 1,50,51
+ 308 965 308 965 333 941 c 128,-1,52
+ 358 917 358 917 373 890.5 c 128,-1,53
+ 388 864 388 864 370 844 c 2,41,-1
 EndSplineSet
 EndChar
 
@@ -8072,6 +8076,7 @@ Encoding: 205 65262 155
 Width: 491
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 321 740 basechar 0
 AnchorPoint: "Anchor-1" 452 -358 basechar 0
 AnchorPoint: "Anchor-0" 285 853 basechar 0
 LayerCount: 2
@@ -8152,6 +8157,7 @@ Encoding: 209 65266 157
 Width: 1096
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 492 225 basechar 0
 AnchorPoint: "Anchor-1" 291 -305 basechar 0
 AnchorPoint: "Anchor-0" 447 502 basechar 0
 LayerCount: 2
@@ -8214,51 +8220,52 @@ Encoding: 210 65267 158
 Width: 541
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 375 770 basechar 0
 AnchorPoint: "Anchor-1" 285 -447 basechar 0
 AnchorPoint: "Anchor-0" 230 842 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-275 -83 m 1,0,-1
- 364 6 364 6 455 97 c 0,3,4
- 546 192 546 192 541 273 c 128,-1,5
- 536 354 536 354 487 422.5 c 128,-1,6
- 438 491 438 491 399 548.5 c 128,-1,7
- 360 606 360 606 383 654 c 0,8,9
- 383 655 383 655 382 656 c 256,10,11
- 381 657 381 657 380 656 c 2,12,-1
- 261 537 l 2,13,14
- 222 495 222 495 244.5 446 c 128,-1,15
- 267 397 267 397 312 340 c 128,-1,16
- 357 283 357 283 387 216.5 c 128,-1,17
- 417 150 417 150 393 72 c 1,18,19
- 316 143 316 143 241.5 164.5 c 128,-1,20
- 167 186 167 186 116 139 c 2,21,-1
- -2 21 l 2,22,23
- -3 20 -3 20 -2 19 c 256,24,25
- -1 18 -1 18 0 19 c 0,26,27
- 55 49 55 49 129 19.5 c 128,-1,28
- 203 -10 203 -10 275 -83 c 1,0,-1
-441 -245 m 2,29,-1
- 348 -338 l 2,30,31
- 347 -338 347 -338 346 -338 c 0,32,33
- 345 -337 345 -337 345 -336 c 0,34,35
- 351 -304 351 -304 317 -268 c 128,-1,36
- 283 -232 283 -232 262 -215 c 1,37,-1
- 365 -112 l 1,38,39
- 379 -124 379 -124 404 -148 c 128,-1,40
- 429 -172 429 -172 443.5 -198.5 c 128,-1,41
- 458 -225 458 -225 441 -245 c 2,29,-1
-269 -245 m 2,42,-1
- 177 -338 l 2,43,44
- 176 -338 176 -338 175 -338 c 0,45,46
- 174 -337 174 -337 174 -336 c 0,47,48
- 180 -304 180 -304 145.5 -268 c 128,-1,49
- 111 -232 111 -232 91 -215 c 1,50,-1
- 194 -112 l 1,51,52
- 207 -124 207 -124 232 -148 c 128,-1,53
- 257 -172 257 -172 272 -198.5 c 128,-1,54
- 287 -225 287 -225 269 -245 c 2,42,-1
+275 -83 m 1,0,1
+ 364 6 364 6 455 97 c 0,2,3
+ 546 192 546 192 541 273 c 128,-1,4
+ 536 354 536 354 487 422.5 c 128,-1,5
+ 438 491 438 491 399 548.5 c 128,-1,6
+ 360 606 360 606 383 654 c 0,7,8
+ 383 655 383 655 382 656 c 256,9,10
+ 381 657 381 657 380 656 c 2,11,-1
+ 261 537 l 2,12,13
+ 222 495 222 495 244.5 446 c 128,-1,14
+ 267 397 267 397 312 340 c 128,-1,15
+ 357 283 357 283 387 216.5 c 128,-1,16
+ 417 150 417 150 393 72 c 1,17,18
+ 316 143 316 143 241.5 164.5 c 128,-1,19
+ 167 186 167 186 116 139 c 2,20,-1
+ -2 21 l 2,21,22
+ -3 20 -3 20 -2 19 c 256,23,24
+ -1 18 -1 18 0 19 c 0,25,26
+ 55 49 55 49 129 19.5 c 128,-1,27
+ 203 -10 203 -10 275 -83 c 1,0,1
+441 -245 m 2,28,-1
+ 348 -338 l 2,29,30
+ 347 -338 347 -338 346 -338 c 0,31,32
+ 345 -337 345 -337 345 -336 c 0,33,34
+ 351 -304 351 -304 317 -268 c 128,-1,35
+ 283 -232 283 -232 262 -215 c 1,36,-1
+ 365 -112 l 1,37,38
+ 379 -124 379 -124 404 -148 c 128,-1,39
+ 429 -172 429 -172 443.5 -198.5 c 128,-1,40
+ 458 -225 458 -225 441 -245 c 2,28,-1
+269 -245 m 2,41,-1
+ 177 -338 l 2,42,43
+ 176 -338 176 -338 175 -338 c 0,44,45
+ 174 -337 174 -337 174 -336 c 0,46,47
+ 180 -304 180 -304 145.5 -268 c 128,-1,48
+ 111 -232 111 -232 91 -215 c 1,49,-1
+ 194 -112 l 1,50,51
+ 207 -124 207 -124 232 -148 c 128,-1,52
+ 257 -172 257 -172 272 -198.5 c 128,-1,53
+ 287 -225 287 -225 269 -245 c 2,41,-1
 EndSplineSet
 EndChar
 
@@ -8267,6 +8274,7 @@ Encoding: 211 65268 159
 Width: 355
 GlyphClass: 2
 Flags: W
+AnchorPoint: "tandaV" 375 770 basechar 0
 AnchorPoint: "Anchor-1" 282 -436 basechar 0
 AnchorPoint: "Anchor-0" 282 845 basechar 0
 LayerCount: 2
@@ -9346,7 +9354,7 @@ SplineSet
  455 78 455 78 351 108.5 c 128,-1,29
  247 139 247 139 137 139 c 1,0,-1
 EndSplineSet
-LCarets2: 2 1824 1236
+LCarets2: 2 1236 1824
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" lam.init lam.medi lam.medi
 EndChar
 
@@ -9424,7 +9432,7 @@ SplineSet
  455 78 455 78 351 108.5 c 128,-1,29
  247 139 247 139 137 139 c 1,0,-1
 EndSplineSet
-LCarets2: 2 1816 1244
+LCarets2: 2 1244 1816
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" lam.medi lam.medi lam.medi
 EndChar
 
@@ -10414,6 +10422,7 @@ Encoding: 231 -1 193
 Width: 2275
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 964 -316 basechar 0
 AnchorPoint: "Anchor-0" 1270 697 basechar 0
 LayerCount: 2
@@ -10488,68 +10497,70 @@ Encoding: 232 -1 194
 Width: 2254
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 959 -299 basechar 0
 AnchorPoint: "Anchor-0" 1276 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 2117 2 m 1,0,-1
- 2254 139 l 1,2,3
- 2130 140 2130 140 2028 184.5 c 128,-1,4
- 1926 229 1926 229 1881.5 310 c 128,-1,5
- 1837 391 1837 391 1885 499 c 1,6,7
- 1932 487 1932 487 1986 435.5 c 128,-1,8
- 2040 384 2040 384 2070 320 c 128,-1,9
- 2100 256 2100 256 2074 204 c 0,10,11
- 2073 203 2073 203 2074 202 c 256,12,13
- 2075 201 2075 201 2076 202 c 2,14,-1
- 2196 321 l 2,15,16
- 2235 365 2235 365 2218 425 c 128,-1,17
- 2201 485 2201 485 2153.5 540 c 128,-1,18
- 2106 595 2106 595 2056.5 622.5 c 128,-1,19
- 2007 650 2007 650 1981 629 c 2,20,-1
- 1845 492 l 2,21,22
- 1712 353 1712 353 1724 246 c 128,-1,23
- 1736 139 1736 139 1840 75 c 128,-1,24
- 1944 11 1944 11 2087 3 c 1,25,26
- 1906 -109 1906 -109 1722 -122 c 128,-1,27
- 1538 -135 1538 -135 1358 -86.5 c 128,-1,28
- 1178 -38 1178 -38 1009 34 c 128,-1,29
- 840 106 840 106 689.5 162.5 c 128,-1,30
- 539 219 539 219 414 223 c 128,-1,31
- 289 227 289 227 198 139 c 2,32,-1
- 92 33 l 2,33,34
- 91 32 91 32 92 31 c 256,35,36
- 93 30 93 30 94 31 c 0,37,38
- 197 103 197 103 334.5 82.5 c 128,-1,39
- 472 62 472 62 636 -6 c 128,-1,40
- 800 -74 800 -74 982 -146.5 c 128,-1,41
- 1164 -219 1164 -219 1355.5 -251 c 128,-1,42
- 1547 -283 1547 -283 1739.5 -230.5 c 128,-1,43
+ 2254 139 l 1,1,2
+ 2130 140 2130 140 2028 184.5 c 128,-1,3
+ 1926 229 1926 229 1881.5 310 c 128,-1,4
+ 1837 391 1837 391 1885 499 c 1,5,6
+ 1932 487 1932 487 1986 435.5 c 128,-1,7
+ 2040 384 2040 384 2070 320 c 128,-1,8
+ 2100 256 2100 256 2074 204 c 0,9,10
+ 2073 203 2073 203 2074 202 c 256,11,12
+ 2075 201 2075 201 2076 202 c 2,13,-1
+ 2196 321 l 2,14,15
+ 2235 365 2235 365 2218 425 c 128,-1,16
+ 2201 485 2201 485 2153.5 540 c 128,-1,17
+ 2106 595 2106 595 2056.5 622.5 c 128,-1,18
+ 2007 650 2007 650 1981 629 c 2,19,-1
+ 1845 492 l 2,20,21
+ 1712 353 1712 353 1724 246 c 128,-1,22
+ 1736 139 1736 139 1840 75 c 128,-1,23
+ 1944 11 1944 11 2087 3 c 1,24,25
+ 1906 -109 1906 -109 1722 -122 c 128,-1,26
+ 1538 -135 1538 -135 1358 -86.5 c 128,-1,27
+ 1178 -38 1178 -38 1009 34 c 128,-1,28
+ 840 106 840 106 689.5 162.5 c 128,-1,29
+ 539 219 539 219 414 223 c 128,-1,30
+ 289 227 289 227 198 139 c 2,31,-1
+ 92 33 l 2,32,33
+ 91 32 91 32 92 31 c 256,34,35
+ 93 30 93 30 94 31 c 0,36,37
+ 197 103 197 103 334.5 82.5 c 128,-1,38
+ 472 62 472 62 636 -6 c 128,-1,39
+ 800 -74 800 -74 982 -146.5 c 128,-1,40
+ 1164 -219 1164 -219 1355.5 -251 c 128,-1,41
+ 1547 -283 1547 -283 1739.5 -230.5 c 128,-1,42
  1932 -178 1932 -178 2117 2 c 1,0,-1
-610 -246 m 1,44,-1
- 611 -245 l 1,45,-1
- 518 -338 l 2,46,47
- 517 -339 517 -339 516 -338 c 0,48,49
- 515 -338 515 -338 515 -336 c 0,50,51
- 521 -305 521 -305 486.5 -269 c 128,-1,52
- 452 -233 452 -233 432 -215 c 1,53,-1
- 535 -112 l 1,54,55
- 549 -125 549 -125 574 -149 c 128,-1,56
- 599 -173 599 -173 613.5 -199.5 c 128,-1,57
- 628 -226 628 -226 610 -246 c 1,44,-1
-439 -246 m 1,58,-1
- 439 -245 l 1,59,-1
- 347 -338 l 2,60,61
- 346 -339 346 -339 345 -338 c 0,62,63
- 344 -338 344 -338 344 -336 c 0,64,65
- 350 -305 350 -305 315.5 -269 c 128,-1,66
- 281 -233 281 -233 261 -215 c 1,67,-1
- 364 -112 l 1,68,69
- 377 -125 377 -125 402 -149 c 128,-1,70
- 427 -173 427 -173 442 -199.5 c 128,-1,71
- 457 -226 457 -226 439 -246 c 1,58,-1
+610 -246 m 1,43,-1
+ 611 -245 l 1,44,-1
+ 518 -338 l 2,45,46
+ 517 -339 517 -339 516 -338 c 0,47,48
+ 515 -338 515 -338 515 -336 c 0,49,50
+ 521 -305 521 -305 486.5 -269 c 128,-1,51
+ 452 -233 452 -233 432 -215 c 1,52,-1
+ 535 -112 l 1,53,54
+ 549 -125 549 -125 574 -149 c 128,-1,55
+ 599 -173 599 -173 613.5 -199.5 c 128,-1,56
+ 628 -226 628 -226 610 -246 c 1,43,-1
+439 -246 m 1,57,-1
+ 439 -245 l 1,58,-1
+ 347 -338 l 2,59,60
+ 346 -339 346 -339 345 -338 c 0,61,62
+ 344 -338 344 -338 344 -336 c 0,63,64
+ 350 -305 350 -305 315.5 -269 c 128,-1,65
+ 281 -233 281 -233 261 -215 c 1,66,-1
+ 364 -112 l 1,67,68
+ 377 -125 377 -125 402 -149 c 128,-1,69
+ 427 -173 427 -173 442 -199.5 c 128,-1,70
+ 457 -226 457 -226 439 -246 c 1,57,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ya.medi ya.fina
 EndChar
 
@@ -10558,6 +10569,7 @@ Encoding: 233 -1 195
 Width: 2254
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2110 770 basechar 0
 AnchorPoint: "Anchor-1" 447 -321 basechar 0
 AnchorPoint: "Anchor-0" 1270 697 basechar 0
 LayerCount: 2
@@ -10620,6 +10632,7 @@ SplineSet
  1971 -173 1971 -173 1985.5 -199.5 c 128,-1,69
  2000 -226 2000 -226 1983 -246 c 1,56,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ya.medi ya.medi
 EndChar
 
@@ -10628,6 +10641,7 @@ Encoding: 234 -1 196
 Width: 2068
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2110 770 basechar 0
 AnchorPoint: "Anchor-1" 447 -324 basechar 0
 AnchorPoint: "Anchor-0" 1273 700 basechar 0
 LayerCount: 2
@@ -10690,6 +10704,7 @@ SplineSet
  1971 -173 1971 -173 1985.5 -199.5 c 128,-1,69
  2000 -226 2000 -226 1983 -246 c 1,56,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.medi ya.medi ya.medi
 EndChar
 
@@ -11412,6 +11427,7 @@ SplineSet
  2420 139 l 1,78,-1
  2381 139 l 1,75,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.medi_hamzah-ats ye.medi_hamzah-ats ye.fina_hamzah-ats
 EndChar
 
@@ -11481,6 +11497,7 @@ SplineSet
  1940 775 1940 775 2040 774.5 c 128,-1,71
  2140 774 2140 774 2187 773 c 1,42,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.medi_hamzah-ats ye.medi_hamzah-ats ye.medi_hamzah-ats
 EndChar
 
@@ -11620,6 +11637,7 @@ SplineSet
  319 323 319 323 392 322.5 c 128,-1,73
  465 322 465 322 499 321 c 1,44,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ye.medi_hamzah-ats ye.fina_hamzah-ats
 EndChar
 
@@ -14072,6 +14090,7 @@ Encoding: 283 -1 245
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 AnchorPoint: "Anchor-1" 447 -436 basechar 0
 AnchorPoint: "Anchor-0" 438 856 basechar 0
 LayerCount: 2
@@ -14143,6 +14162,7 @@ SplineSet
  246 -172 246 -172 261 -198.5 c 128,-1,87
  276 -225 276 -225 258 -246 c 1,74,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ba.init ya.medi
 EndChar
 
@@ -14221,6 +14241,7 @@ SplineSet
  228 546 228 546 327.5 545.5 c 128,-1,89
  427 545 427 545 474 544 c 1,60,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ba.init ye.medi_hamzah-ats
 EndChar
 
@@ -14578,6 +14599,7 @@ Encoding: 289 -1 251
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 AnchorPoint: "Anchor-1" 444 -436 basechar 0
 AnchorPoint: "Anchor-0" 438 1037 basechar 0
 LayerCount: 2
@@ -14749,6 +14771,7 @@ SplineSet
  228 546 228 546 327.5 545.5 c 128,-1,103
  427 545 427 545 474 544 c 1,74,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ta.init ye.medi_hamzah-ats
 EndChar
 
@@ -15150,6 +15173,7 @@ Encoding: 295 -1 257
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 AnchorPoint: "Anchor-1" 444 -433 basechar 0
 AnchorPoint: "Anchor-0" 402 845 basechar 0
 LayerCount: 2
@@ -15649,6 +15673,7 @@ Encoding: 301 -1 263
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 AnchorPoint: "Anchor-1" 447 -424 basechar 0
 AnchorPoint: "Anchor-0" 444 845 basechar 0
 LayerCount: 2
@@ -15687,38 +15712,39 @@ SplineSet
  380 15 380 15 477 118 c 1,44,45
  571 -1 571 -1 658 -83 c 1,0,-1
 847 843 m 1,46,-1
- 755 751 l 2,48,49
- 754 750 754 750 753 750 c 0,50,51
- 752 751 752 751 752 752 c 0,52,53
- 758 784 758 784 723.5 820 c 128,-1,54
- 689 856 689 856 669 873 c 1,55,-1
- 772 976 l 1,56,57
- 785 964 785 964 810 940 c 128,-1,58
- 835 916 835 916 850 889.5 c 128,-1,59
+ 755 751 l 2,47,48
+ 754 750 754 750 753 750 c 0,49,50
+ 752 751 752 751 752 752 c 0,51,52
+ 758 784 758 784 723.5 820 c 128,-1,53
+ 689 856 689 856 669 873 c 1,54,-1
+ 772 976 l 1,55,56
+ 785 964 785 964 810 940 c 128,-1,57
+ 835 916 835 916 850 889.5 c 128,-1,58
  865 863 865 863 847 843 c 1,46,-1
-429 -246 m 1,60,-1
- 429 -245 l 1,61,-1
- 337 -338 l 2,62,63
- 336 -339 336 -339 335 -338 c 0,64,65
- 334 -338 334 -338 334 -336 c 0,66,67
- 340 -305 340 -305 305.5 -269 c 128,-1,68
- 271 -233 271 -233 251 -215 c 1,69,-1
- 354 -112 l 1,70,71
- 367 -125 367 -125 392 -148.5 c 128,-1,72
- 417 -172 417 -172 432 -198.5 c 128,-1,73
- 447 -225 447 -225 429 -246 c 1,60,-1
-258 -246 m 1,74,-1
- 258 -245 l 1,75,-1
- 166 -338 l 2,76,77
- 165 -339 165 -339 164 -338 c 0,78,79
- 163 -338 163 -338 163 -336 c 0,80,81
- 169 -305 169 -305 134.5 -269 c 128,-1,82
- 100 -233 100 -233 80 -215 c 1,83,-1
- 183 -112 l 1,84,85
- 196 -125 196 -125 221 -148.5 c 128,-1,86
- 246 -172 246 -172 261 -198.5 c 128,-1,87
- 276 -225 276 -225 258 -246 c 1,74,-1
+429 -246 m 1,59,-1
+ 429 -245 l 1,60,-1
+ 337 -338 l 2,61,62
+ 336 -339 336 -339 335 -338 c 0,63,64
+ 334 -338 334 -338 334 -336 c 0,65,66
+ 340 -305 340 -305 305.5 -269 c 128,-1,67
+ 271 -233 271 -233 251 -215 c 1,68,-1
+ 354 -112 l 1,69,70
+ 367 -125 367 -125 392 -148.5 c 128,-1,71
+ 417 -172 417 -172 432 -198.5 c 128,-1,72
+ 447 -225 447 -225 429 -246 c 1,59,-1
+258 -246 m 1,73,-1
+ 258 -245 l 1,74,-1
+ 166 -338 l 2,75,76
+ 165 -339 165 -339 164 -338 c 0,77,78
+ 163 -338 163 -338 163 -336 c 0,79,80
+ 169 -305 169 -305 134.5 -269 c 128,-1,81
+ 100 -233 100 -233 80 -215 c 1,82,-1
+ 183 -112 l 1,83,84
+ 196 -125 196 -125 221 -148.5 c 128,-1,85
+ 246 -172 246 -172 261 -198.5 c 128,-1,86
+ 276 -225 276 -225 258 -246 c 1,73,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" nun.init ya.medi
 EndChar
 
@@ -15803,8 +15829,10 @@ Encoding: 303 -1 265
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV-liga" 790 770 baselig 0
 AnchorPoint: "Anchor-1" 447 -436 basechar 0
 AnchorPoint: "Anchor-0" 444 850 basechar 0
+AnchorPoint: "tandaV-liga" 430 550 baselig 1
 LayerCount: 2
 Fore
 SplineSet
@@ -15885,6 +15913,7 @@ SplineSet
  246 -172 246 -172 261 -198.5 c 128,-1,101
  276 -225 276 -225 258 -246 c 1,88,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ya.medi
 EndChar
 
@@ -15893,6 +15922,7 @@ Encoding: 304 -1 266
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 AnchorPoint: "Anchor-1" 444 -433 basechar 0
 AnchorPoint: "Anchor-0" 447 850 basechar 0
 LayerCount: 2
@@ -15972,6 +16002,7 @@ Encoding: 305 -1 267
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 AnchorPoint: "Anchor-1" 444 -433 basechar 0
 AnchorPoint: "Anchor-0" 475 1026 basechar 0
 LayerCount: 2
@@ -16062,6 +16093,7 @@ Encoding: 306 -1 268
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 AnchorPoint: "Anchor-1" 438 -427 basechar 0
 AnchorPoint: "Anchor-0" 444 1042 basechar 0
 LayerCount: 2
@@ -16122,35 +16154,35 @@ SplineSet
  636 -172 636 -172 651 -198.5 c 128,-1,73
  666 -225 666 -225 648 -246 c 1,60,-1
 466 703 m 1,74,-1
- 373 611 l 2,76,77
- 372 610 372 610 371 610 c 0,78,79
- 370 611 370 611 370 612 c 0,80,81
- 376 644 376 644 342 680 c 128,-1,82
- 308 716 308 716 287 733 c 1,83,-1
- 390 836 l 1,84,85
- 404 824 404 824 429 800 c 128,-1,86
- 454 776 454 776 468.5 749.5 c 128,-1,87
+ 373 611 l 2,75,76
+ 372 610 372 610 371 610 c 0,77,78
+ 370 611 370 611 370 612 c 0,79,80
+ 376 644 376 644 342 680 c 128,-1,81
+ 308 716 308 716 287 733 c 1,82,-1
+ 390 836 l 1,83,84
+ 404 824 404 824 429 800 c 128,-1,85
+ 454 776 454 776 468.5 749.5 c 128,-1,86
  483 723 483 723 466 703 c 1,74,-1
-539 503 m 1,88,-1
- 446 411 l 2,90,91
- 445 410 445 410 444 411 c 0,92,93
- 443 411 443 411 443 412 c 0,94,95
- 449 444 449 444 414.5 480 c 128,-1,96
- 380 516 380 516 360 534 c 1,97,-1
- 463 637 l 1,98,99
- 477 624 477 624 502 600 c 128,-1,100
- 527 576 527 576 541.5 549.5 c 128,-1,101
- 556 523 556 523 539 503 c 1,88,-1
-367 503 m 1,102,-1
- 275 411 l 2,104,105
- 274 410 274 410 273 411 c 0,106,107
- 272 411 272 411 272 412 c 0,108,109
- 278 444 278 444 243.5 480 c 128,-1,110
- 209 516 209 516 189 534 c 1,111,-1
- 292 637 l 1,112,113
- 305 624 305 624 330 600 c 128,-1,114
- 355 576 355 576 370 549.5 c 128,-1,115
- 385 523 385 523 367 503 c 1,102,-1
+539 503 m 1,87,-1
+ 446 411 l 2,88,89
+ 445 410 445 410 444 411 c 0,90,91
+ 443 411 443 411 443 412 c 0,92,93
+ 449 444 449 444 414.5 480 c 128,-1,94
+ 380 516 380 516 360 534 c 1,95,-1
+ 463 637 l 1,96,97
+ 477 624 477 624 502 600 c 128,-1,98
+ 527 576 527 576 541.5 549.5 c 128,-1,99
+ 556 523 556 523 539 503 c 1,87,-1
+367 503 m 1,100,-1
+ 275 411 l 2,101,102
+ 274 410 274 410 273 411 c 0,103,104
+ 272 411 272 411 272 412 c 0,105,106
+ 278 444 278 444 243.5 480 c 128,-1,107
+ 209 516 209 516 189 534 c 1,108,-1
+ 292 637 l 1,109,110
+ 305 624 305 624 330 600 c 128,-1,111
+ 355 576 355 576 370 549.5 c 128,-1,112
+ 385 523 385 523 367 503 c 1,100,-1
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init tha.medi
@@ -16161,6 +16193,7 @@ Encoding: 307 -1 269
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 AnchorPoint: "Anchor-1" 438 -424 basechar 0
 AnchorPoint: "Anchor-0" 449 975 basechar 0
 LayerCount: 2
@@ -16241,6 +16274,7 @@ Encoding: 308 -1 270
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 AnchorPoint: "Anchor-1" 441 -433 basechar 0
 AnchorPoint: "Anchor-0" 444 1034 basechar 0
 LayerCount: 2
@@ -16301,26 +16335,27 @@ SplineSet
  636 -172 636 -172 651 -198.5 c 128,-1,73
  666 -225 666 -225 648 -246 c 1,60,-1
 474 544 m 1,74,-1
- 545 615 l 1,76,77
- 452 615 452 615 393 648.5 c 128,-1,78
- 334 682 334 682 353 746 c 1,79,80
- 385 738 385 738 418.5 712.5 c 128,-1,81
- 452 687 452 687 442 656 c 0,82,83
- 442 655 442 655 443 654 c 256,84,85
- 444 653 444 653 445 654 c 2,86,-1
- 502 712 l 2,87,88
- 528 741 528 741 505 767.5 c 128,-1,89
- 482 794 482 794 447.5 808.5 c 128,-1,90
- 413 823 413 823 403 817 c 2,91,-1
- 332 746 l 2,92,93
- 253 663 253 663 284 613 c 1,94,95
- 264 610 264 610 252 598 c 2,96,-1
- 193 539 l 2,97,98
- 192 538 192 538 192 537 c 0,99,100
- 193 536 193 536 194 536 c 0,101,102
- 228 546 228 546 327.5 545.5 c 128,-1,103
+ 545 615 l 1,75,76
+ 452 615 452 615 393 648.5 c 128,-1,77
+ 334 682 334 682 353 746 c 1,78,79
+ 385 738 385 738 418.5 712.5 c 128,-1,80
+ 452 687 452 687 442 656 c 0,81,82
+ 442 655 442 655 443 654 c 256,83,84
+ 444 653 444 653 445 654 c 2,85,-1
+ 502 712 l 2,86,87
+ 528 741 528 741 505 767.5 c 128,-1,88
+ 482 794 482 794 447.5 808.5 c 128,-1,89
+ 413 823 413 823 403 817 c 2,90,-1
+ 332 746 l 2,91,92
+ 253 663 253 663 284 613 c 1,93,94
+ 264 610 264 610 252 598 c 2,95,-1
+ 193 539 l 2,96,97
+ 192 538 192 538 192 537 c 0,98,99
+ 193 536 193 536 194 536 c 0,100,101
+ 228 546 228 546 327.5 545.5 c 128,-1,102
  427 545 427 545 474 544 c 1,74,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ye.medi_hamzah-ats
 EndChar
 
@@ -16409,6 +16444,7 @@ SplineSet
  228 546 228 546 327.5 545.5 c 128,-1,105
  427 545 427 545 474 544 c 1,76,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ye.medi_hamzah-ats
 EndChar
 
@@ -16466,26 +16502,27 @@ SplineSet
  417 -172 417 -172 432 -198.5 c 128,-1,59
  447 -225 447 -225 429 -246 c 1,46,-1
 856 772 m 1,60,-1
- 926 844 l 1,62,63
- 833 844 833 844 774 877 c 128,-1,64
- 715 910 715 910 735 974 c 1,65,66
- 766 966 766 966 799.5 941 c 128,-1,67
- 833 916 833 916 823 884 c 0,68,69
- 823 883 823 883 824 882 c 0,70,71
- 825 882 825 882 826 883 c 2,72,-1
- 884 940 l 2,73,74
- 910 970 910 970 887 996.5 c 128,-1,75
- 864 1023 864 1023 829 1037.5 c 128,-1,76
- 794 1052 794 1052 785 1046 c 2,77,-1
- 713 975 l 1,78,79
- 635 892 635 892 666 842 c 1,80,81
- 645 838 645 838 633 827 c 2,82,-1
- 574 767 l 2,83,84
- 573 766 573 766 574 765 c 256,85,86
- 575 764 575 764 576 765 c 0,87,88
- 609 775 609 775 709 774 c 128,-1,89
+ 926 844 l 1,61,62
+ 833 844 833 844 774 877 c 128,-1,63
+ 715 910 715 910 735 974 c 1,64,65
+ 766 966 766 966 799.5 941 c 128,-1,66
+ 833 916 833 916 823 884 c 0,67,68
+ 823 883 823 883 824 882 c 0,69,70
+ 825 882 825 882 826 883 c 2,71,-1
+ 884 940 l 2,72,73
+ 910 970 910 970 887 996.5 c 128,-1,74
+ 864 1023 864 1023 829 1037.5 c 128,-1,75
+ 794 1052 794 1052 785 1046 c 2,76,-1
+ 713 975 l 1,77,78
+ 635 892 635 892 666 842 c 1,79,80
+ 645 838 645 838 633 827 c 2,81,-1
+ 574 767 l 2,82,83
+ 573 766 573 766 574 765 c 256,84,85
+ 575 764 575 764 576 765 c 0,86,87
+ 609 775 609 775 709 774 c 128,-1,88
  809 773 809 773 856 772 c 1,60,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ba.medi
 EndChar
 
@@ -16761,6 +16798,7 @@ Encoding: 314 -1 276
 Width: 925
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 AnchorPoint: "Anchor-1" 447 -438 basechar 0
 AnchorPoint: "Anchor-0" 380 859 basechar 0
 LayerCount: 2
@@ -16842,6 +16880,7 @@ SplineSet
  609 775 609 775 709 774 c 128,-1,103
  809 773 809 773 856 772 c 1,74,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ya.medi
 EndChar
 
@@ -17615,6 +17654,7 @@ Encoding: 324 -1 286
 Width: 2811
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 2041 -205 basechar 0
 AnchorPoint: "Anchor-0" 1744 708 basechar 0
 LayerCount: 2
@@ -17704,6 +17744,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,112,39
  2451 215 2451 215 2435 295 c 0,40,41
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ba.init ya.medi ya.medi ya.fina
 EndChar
 
@@ -18159,6 +18200,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,116,43
  2451 215 2451 215 2435 295 c 0,44,45
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ba.init ye.medi_hamzah-ats ye.medi_hamzah-ats ye.fina_hamzah-ats
 EndChar
 
@@ -18277,6 +18319,7 @@ Encoding: 335 -1 297
 Width: 2811
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 2044 -202 basechar 0
 AnchorPoint: "Anchor-0" 2044 847 basechar 0
 LayerCount: 2
@@ -18376,6 +18419,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,125,52
  2451 215 2451 215 2435 295 c 0,53,54
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ta.init ya.medi ya.medi ya.fina
 EndChar
 
@@ -18890,6 +18934,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,129,56
  2451 215 2451 215 2435 295 c 0,57,58
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ta.init ye.medi_hamzah-ats ye.medi_hamzah-ats ye.fina_hamzah-ats
 EndChar
 
@@ -19256,6 +19301,7 @@ Encoding: 344 -1 306
 Width: 2812
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 2194 -202 basechar 0
 AnchorPoint: "Anchor-0" 2130 853 basechar 0
 LayerCount: 2
@@ -19600,8 +19646,10 @@ Encoding: 347 -1 309
 Width: 2812
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV-liga" 2650 760 baselig 0
 AnchorPoint: "Anchor-1" 2122 -207 basechar 0
 AnchorPoint: "Anchor-0" 2133 845 basechar 0
+AnchorPoint: "tandaV-liga" 480 315 baselig 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19708,6 +19756,7 @@ Encoding: 348 -1 310
 Width: 2792
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2650 760 basechar 0
 AnchorPoint: "Anchor-1" 2247 -433 basechar 0
 AnchorPoint: "Anchor-0" 2050 703 basechar 0
 LayerCount: 2
@@ -19799,6 +19848,7 @@ SplineSet
  2651 89 2651 89 2644 71 c 1,120,39
  2580 135 2580 135 2532 144 c 0,40,41
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ba.medi ba.medi ba.fina
 EndChar
 
@@ -19807,6 +19857,7 @@ Encoding: 349 -1 311
 Width: 2792
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2650 760 basechar 0
 AnchorPoint: "Anchor-1" 2169 -277 basechar 0
 AnchorPoint: "Anchor-0" 2206 700 basechar 0
 LayerCount: 2
@@ -19916,6 +19967,7 @@ Encoding: 350 -1 312
 Width: 2792
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2650 760 basechar 0
 AnchorPoint: "Anchor-1" 2197 -269 basechar 0
 AnchorPoint: "Anchor-0" 2186 705 basechar 0
 LayerCount: 2
@@ -20035,104 +20087,105 @@ Encoding: 351 -1 313
 Width: 2812
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2650 760 basechar 0
 AnchorPoint: "Anchor-1" 2192 -205 basechar 0
 AnchorPoint: "Anchor-0" 2172 847 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 498 321 m 1,0,-1
- 549 373 l 1,2,3
- 481 373 481 373 438 397 c 128,-1,4
- 395 421 395 421 409 468 c 1,5,6
- 432 462 432 462 456.5 444 c 128,-1,7
- 481 426 481 426 474 403 c 0,8,9
- 474 402 474 402 475 401 c 2,10,11
- 475 401 475 401 476 401 c 2,12,-1
- 518 444 l 2,13,14
- 537 465 537 465 520.5 484.5 c 128,-1,15
- 504 504 504 504 478.5 514.5 c 128,-1,16
- 453 525 453 525 446 521 c 2,17,-1
- 394 469 l 2,18,19
- 336 408 336 408 359 372 c 1,20,21
- 344 369 344 369 335 361 c 2,22,-1
- 292 317 l 2,23,24
- 291 317 291 317 292 316 c 0,25,26
- 292 315 292 315 293 315 c 0,27,28
- 318 323 318 323 390.5 322.5 c 128,-1,29
+ 549 373 l 1,1,2
+ 481 373 481 373 438 397 c 128,-1,3
+ 395 421 395 421 409 468 c 1,4,5
+ 432 462 432 462 456.5 444 c 128,-1,6
+ 481 426 481 426 474 403 c 0,7,8
+ 474 402 474 402 475 401 c 2,9,10
+ 475 401 475 401 476 401 c 2,11,-1
+ 518 444 l 2,12,13
+ 537 465 537 465 520.5 484.5 c 128,-1,14
+ 504 504 504 504 478.5 514.5 c 128,-1,15
+ 453 525 453 525 446 521 c 2,16,-1
+ 394 469 l 2,17,18
+ 336 408 336 408 359 372 c 1,19,20
+ 344 369 344 369 335 361 c 2,21,-1
+ 292 317 l 2,22,23
+ 291 317 291 317 292 316 c 0,24,25
+ 292 315 292 315 293 315 c 0,26,27
+ 318 323 318 323 390.5 322.5 c 128,-1,28
  463 322 463 322 498 321 c 1,0,-1
-2705 -246 m 2,30,-1
- 2613 -338 l 2,31,32
- 2612 -339 2612 -339 2611 -338 c 0,33,34
- 2610 -338 2610 -338 2610 -336 c 0,35,36
- 2616 -305 2616 -305 2581.5 -269 c 128,-1,37
- 2547 -233 2547 -233 2527 -215 c 1,38,-1
- 2630 -112 l 1,39,40
- 2643 -125 2643 -125 2668 -149 c 128,-1,41
- 2693 -173 2693 -173 2708 -199.5 c 128,-1,42
- 2723 -226 2723 -226 2705 -246 c 2,30,-1
-2534 -246 m 2,43,-1
- 2442 -338 l 2,44,45
- 2441 -339 2441 -339 2440 -338 c 0,46,47
- 2439 -338 2439 -338 2439 -336 c 0,48,49
- 2445 -305 2445 -305 2410.5 -269 c 128,-1,50
- 2376 -233 2376 -233 2356 -215 c 1,51,-1
- 2459 -112 l 1,52,53
- 2472 -125 2472 -125 2497 -149 c 128,-1,54
- 2522 -173 2522 -173 2536.5 -199.5 c 128,-1,55
- 2551 -226 2551 -226 2534 -246 c 2,43,-1
-2435 295 m 0,57,58
- 2417 386 2417 386 2358.5 470 c 128,-1,59
- 2300 554 2300 554 2238.5 601.5 c 128,-1,60
- 2177 649 2177 649 2151 628 c 2,61,-1
- 2014 491 l 2,62,63
- 1919 393 1919 393 1901.5 310 c 128,-1,64
- 1884 227 1884 227 1915 163 c 128,-1,65
- 1946 99 1946 99 1997.5 58.5 c 128,-1,66
- 2049 18 2049 18 2091 6 c 1,67,68
- 1892 -119 1892 -119 1689 -124.5 c 128,-1,69
- 1486 -130 1486 -130 1288.5 -67.5 c 128,-1,70
- 1091 -5 1091 -5 910 74 c 0,71,72
- 762 138 762 138 630.5 182 c 128,-1,73
- 499 226 499 226 389 222 c 128,-1,74
- 279 218 279 218 197 139 c 2,75,-1
- 91 33 l 2,76,77
- 90 32 90 32 90 31 c 0,78,79
- 92 30 92 30 93 31 c 0,80,81
- 175 89 175 89 280.5 85.5 c 128,-1,82
- 386 82 386 82 510.5 39.5 c 128,-1,83
- 635 -3 635 -3 773 -63 c 0,84,85
- 928 -130 928 -130 1094.5 -187 c 128,-1,86
- 1261 -244 1261 -244 1433.5 -259.5 c 128,-1,87
- 1606 -275 1606 -275 1778 -218 c 128,-1,88
- 1950 -161 1950 -161 2116 2 c 2,89,-1
- 2253 138 l 1,90,91
- 2214 139 2214 139 2150 183.5 c 128,-1,92
- 2086 228 2086 228 2049 307 c 128,-1,93
- 2012 386 2012 386 2054 493 c 1,94,95
- 2109 470 2109 470 2179.5 388.5 c 128,-1,96
- 2250 307 2250 307 2286 207 c 0,97,98
- 2321 110 2321 110 2280 33 c 1,99,-1
- 2268 21 l 2,100,101
- 2267 20 2267 20 2268 18 c 2,102,-1
- 2270 18 l 1,103,104
- 2325 48 2325 48 2399 18.5 c 128,-1,105
- 2473 -11 2473 -11 2545 -84 c 1,106,-1
- 2725 96 l 2,107,108
- 2801 175 2801 175 2809 243.5 c 128,-1,109
- 2817 312 2817 312 2785.5 372 c 128,-1,110
- 2754 432 2754 432 2713 484 c 0,111,112
- 2676 532 2676 532 2655 574.5 c 128,-1,113
- 2634 617 2634 617 2653 654 c 0,114,115
- 2653 655 2653 655 2652 656 c 0,116,117
- 2651 656 2651 656 2650 655 c 2,118,-1
- 2531 536 l 2,119,120
- 2493 496 2493 496 2513 449 c 128,-1,121
- 2533 402 2533 402 2576 347 c 0,122,123
- 2623 289 2623 289 2655 220.5 c 128,-1,124
- 2687 152 2687 152 2663 71 c 1,125,126
- 2586 142 2586 142 2511 164 c 0,127,128
- 2451 181 2451 181 2406 154 c 1,129,56
- 2451 215 2451 215 2435 295 c 0,57,58
+2705 -246 m 2,29,-1
+ 2613 -338 l 2,30,31
+ 2612 -339 2612 -339 2611 -338 c 0,32,33
+ 2610 -338 2610 -338 2610 -336 c 0,34,35
+ 2616 -305 2616 -305 2581.5 -269 c 128,-1,36
+ 2547 -233 2547 -233 2527 -215 c 1,37,-1
+ 2630 -112 l 1,38,39
+ 2643 -125 2643 -125 2668 -149 c 128,-1,40
+ 2693 -173 2693 -173 2708 -199.5 c 128,-1,41
+ 2723 -226 2723 -226 2705 -246 c 2,29,-1
+2534 -246 m 2,42,-1
+ 2442 -338 l 2,43,44
+ 2441 -339 2441 -339 2440 -338 c 0,45,46
+ 2439 -338 2439 -338 2439 -336 c 0,47,48
+ 2445 -305 2445 -305 2410.5 -269 c 128,-1,49
+ 2376 -233 2376 -233 2356 -215 c 1,50,-1
+ 2459 -112 l 1,51,52
+ 2472 -125 2472 -125 2497 -149 c 128,-1,53
+ 2522 -173 2522 -173 2536.5 -199.5 c 128,-1,54
+ 2551 -226 2551 -226 2534 -246 c 2,42,-1
+2435 295 m 0,55,56
+ 2417 386 2417 386 2358.5 470 c 128,-1,57
+ 2300 554 2300 554 2238.5 601.5 c 128,-1,58
+ 2177 649 2177 649 2151 628 c 2,59,-1
+ 2014 491 l 2,60,61
+ 1919 393 1919 393 1901.5 310 c 128,-1,62
+ 1884 227 1884 227 1915 163 c 128,-1,63
+ 1946 99 1946 99 1997.5 58.5 c 128,-1,64
+ 2049 18 2049 18 2091 6 c 1,65,66
+ 1892 -119 1892 -119 1689 -124.5 c 128,-1,67
+ 1486 -130 1486 -130 1288.5 -67.5 c 128,-1,68
+ 1091 -5 1091 -5 910 74 c 0,69,70
+ 762 138 762 138 630.5 182 c 128,-1,71
+ 499 226 499 226 389 222 c 128,-1,72
+ 279 218 279 218 197 139 c 2,73,-1
+ 91 33 l 2,74,75
+ 90 32 90 32 90 31 c 0,76,77
+ 92 30 92 30 93 31 c 0,78,79
+ 175 89 175 89 280.5 85.5 c 128,-1,80
+ 386 82 386 82 510.5 39.5 c 128,-1,81
+ 635 -3 635 -3 773 -63 c 0,82,83
+ 928 -130 928 -130 1094.5 -187 c 128,-1,84
+ 1261 -244 1261 -244 1433.5 -259.5 c 128,-1,85
+ 1606 -275 1606 -275 1778 -218 c 128,-1,86
+ 1950 -161 1950 -161 2116 2 c 2,87,-1
+ 2253 138 l 1,88,89
+ 2214 139 2214 139 2150 183.5 c 128,-1,90
+ 2086 228 2086 228 2049 307 c 128,-1,91
+ 2012 386 2012 386 2054 493 c 1,92,93
+ 2109 470 2109 470 2179.5 388.5 c 128,-1,94
+ 2250 307 2250 307 2286 207 c 0,95,96
+ 2321 110 2321 110 2280 33 c 1,97,-1
+ 2268 21 l 2,98,99
+ 2267 20 2267 20 2268 18 c 2,100,-1
+ 2270 18 l 1,101,102
+ 2325 48 2325 48 2399 18.5 c 128,-1,103
+ 2473 -11 2473 -11 2545 -84 c 1,104,-1
+ 2725 96 l 2,105,106
+ 2801 175 2801 175 2809 243.5 c 128,-1,107
+ 2817 312 2817 312 2785.5 372 c 128,-1,108
+ 2754 432 2754 432 2713 484 c 0,109,110
+ 2676 532 2676 532 2655 574.5 c 128,-1,111
+ 2634 617 2634 617 2653 654 c 0,112,113
+ 2653 655 2653 655 2652 656 c 0,114,115
+ 2651 656 2651 656 2650 655 c 2,116,-1
+ 2531 536 l 2,117,118
+ 2493 496 2493 496 2513 449 c 128,-1,119
+ 2533 402 2533 402 2576 347 c 0,120,121
+ 2623 289 2623 289 2655 220.5 c 128,-1,122
+ 2687 152 2687 152 2663 71 c 1,123,124
+ 2586 142 2586 142 2511 164 c 0,125,126
+ 2451 181 2451 181 2406 154 c 1,127,128
+ 2451 215 2451 215 2435 295 c 0,55,56
 EndSplineSet
 LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ye.medi_hamzah-ats ye.medi_hamzah-ats ye.fina_hamzah-ats
@@ -20143,95 +20196,97 @@ Encoding: 352 -1 314
 Width: 2004
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 1860 770 basechar 0
 AnchorPoint: "Anchor-1" 1543 -436 basechar 0
 AnchorPoint: "Anchor-0" 1513 694 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 970 469 m 1,0,-1
- 878 376 l 2,2,3
- 877 376 877 376 876 376 c 0,4,5
- 875 378 875 378 875 379 c 0,6,7
- 881 411 881 411 846.5 446.5 c 128,-1,8
- 812 482 812 482 792 500 c 1,9,-1
- 895 603 l 1,10,11
- 908 590 908 590 933 566 c 128,-1,12
- 958 542 958 542 972.5 515.5 c 128,-1,13
+ 878 376 l 2,1,2
+ 877 376 877 376 876 376 c 0,3,4
+ 875 378 875 378 875 379 c 0,5,6
+ 881 411 881 411 846.5 446.5 c 128,-1,7
+ 812 482 812 482 792 500 c 1,8,-1
+ 895 603 l 1,9,10
+ 908 590 908 590 933 566 c 128,-1,11
+ 958 542 958 542 972.5 515.5 c 128,-1,12
  987 489 987 489 970 469 c 1,0,-1
-1897 -245 m 1,14,-1
- 1898 -245 l 1,15,-1
- 1806 -338 l 2,16,17
- 1805 -338 1805 -338 1804 -338 c 0,18,19
- 1803 -337 1803 -337 1803 -335 c 0,20,21
- 1808 -303 1808 -303 1774 -267.5 c 128,-1,22
- 1740 -232 1740 -232 1719 -214 c 1,23,-1
- 1822 -112 l 1,24,25
- 1835 -124 1835 -124 1860 -148 c 128,-1,26
- 1885 -172 1885 -172 1900 -198.5 c 128,-1,27
- 1915 -225 1915 -225 1897 -245 c 1,14,-1
-1726 -245 m 1,28,-1
- 1727 -245 l 1,29,-1
- 1635 -338 l 2,30,31
- 1634 -338 1634 -338 1632 -338 c 1,32,33
- 1632 -337 1632 -337 1632 -335 c 0,34,35
- 1637 -303 1637 -303 1603 -267.5 c 128,-1,36
- 1569 -232 1569 -232 1548 -214 c 1,37,-1
- 1651 -112 l 1,38,39
- 1664 -124 1664 -124 1689 -148 c 128,-1,40
- 1714 -172 1714 -172 1729 -198.5 c 128,-1,41
- 1744 -225 1744 -225 1726 -245 c 1,28,-1
-1744 145 m 0,43,44
- 1690 154 1690 154 1609 71 c 2,45,-1
- 1578 41 l 1,46,-1
- 1578 42 l 1,47,48
- 1557 104 1557 104 1530 163 c 0,49,50
- 1503 221 1503 221 1488 269.5 c 128,-1,51
- 1473 318 1473 318 1488 351 c 1,52,-1
- 1490 351 l 1,53,54
- 1490 352 1490 352 1489 353 c 256,55,56
- 1488 354 1488 354 1487 353 c 2,57,-1
- 1364 231 l 2,58,59
- 1334 199 1334 199 1348.5 145.5 c 128,-1,60
- 1363 92 1363 92 1393 26 c 0,61,62
- 1429 -48 1429 -48 1450 -126.5 c 128,-1,63
- 1471 -205 1471 -205 1442 -275 c 1,64,65
- 1266 -395 1266 -395 1066.5 -410 c 128,-1,66
- 867 -425 867 -425 685.5 -361 c 128,-1,67
- 504 -297 504 -297 380.5 -179.5 c 128,-1,68
- 257 -62 257 -62 232 83.5 c 128,-1,69
- 207 229 207 229 321 376 c 0,70,71
- 322 378 322 378 321 379 c 256,72,73
- 320 380 320 380 319 379 c 2,74,-1
- 226 286 l 1,75,76
- 73 126 73 126 92 -34.5 c 128,-1,77
- 111 -195 111 -195 249 -322.5 c 128,-1,78
- 387 -450 387 -450 590.5 -511.5 c 128,-1,79
- 794 -573 794 -573 1010.5 -536 c 128,-1,80
- 1227 -499 1227 -499 1403 -330 c 1,81,-1
- 1540 -193 l 2,82,83
- 1589 -141 1589 -141 1594 -81 c 0,84,85
- 1598 -37 1598 -37 1587 8 c 1,86,87
- 1597 9 1597 9 1607 8 c 0,88,89
- 1661 -2 1661 -2 1736 -83 c 1,90,-1
- 1793 -26 l 1,91,92
- 1787 -33 1787 -33 1780 -40 c 1,93,-1
- 1780 -41 l 1,94,-1
- 1917 96 l 2,95,96
- 1994 175 1994 175 2001.5 244 c 128,-1,97
- 2009 313 2009 313 1977.5 373 c 128,-1,98
- 1946 433 1946 433 1906 485 c 0,99,100
- 1868 533 1868 533 1847 575 c 128,-1,101
- 1826 617 1826 617 1845 654 c 0,102,103
- 1845 655 1845 655 1844 656 c 256,104,105
- 1843 657 1843 657 1842 656 c 2,106,-1
- 1723 537 l 2,107,108
- 1685 497 1685 497 1705 450 c 128,-1,109
- 1725 403 1725 403 1768 348 c 0,110,111
- 1809 296 1809 296 1840.5 236 c 128,-1,112
- 1872 176 1872 176 1864 108 c 0,113,114
- 1862 90 1862 90 1856 72 c 1,115,42
- 1792 136 1792 136 1744 145 c 0,43,44
+1897 -245 m 1,13,-1
+ 1898 -245 l 1,14,-1
+ 1806 -338 l 2,15,16
+ 1805 -338 1805 -338 1804 -338 c 0,17,18
+ 1803 -337 1803 -337 1803 -335 c 0,19,20
+ 1808 -303 1808 -303 1774 -267.5 c 128,-1,21
+ 1740 -232 1740 -232 1719 -214 c 1,22,-1
+ 1822 -112 l 1,23,24
+ 1835 -124 1835 -124 1860 -148 c 128,-1,25
+ 1885 -172 1885 -172 1900 -198.5 c 128,-1,26
+ 1915 -225 1915 -225 1897 -245 c 1,13,-1
+1726 -245 m 1,27,-1
+ 1727 -245 l 1,28,-1
+ 1635 -338 l 2,29,30
+ 1634 -338 1634 -338 1632 -338 c 1,31,32
+ 1632 -337 1632 -337 1632 -335 c 0,33,34
+ 1637 -303 1637 -303 1603 -267.5 c 128,-1,35
+ 1569 -232 1569 -232 1548 -214 c 1,36,-1
+ 1651 -112 l 1,37,38
+ 1664 -124 1664 -124 1689 -148 c 128,-1,39
+ 1714 -172 1714 -172 1729 -198.5 c 128,-1,40
+ 1744 -225 1744 -225 1726 -245 c 1,27,-1
+1744 145 m 0,41,42
+ 1690 154 1690 154 1609 71 c 2,43,-1
+ 1578 41 l 1,44,-1
+ 1578 42 l 1,45,46
+ 1557 104 1557 104 1530 163 c 0,47,48
+ 1503 221 1503 221 1488 269.5 c 128,-1,49
+ 1473 318 1473 318 1488 351 c 1,50,-1
+ 1490 351 l 1,51,52
+ 1490 352 1490 352 1489 353 c 256,53,54
+ 1488 354 1488 354 1487 353 c 2,55,-1
+ 1364 231 l 2,56,57
+ 1334 199 1334 199 1348.5 145.5 c 128,-1,58
+ 1363 92 1363 92 1393 26 c 0,59,60
+ 1429 -48 1429 -48 1450 -126.5 c 128,-1,61
+ 1471 -205 1471 -205 1442 -275 c 1,62,63
+ 1266 -395 1266 -395 1066.5 -410 c 128,-1,64
+ 867 -425 867 -425 685.5 -361 c 128,-1,65
+ 504 -297 504 -297 380.5 -179.5 c 128,-1,66
+ 257 -62 257 -62 232 83.5 c 128,-1,67
+ 207 229 207 229 321 376 c 0,68,69
+ 322 378 322 378 321 379 c 256,70,71
+ 320 380 320 380 319 379 c 2,72,-1
+ 226 286 l 1,73,74
+ 73 126 73 126 92 -34.5 c 128,-1,75
+ 111 -195 111 -195 249 -322.5 c 128,-1,76
+ 387 -450 387 -450 590.5 -511.5 c 128,-1,77
+ 794 -573 794 -573 1010.5 -536 c 128,-1,78
+ 1227 -499 1227 -499 1403 -330 c 1,79,-1
+ 1540 -193 l 2,80,81
+ 1589 -141 1589 -141 1594 -81 c 0,82,83
+ 1598 -37 1598 -37 1587 8 c 1,84,85
+ 1597 9 1597 9 1607 8 c 0,86,87
+ 1661 -2 1661 -2 1736 -83 c 1,88,-1
+ 1793 -26 l 1,89,90
+ 1787 -33 1787 -33 1780 -40 c 1,91,-1
+ 1780 -41 l 1,92,-1
+ 1917 96 l 2,93,94
+ 1994 175 1994 175 2001.5 244 c 128,-1,95
+ 2009 313 2009 313 1977.5 373 c 128,-1,96
+ 1946 433 1946 433 1906 485 c 0,97,98
+ 1868 533 1868 533 1847 575 c 128,-1,99
+ 1826 617 1826 617 1845 654 c 0,100,101
+ 1845 655 1845 655 1844 656 c 256,102,103
+ 1843 657 1843 657 1842 656 c 2,104,-1
+ 1723 537 l 2,105,106
+ 1685 497 1685 497 1705 450 c 128,-1,107
+ 1725 403 1725 403 1768 348 c 0,108,109
+ 1809 296 1809 296 1840.5 236 c 128,-1,110
+ 1872 176 1872 176 1864 108 c 0,111,112
+ 1862 90 1862 90 1856 72 c 1,113,114
+ 1792 136 1792 136 1744 145 c 0,41,42
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init nun.medi nun.medi nun.fina
 EndChar
 
@@ -20624,6 +20679,7 @@ Encoding: 357 -1 319
 Width: 2811
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 2164 -202 basechar 0
 AnchorPoint: "Anchor-0" 2047 847 basechar 0
 LayerCount: 2
@@ -20713,6 +20769,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,112,39
  2451 215 2451 215 2435 295 c 0,40,41
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" nun.init ya.medi ya.medi ya.fina
 EndChar
 
@@ -21250,6 +21307,7 @@ SplineSet
  2651 89 2651 89 2644 71 c 1,150,69
  2580 135 2580 135 2532 144 c 0,70,71
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats tha.medi tha.medi tha.fina
 EndChar
 
@@ -21258,6 +21316,7 @@ Encoding: 363 -1 325
 Width: 2812
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 480 315 basechar 0
 AnchorPoint: "Anchor-1" 2217 -205 basechar 0
 AnchorPoint: "Anchor-0" 2108 847 basechar 0
 LayerCount: 2
@@ -21358,6 +21417,7 @@ SplineSet
  2451 181 2451 181 2406 154 c 1,129,56
  2451 215 2451 215 2435 295 c 0,57,58
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ya.medi ya.medi ya.fina
 EndChar
 
@@ -21455,6 +21515,7 @@ SplineSet
  1862 90 1862 90 1856 72 c 1,117,44
  1792 136 1792 136 1744 145 c 0,45,46
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats nun.medi nun.medi nun.fina
 EndChar
 
@@ -21830,6 +21891,7 @@ Encoding: 369 -1 331
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2140 550 basechar 0
 AnchorPoint: "Anchor-1" 2047 -463 basechar 0
 AnchorPoint: "Anchor-0" 2047 694 basechar 0
 LayerCount: 2
@@ -21916,6 +21978,7 @@ SplineSet
  2117 103 2117 103 2107 71 c 1,109,39
  2040 142 2040 142 1997 163.5 c 128,-1,40
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ba.init ya.medi ya.medi ya.medi
 EndChar
 
@@ -22425,6 +22488,7 @@ Encoding: 375 -1 337
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2140 550 basechar 0
 AnchorPoint: "Anchor-1" 2097 -438 basechar 0
 AnchorPoint: "Anchor-0" 2041 694 basechar 0
 LayerCount: 2
@@ -22521,6 +22585,7 @@ SplineSet
  2117 103 2117 103 2107 71 c 1,122,52
  2040 142 2040 142 1997 163.5 c 128,-1,53
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ta.init ya.medi ya.medi ya.medi
 EndChar
 
@@ -23082,6 +23147,7 @@ Encoding: 381 -1 343
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2140 550 basechar 0
 AnchorPoint: "Anchor-1" 2114 -433 basechar 0
 AnchorPoint: "Anchor-0" 2047 689 basechar 0
 LayerCount: 2
@@ -23303,6 +23369,7 @@ SplineSet
  2117 103 2117 103 2107 71 c 1,139,69
  2040 142 2040 142 1997 163.5 c 128,-1,70
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" tha.init ye.medi_hamzah-ats ye.medi_hamzah-ats ye.medi_hamzah-ats
 EndChar
 
@@ -23680,6 +23747,7 @@ Encoding: 387 -1 349
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2140 550 basechar 0
 AnchorPoint: "Anchor-1" 2128 -427 basechar 0
 AnchorPoint: "Anchor-0" 2050 697 basechar 0
 LayerCount: 2
@@ -23870,8 +23938,10 @@ Encoding: 389 -1 351
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV-liga" 2505 765 baselig 0
 AnchorPoint: "Anchor-1" 2091 -430 basechar 0
 AnchorPoint: "Anchor-0" 2047 700 basechar 0
+AnchorPoint: "tandaV-liga" 2140 550 baselig 1
 LayerCount: 2
 Fore
 SplineSet
@@ -23975,6 +24045,7 @@ Encoding: 390 -1 352
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2505 765 basechar 0
 AnchorPoint: "Anchor-1" 2116 -436 basechar 0
 AnchorPoint: "Anchor-0" 2050 700 basechar 0
 LayerCount: 2
@@ -24070,6 +24141,7 @@ Encoding: 391 -1 353
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2505 765 basechar 0
 AnchorPoint: "Anchor-1" 2139 -438 basechar 0
 AnchorPoint: "Anchor-0" 2047 942 basechar 0
 LayerCount: 2
@@ -24174,6 +24246,7 @@ Encoding: 392 -1 354
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2505 765 basechar 0
 AnchorPoint: "Anchor-1" 2125 -427 basechar 0
 AnchorPoint: "Anchor-0" 2047 1006 basechar 0
 LayerCount: 2
@@ -24288,6 +24361,7 @@ Encoding: 393 -1 355
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2505 765 basechar 0
 AnchorPoint: "Anchor-1" 2164 -433 basechar 0
 AnchorPoint: "Anchor-0" 2119 934 basechar 0
 LayerCount: 2
@@ -24382,6 +24456,7 @@ Encoding: 394 -1 356
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2505 765 basechar 0
 AnchorPoint: "Anchor-1" 2155 -427 basechar 0
 AnchorPoint: "Anchor-0" 2119 1000 basechar 0
 LayerCount: 2
@@ -24479,6 +24554,7 @@ SplineSet
  2117 103 2117 103 2107 71 c 1,126,56
  2040 142 2040 142 1997 163.5 c 128,-1,57
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ya.init ye.medi_hamzah-ats ye.medi_hamzah-ats ye.medi_hamzah-ats
 EndChar
 
@@ -24585,6 +24661,7 @@ SplineSet
  2117 103 2117 103 2107 71 c 1,130,60
  2040 142 2040 142 1997 163.5 c 128,-1,61
 EndSplineSet
+LCarets2: 3 0 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" ye.init_hamzah-ats ye.medi_hamzah-ats ye.medi_hamzah-ats ye.medi_hamzah-ats
 EndChar
 
@@ -25003,6 +25080,7 @@ Encoding: 400 -1 362
 Width: 2638
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 2140 550 basechar 0
 AnchorPoint: "Anchor-1" 2169 -427 basechar 0
 AnchorPoint: "Anchor-0" 2044 853 basechar 0
 LayerCount: 2
@@ -27038,6 +27116,7 @@ Encoding: 434 -1 396
 Width: 446
 GlyphClass: 3
 Flags: W
+AnchorPoint: "tandaV" 317 696 basechar 0
 AnchorPoint: "Anchor-1" 452 -591 basechar 0
 AnchorPoint: "Anchor-0" 280 845 basechar 0
 LayerCount: 2
@@ -27069,6 +27148,7 @@ SplineSet
  361 -71 361 -71 493 1 c 1,31,-1
  494 2 l 1,6,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 6 subtable" wau.fina wau wau
 EndChar
 
@@ -27200,8 +27280,8 @@ SplineSet
  73 1546 73 1546 116 1589 c 0,88,89
  126 1599 126 1599 129 1607 c 1,67,-1
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 5 subtable" tasydid fathatain
+LCarets2: 1 0
 EndChar
 
 StartChar: hash
@@ -29091,6 +29171,7 @@ LayerCount: 2
 Fore
 Refer: 444 64434 S 1 0 0 1 1214 774 2
 Refer: 425 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' JAWI" ga.medi ga.medi ga.medi
 EndChar
 
 StartChar: gapnjng.fina
@@ -29101,6 +29182,7 @@ LayerCount: 2
 Fore
 Refer: 444 64434 S 1 0 0 1 1558 774 2
 Refer: 426 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' JAWI" ga.medi ga.medi ga.fina
 EndChar
 
 StartChar: gapnjng.isol
@@ -29111,14 +29193,16 @@ LayerCount: 2
 Fore
 Refer: 444 64434 S 1 0 0 1 1578 774 2
 Refer: 427 -1 N 1 0 0 1 0 0 2
-Substitution2: "'fina' JAWI" gapnjng.fina
-Substitution2: "'medi' JAWI" gapnjng.medi
+Ligature2: "'liga' JAWI" ga.init ga.medi ga.fina
 Substitution2: "'init' JAWI" gapnjng.init
+Substitution2: "'medi' JAWI" gapnjng.medi
+Substitution2: "'fina' JAWI" gapnjng.fina
 EndChar
 
 StartChar: uniFBB2
 Encoding: 465 64434 444
 Width: 231
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -29477,43 +29561,43 @@ AnchorPoint: "Anchor-0" 216 992 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-670 3 m 1
- 807 140 l 1
- 671 140 671 140 525 186 c 0
- 379 232 379 232 293 314 c 0
- 207 396 207 396 237 506 c 1
- 291 507 291 507 363 486 c 0
- 435 465 435 465 498 428 c 0
- 561 391 561 391 587 340.5 c 0
- 613 290 613 290 574 230 c 0
- 574 229 574 229 575 228 c 256
- 576 227 576 227 577 228 c 2
- 686 338 l 2
- 758 415 758 415 723.5 478 c 0
- 689 541 689 541 602 583 c 0
- 515 625 515 625 430.5 638.5 c 0
- 346 652 346 652 318 629 c 2
- 182 492 l 2
- 77 384 77 384 92.5 294.5 c 0
- 108 205 108 205 201 139 c 0
- 294 73 294 73 423 38 c 1
- 411 28 411 28 400 17 c 2
- 263 -120 l 2
- 194 -191 194 -191 194 -284.5 c 0
- 194 -378 194 -378 260 -477 c 0
- 289 -517 289 -517 349.5 -603 c 0
- 410 -689 410 -689 449 -785 c 0
- 488 -881 488 -881 453 -949 c 0
- 453 -950 453 -950 454 -951 c 0
- 455 -951 455 -951 456 -950 c 2
- 574 -832 l 2
- 617 -786 617 -786 604.5 -716 c 0
- 592 -646 592 -646 550 -570.5 c 0
- 508 -495 508 -495 463.5 -433 c 0
- 419 -371 419 -371 397 -340 c 0
- 297 -189 297 -189 348 -60 c 1
- 406 -30 406 -30 486 -13.5 c 0
- 566 3 566 3 670 3 c 1
+670 3 m 1,0,-1
+ 807 140 l 1,1,2
+ 671 140 671 140 525 186 c 0,3,4
+ 379 232 379 232 293 314 c 0,5,6
+ 207 396 207 396 237 506 c 1,7,8
+ 291 507 291 507 363 486 c 0,9,10
+ 435 465 435 465 498 428 c 0,11,12
+ 561 391 561 391 587 340.5 c 0,13,14
+ 613 290 613 290 574 230 c 0,15,16
+ 574 229 574 229 575 228 c 256,17,18
+ 576 227 576 227 577 228 c 2,19,-1
+ 686 338 l 2,20,21
+ 758 415 758 415 723.5 478 c 0,22,23
+ 689 541 689 541 602 583 c 0,24,25
+ 515 625 515 625 430.5 638.5 c 0,26,27
+ 346 652 346 652 318 629 c 2,28,-1
+ 182 492 l 2,29,30
+ 77 384 77 384 92.5 294.5 c 0,31,32
+ 108 205 108 205 201 139 c 0,33,34
+ 294 73 294 73 423 38 c 1,35,36
+ 411 28 411 28 400 17 c 2,37,-1
+ 263 -120 l 2,38,39
+ 194 -191 194 -191 194 -284.5 c 0,40,41
+ 194 -378 194 -378 260 -477 c 0,42,43
+ 289 -517 289 -517 349.5 -603 c 0,44,45
+ 410 -689 410 -689 449 -785 c 0,46,47
+ 488 -881 488 -881 453 -949 c 0,48,49
+ 453 -950 453 -950 454 -951 c 0,50,51
+ 455 -951 455 -951 456 -950 c 2,52,-1
+ 574 -832 l 2,53,54
+ 617 -786 617 -786 604.5 -716 c 0,55,56
+ 592 -646 592 -646 550 -570.5 c 0,57,58
+ 508 -495 508 -495 463.5 -433 c 0,59,60
+ 419 -371 419 -371 397 -340 c 0,61,62
+ 297 -189 297 -189 348 -60 c 1,63,64
+ 406 -30 406 -30 486 -13.5 c 0,65,66
+ 566 3 566 3 670 3 c 1,0,-1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 185 750 2
 Substitution2: "'fina' JAWI" nga.fina
@@ -30187,43 +30271,43 @@ AnchorPoint: "Anchor-0" 285 1037 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-670 3 m 1
- 807 140 l 1
- 671 140 671 140 525 186 c 0
- 379 232 379 232 293 314 c 0
- 207 396 207 396 237 506 c 1
- 291 507 291 507 363 486 c 0
- 435 465 435 465 498 428 c 0
- 561 391 561 391 587 340.5 c 0
- 613 290 613 290 574 230 c 0
- 574 229 574 229 575 228 c 256
- 576 227 576 227 577 228 c 2
- 686 338 l 2
- 758 415 758 415 723.5 478 c 0
- 689 541 689 541 602 583 c 0
- 515 625 515 625 430.5 638.5 c 0
- 346 652 346 652 318 629 c 2
- 182 492 l 2
- 77 384 77 384 92.5 294.5 c 0
- 108 205 108 205 201 139 c 0
- 294 73 294 73 423 38 c 1
- 411 28 411 28 400 17 c 2
- 263 -120 l 2
- 194 -191 194 -191 194 -284.5 c 0
- 194 -378 194 -378 260 -477 c 0
- 289 -517 289 -517 349.5 -603 c 0
- 410 -689 410 -689 449 -785 c 0
- 488 -881 488 -881 453 -949 c 0
- 453 -950 453 -950 454 -951 c 0
- 455 -951 455 -951 456 -950 c 2
- 574 -832 l 2
- 617 -786 617 -786 604.5 -716 c 0
- 592 -646 592 -646 550 -570.5 c 0
- 508 -495 508 -495 463.5 -433 c 0
- 419 -371 419 -371 397 -340 c 0
- 297 -189 297 -189 348 -60 c 1
- 406 -30 406 -30 486 -13.5 c 0
- 566 3 566 3 670 3 c 1
+670 3 m 1,0,-1
+ 807 140 l 1,1,2
+ 671 140 671 140 525 186 c 0,3,4
+ 379 232 379 232 293 314 c 0,5,6
+ 207 396 207 396 237 506 c 1,7,8
+ 291 507 291 507 363 486 c 0,9,10
+ 435 465 435 465 498 428 c 0,11,12
+ 561 391 561 391 587 340.5 c 0,13,14
+ 613 290 613 290 574 230 c 0,15,16
+ 574 229 574 229 575 228 c 256,17,18
+ 576 227 576 227 577 228 c 2,19,-1
+ 686 338 l 2,20,21
+ 758 415 758 415 723.5 478 c 0,22,23
+ 689 541 689 541 602 583 c 0,24,25
+ 515 625 515 625 430.5 638.5 c 0,26,27
+ 346 652 346 652 318 629 c 2,28,-1
+ 182 492 l 2,29,30
+ 77 384 77 384 92.5 294.5 c 0,31,32
+ 108 205 108 205 201 139 c 0,33,34
+ 294 73 294 73 423 38 c 1,35,36
+ 411 28 411 28 400 17 c 2,37,-1
+ 263 -120 l 2,38,39
+ 194 -191 194 -191 194 -284.5 c 0,40,41
+ 194 -378 194 -378 260 -477 c 0,42,43
+ 289 -517 289 -517 349.5 -603 c 0,44,45
+ 410 -689 410 -689 449 -785 c 0,46,47
+ 488 -881 488 -881 453 -949 c 0,48,49
+ 453 -950 453 -950 454 -951 c 0,50,51
+ 455 -951 455 -951 456 -950 c 2,52,-1
+ 574 -832 l 2,53,54
+ 617 -786 617 -786 604.5 -716 c 0,55,56
+ 592 -646 592 -646 550 -570.5 c 0,57,58
+ 508 -495 508 -495 463.5 -433 c 0,59,60
+ 419 -371 419 -371 397 -340 c 0,61,62
+ 297 -189 297 -189 348 -60 c 1,63,64
+ 406 -30 406 -30 486 -13.5 c 0,65,66
+ 566 3 566 3 670 3 c 1,0,-1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 185 750 2
 EndChar
@@ -30237,29 +30321,29 @@ AnchorPoint: "Anchor-0" 447 1051 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-134 140 m 1
- -3 3 l 1
- 160 3 160 3 458 3 c 1
- 508 53 l 1
- 651 3 651 3 794 3 c 1
- 930 140 l 1
- 794 140 794 140 658.5 186 c 0
- 523 232 523 232 448.5 314 c 0
- 374 396 374 396 410 507 c 1
- 475 506 475 506 557 471.5 c 0
- 639 437 639 437 682 376 c 0
- 725 315 725 315 674 236 c 0
- 673 235 673 235 674 234 c 256
- 675 233 675 233 677 234 c 2
- 784 341 l 2
- 857 418 857 418 834 481 c 0
- 811 544 811 544 739.5 585 c 0
- 668 626 668 626 595 639 c 0
- 522 652 522 652 495 629 c 2
- 358 492 l 2
- 254 385 254 385 261 295 c 0
- 268 205 268 205 350 140 c 1
- 134 140 l 1
+134 140 m 1,0,-1
+ -3 3 l 1,1,2
+ 160 3 160 3 458 3 c 1,3,-1
+ 508 53 l 1,4,5
+ 651 3 651 3 794 3 c 1,6,-1
+ 930 140 l 1,7,8
+ 794 140 794 140 658.5 186 c 0,9,10
+ 523 232 523 232 448.5 314 c 0,11,12
+ 374 396 374 396 410 507 c 1,13,14
+ 475 506 475 506 557 471.5 c 0,15,16
+ 639 437 639 437 682 376 c 0,17,18
+ 725 315 725 315 674 236 c 0,19,20
+ 673 235 673 235 674 234 c 256,21,22
+ 675 233 675 233 677 234 c 2,23,-1
+ 784 341 l 2,24,25
+ 857 418 857 418 834 481 c 0,26,27
+ 811 544 811 544 739.5 585 c 0,28,29
+ 668 626 668 626 595 639 c 0,30,31
+ 522 652 522 652 495 629 c 2,32,-1
+ 358 492 l 2,33,34
+ 254 385 254 385 261 295 c 0,35,36
+ 268 205 268 205 350 140 c 1,37,-1
+ 134 140 l 1,0,-1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 362 750 2
 EndChar
@@ -30273,28 +30357,28 @@ AnchorPoint: "Anchor-0" 402 850 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-134 140 m 1
- -2 3 l 1
- 419 3 419 3 841 3 c 1
- 978 140 l 1
- 842 140 842 140 696 186 c 0
- 550 232 550 232 464 314 c 0
- 378 396 378 396 408 506 c 1
- 462 507 462 507 534.5 486 c 0
- 607 465 607 465 670 428 c 0
- 733 391 733 391 759 340.5 c 0
- 785 290 785 290 746 230 c 0
- 745 229 745 229 746 228 c 256
- 747 227 747 227 748 228 c 2
- 858 338 l 2
- 930 415 930 415 895 478 c 0
- 860 541 860 541 773.5 583 c 0
- 687 625 687 625 602.5 638.5 c 0
- 518 652 518 652 490 629 c 2
- 353 492 l 2
- 249 385 249 385 264 295 c 0
- 279 205 279 205 371 140 c 1
- 134 140 l 1
+134 140 m 1,0,-1
+ -2 3 l 1,1,2
+ 419 3 419 3 841 3 c 1,3,-1
+ 978 140 l 1,4,5
+ 842 140 842 140 696 186 c 0,6,7
+ 550 232 550 232 464 314 c 0,8,9
+ 378 396 378 396 408 506 c 1,10,11
+ 462 507 462 507 534.5 486 c 0,12,13
+ 607 465 607 465 670 428 c 0,14,15
+ 733 391 733 391 759 340.5 c 0,16,17
+ 785 290 785 290 746 230 c 0,18,19
+ 745 229 745 229 746 228 c 256,20,21
+ 747 227 747 227 748 228 c 2,22,-1
+ 858 338 l 2,23,24
+ 930 415 930 415 895 478 c 0,25,26
+ 860 541 860 541 773.5 583 c 0,27,28
+ 687 625 687 625 602.5 638.5 c 0,29,30
+ 518 652 518 652 490 629 c 2,31,-1
+ 353 492 l 2,32,33
+ 249 385 249 385 264 295 c 0,34,35
+ 279 205 279 205 371 140 c 1,36,-1
+ 134 140 l 1,0,-1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 362 750 2
 EndChar
@@ -30308,10 +30392,10 @@ Fore
 Refer: 446 -1 S 1 0 0 1 401 751 2
 Refer: 414 -1 N 1 0 0 1 0 0 2
 Ligature2: "'liga' JAWI" nga.init nga.medi nga.fina
-Substitution2: "'fina' JAWI" ngapnjg.fina
-Substitution2: "'medi' JAWI" ngapnjg.medi
-Substitution2: "'init' JAWI" ngapnjg.medi
 Substitution2: "'isol' Isolated Forms in Arabic lookup 0 subtable" ngapnjg.isol
+Substitution2: "'init' JAWI" ngapnjg.medi
+Substitution2: "'medi' JAWI" ngapnjg.medi
+Substitution2: "'fina' JAWI" ngapnjg.fina
 Colour: ff00
 EndChar
 
@@ -34212,30 +34296,30 @@ AnchorPoint: "Anchor-0" 288 694 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-713 350 m 1
- 714 351 714 351 713 352 c 256
- 712 353 712 353 711 352 c 2
- 588 229 l 1
- 552 187 552 187 582.5 111 c 0
- 613 35 613 35 652 -55.5 c 0
- 691 -146 691 -146 680 -233 c 1
- 594 -244 594 -244 492.5 -197.5 c 0
- 391 -151 391 -151 315 -63.5 c 0
- 239 24 239 24 228.5 137.5 c 0
- 218 251 218 251 314 376 c 0
- 315 377 315 377 314 378 c 256
- 313 379 313 379 312 378 c 2
- 219 285 l 2
- 103 165 103 165 93 52.5 c 0
- 83 -60 83 -60 142.5 -152 c 0
- 202 -244 202 -244 296 -302 c 0
- 390 -360 390 -360 482 -370.5 c 0
- 574 -381 574 -381 629 -331 c 2
- 765 -194 l 2
- 825 -130 825 -130 820 -53.5 c 0
- 815 23 815 23 781.5 99.5 c 0
- 748 176 748 176 721.5 241.5 c 0
- 695 307 695 307 713 350 c 1
+713 350 m 1,0,1
+ 714 351 714 351 713 352 c 256,2,3
+ 712 353 712 353 711 352 c 2,4,-1
+ 588 229 l 1,5,6
+ 552 187 552 187 582.5 111 c 0,7,8
+ 613 35 613 35 652 -55.5 c 0,9,10
+ 691 -146 691 -146 680 -233 c 1,11,12
+ 594 -244 594 -244 492.5 -197.5 c 0,13,14
+ 391 -151 391 -151 315 -63.5 c 0,15,16
+ 239 24 239 24 228.5 137.5 c 0,17,18
+ 218 251 218 251 314 376 c 0,19,20
+ 315 377 315 377 314 378 c 256,21,22
+ 313 379 313 379 312 378 c 2,23,-1
+ 219 285 l 2,24,25
+ 103 165 103 165 93 52.5 c 0,26,27
+ 83 -60 83 -60 142.5 -152 c 0,28,29
+ 202 -244 202 -244 296 -302 c 0,30,31
+ 390 -360 390 -360 482 -370.5 c 0,32,33
+ 574 -381 574 -381 629 -331 c 2,34,-1
+ 765 -194 l 2,35,36
+ 825 -130 825 -130 820 -53.5 c 0,37,38
+ 815 23 815 23 781.5 99.5 c 0,39,40
+ 748 176 748 176 721.5 241.5 c 0,41,42
+ 695 307 695 307 713 350 c 1,0,1
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 299 379 2
 Substitution2: "'fina' JAWI" nya.fina
@@ -34254,35 +34338,35 @@ AnchorPoint: "Anchor-0" 397 747 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-755 161 m 2
- 728 219 728 219 713 268 c 0
- 698 317 698 317 713 350 c 0
- 714 351 714 351 713 352 c 256
- 712 353 712 353 711 352 c 2
- 588 229 l 2
- 559 197 559 197 573 143.5 c 0
- 587 90 587 90 618 24 c 0
- 647 -38 647 -38 668 -104.5 c 0
- 689 -171 689 -171 680 -233 c 1
- 594 -244 594 -244 492.5 -197.5 c 0
- 391 -151 391 -151 315 -63.5 c 0
- 239 24 239 24 228.5 137.5 c 0
- 218 251 218 251 314 376 c 0
- 315 377 315 377 314 378 c 256
- 313 379 313 379 312 378 c 2
- 219 285 l 2
- 103 165 103 165 93 52.5 c 0
- 83 -60 83 -60 142.5 -152 c 0
- 202 -244 202 -244 296 -302 c 0
- 390 -360 390 -360 482 -370.5 c 0
- 574 -381 574 -381 629 -331 c 2
- 765 -194 l 2
- 814 -143 814 -143 819 -83 c 0
- 824 -23 824 -23 803 40 c 0
- 803 41 803 41 802 42 c 2
- 881 139 l 1
- 765 139 l 1
- 755 161 l 2
+755 161 m 2,0,1
+ 728 219 728 219 713 268 c 0,2,3
+ 698 317 698 317 713 350 c 0,4,5
+ 714 351 714 351 713 352 c 256,6,7
+ 712 353 712 353 711 352 c 2,8,-1
+ 588 229 l 2,9,10
+ 559 197 559 197 573 143.5 c 0,11,12
+ 587 90 587 90 618 24 c 0,13,14
+ 647 -38 647 -38 668 -104.5 c 0,15,16
+ 689 -171 689 -171 680 -233 c 1,17,18
+ 594 -244 594 -244 492.5 -197.5 c 0,19,20
+ 391 -151 391 -151 315 -63.5 c 0,21,22
+ 239 24 239 24 228.5 137.5 c 0,23,24
+ 218 251 218 251 314 376 c 0,25,26
+ 315 377 315 377 314 378 c 256,27,28
+ 313 379 313 379 312 378 c 2,29,-1
+ 219 285 l 2,30,31
+ 103 165 103 165 93 52.5 c 0,32,33
+ 83 -60 83 -60 142.5 -152 c 0,34,35
+ 202 -244 202 -244 296 -302 c 0,36,37
+ 390 -360 390 -360 482 -370.5 c 0,38,39
+ 574 -381 574 -381 629 -331 c 2,40,-1
+ 765 -194 l 2,41,42
+ 814 -143 814 -143 819 -83 c 0,43,44
+ 824 -23 824 -23 803 40 c 0,45,46
+ 803 41 803 41 802 42 c 2,47,-1
+ 881 139 l 1,48,-1
+ 765 139 l 1,49,-1
+ 755 161 l 2,0,1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 305 373 2
 EndChar
@@ -34363,36 +34447,36 @@ AnchorPoint: "Anchor-0" 558 697 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1530 161 m 2
- 1503 219 1503 219 1488 268 c 0
- 1473 317 1473 317 1489 350 c 0
- 1489 351 1489 351 1488 352 c 256
- 1487 353 1487 353 1486 352 c 2
- 1363 230 l 2
- 1334 197 1334 197 1348 144 c 0
- 1362 91 1362 91 1393 24 c 0
- 1428 -49 1428 -49 1449.5 -127.5 c 0
- 1471 -206 1471 -206 1442 -276 c 1
- 1266 -396 1266 -396 1067 -411 c 0
- 868 -426 868 -426 686 -362 c 0
- 504 -298 504 -298 380.5 -180.5 c 0
- 257 -63 257 -63 232 82.5 c 0
- 207 228 207 228 321 375 c 0
- 322 377 322 377 321 378 c 256
- 320 379 320 379 319 378 c 2
- 226 285 l 1
- 74 125 74 125 93 -35 c 0
- 112 -195 112 -195 249.5 -323 c 0
- 387 -451 387 -451 590.5 -512.5 c 0
- 794 -574 794 -574 1010.5 -537 c 0
- 1227 -500 1227 -500 1404 -330 c 1
- 1541 -193 l 2
- 1590 -142 1590 -142 1594.5 -82.5 c 0
- 1599 -23 1599 -23 1578 40 c 2
- 1576 46 l 1
- 1634 139 l 1
- 1540 139 l 1
- 1530 161 l 2
+1530 161 m 2,0,1
+ 1503 219 1503 219 1488 268 c 0,2,3
+ 1473 317 1473 317 1489 350 c 0,4,5
+ 1489 351 1489 351 1488 352 c 256,6,7
+ 1487 353 1487 353 1486 352 c 2,8,-1
+ 1363 230 l 2,9,10
+ 1334 197 1334 197 1348 144 c 0,11,12
+ 1362 91 1362 91 1393 24 c 0,13,14
+ 1428 -49 1428 -49 1449.5 -127.5 c 0,15,16
+ 1471 -206 1471 -206 1442 -276 c 1,17,18
+ 1266 -396 1266 -396 1067 -411 c 0,19,20
+ 868 -426 868 -426 686 -362 c 0,21,22
+ 504 -298 504 -298 380.5 -180.5 c 0,23,24
+ 257 -63 257 -63 232 82.5 c 0,25,26
+ 207 228 207 228 321 375 c 0,27,28
+ 322 377 322 377 321 378 c 256,29,30
+ 320 379 320 379 319 378 c 2,31,-1
+ 226 285 l 1,32,33
+ 74 125 74 125 93 -35 c 0,34,35
+ 112 -195 112 -195 249.5 -323 c 0,36,37
+ 387 -451 387 -451 590.5 -512.5 c 0,38,39
+ 794 -574 794 -574 1010.5 -537 c 0,40,41
+ 1227 -500 1227 -500 1404 -330 c 1,42,-1
+ 1541 -193 l 2,43,44
+ 1590 -142 1590 -142 1594.5 -82.5 c 0,45,46
+ 1599 -23 1599 -23 1578 40 c 2,47,-1
+ 1576 46 l 1,48,-1
+ 1634 139 l 1,49,-1
+ 1540 139 l 1,50,-1
+ 1530 161 l 2,0,1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 669 323 2
 EndChar
@@ -34406,32 +34490,32 @@ AnchorPoint: "Anchor-0" 544 697 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1489 350 m 0
- 1489 351 1489 351 1488 352 c 256
- 1487 353 1487 353 1486 352 c 2
- 1363 230 l 2
- 1333 195 1333 195 1350 137.5 c 0
- 1367 80 1367 80 1400 9 c 0
- 1433 -62 1433 -62 1451.5 -136 c 0
- 1470 -210 1470 -210 1442 -276 c 1
- 1266 -396 1266 -396 1067 -411 c 0
- 868 -426 868 -426 686 -362 c 0
- 504 -298 504 -298 380.5 -180.5 c 0
- 257 -63 257 -63 232 82.5 c 0
- 207 228 207 228 321 375 c 0
- 322 377 322 377 321 378 c 256
- 320 379 320 379 319 378 c 2
- 226 285 l 1
- 74 125 74 125 93 -35 c 0
- 112 -195 112 -195 249.5 -323 c 0
- 387 -451 387 -451 590.5 -512.5 c 0
- 794 -574 794 -574 1010.5 -537 c 0
- 1227 -500 1227 -500 1404 -330 c 1
- 1541 -193 l 2
- 1600 -130 1600 -130 1595 -53.5 c 0
- 1590 23 1590 23 1556.5 100 c 0
- 1523 177 1523 177 1497 242.5 c 0
- 1471 308 1471 308 1489 350 c 0
+1489 350 m 0,0,1
+ 1489 351 1489 351 1488 352 c 256,2,3
+ 1487 353 1487 353 1486 352 c 2,4,-1
+ 1363 230 l 2,5,6
+ 1333 195 1333 195 1350 137.5 c 0,7,8
+ 1367 80 1367 80 1400 9 c 0,9,10
+ 1433 -62 1433 -62 1451.5 -136 c 0,11,12
+ 1470 -210 1470 -210 1442 -276 c 1,13,14
+ 1266 -396 1266 -396 1067 -411 c 0,15,16
+ 868 -426 868 -426 686 -362 c 0,17,18
+ 504 -298 504 -298 380.5 -180.5 c 0,19,20
+ 257 -63 257 -63 232 82.5 c 0,21,22
+ 207 228 207 228 321 375 c 0,23,24
+ 322 377 322 377 321 378 c 256,25,26
+ 320 379 320 379 319 378 c 2,27,-1
+ 226 285 l 1,28,29
+ 74 125 74 125 93 -35 c 0,30,31
+ 112 -195 112 -195 249.5 -323 c 0,32,33
+ 387 -451 387 -451 590.5 -512.5 c 0,34,35
+ 794 -574 794 -574 1010.5 -537 c 0,36,37
+ 1227 -500 1227 -500 1404 -330 c 1,38,-1
+ 1541 -193 l 2,39,40
+ 1600 -130 1600 -130 1595 -53.5 c 0,41,42
+ 1590 23 1590 23 1556.5 100 c 0,43,44
+ 1523 177 1523 177 1497 242.5 c 0,45,46
+ 1471 308 1471 308 1489 350 c 0,0,1
 EndSplineSet
 Refer: 446 -1 S 1 0 0 1 669 323 2
 Ligature2: "'liga' JAWI" nya.init nya.medi nya.fina
@@ -34474,57 +34558,57 @@ AnchorPoint: "Anchor-0" 1454 705 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1744 145 m 0,0,1
+ 1690 154 1690 154 1609 71 c 2,2,-1
+ 1578 41 l 1,3,-1
+ 1578 42 l 1,4,5
+ 1557 104 1557 104 1530 163 c 0,6,7
+ 1503 221 1503 221 1488 269.5 c 0,8,9
+ 1473 318 1473 318 1488 351 c 1,10,-1
+ 1490 351 l 1,11,12
+ 1490 352 1490 352 1489 353 c 256,13,14
+ 1488 354 1488 354 1487 353 c 2,15,-1
+ 1364 231 l 2,16,17
+ 1334 199 1334 199 1348.5 145.5 c 0,18,19
+ 1363 92 1363 92 1393 26 c 0,20,21
+ 1429 -48 1429 -48 1450 -126.5 c 0,22,23
+ 1471 -205 1471 -205 1442 -275 c 1,24,25
+ 1266 -395 1266 -395 1066.5 -410 c 0,26,27
+ 867 -425 867 -425 685.5 -361 c 0,28,29
+ 504 -297 504 -297 380.5 -179.5 c 0,30,31
+ 257 -62 257 -62 232 83.5 c 0,32,33
+ 207 229 207 229 321 376 c 0,34,35
+ 322 378 322 378 321 379 c 256,36,37
+ 320 380 320 380 319 379 c 2,38,-1
+ 226 286 l 1,39,40
+ 73 126 73 126 92 -34.5 c 0,41,42
+ 111 -195 111 -195 249 -322.5 c 0,43,44
+ 387 -450 387 -450 590.5 -511.5 c 0,45,46
+ 794 -573 794 -573 1010.5 -536 c 0,47,48
+ 1227 -499 1227 -499 1403 -330 c 1,49,-1
+ 1540 -193 l 2,50,51
+ 1589 -141 1589 -141 1594 -81 c 0,52,53
+ 1598 -37 1598 -37 1587 8 c 1,54,55
+ 1597 9 1597 9 1607 8 c 0,56,57
+ 1661 -2 1661 -2 1736 -83 c 1,58,-1
+ 1793 -26 l 1,59,60
+ 1787 -33 1787 -33 1780 -40 c 1,61,-1
+ 1780 -41 l 1,62,-1
+ 1917 96 l 2,63,64
+ 1994 175 1994 175 2001.5 244 c 0,65,66
+ 2009 313 2009 313 1977.5 373 c 0,67,68
+ 1946 433 1946 433 1906 485 c 0,69,70
+ 1868 533 1868 533 1847 575 c 0,71,72
+ 1826 617 1826 617 1845 654 c 0,73,74
+ 1845 655 1845 655 1844 656 c 256,75,76
+ 1843 657 1843 657 1842 656 c 2,77,-1
+ 1723 537 l 2,78,79
+ 1685 497 1685 497 1705 450 c 0,80,81
+ 1725 403 1725 403 1768 348 c 0,82,83
+ 1809 296 1809 296 1840.5 236 c 0,84,85
+ 1872 176 1872 176 1864 108 c 0,86,87
+ 1862 90 1862 90 1856 72 c 1,88,89
+ 1792 136 1792 136 1744 145 c 0,0,1
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 Refer: 447 -1 N 1 0 0 1 1609 -526 2
@@ -34541,68 +34625,68 @@ AnchorPoint: "Anchor-0" 1454 705 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1897 -245 m 1
- 1898 -245 l 1
- 1806 -338 l 2
- 1805 -338 1805 -338 1804 -338 c 0
- 1803 -337 1803 -337 1803 -335 c 0
- 1808 -303 1808 -303 1774 -267.5 c 0
- 1740 -232 1740 -232 1719 -214 c 1
- 1822 -112 l 1
- 1835 -124 1835 -124 1860 -148 c 0
- 1885 -172 1885 -172 1900 -198.5 c 0
- 1915 -225 1915 -225 1897 -245 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1897 -245 m 1,0,-1
+ 1898 -245 l 1,1,-1
+ 1806 -338 l 2,2,3
+ 1805 -338 1805 -338 1804 -338 c 0,4,5
+ 1803 -337 1803 -337 1803 -335 c 0,6,7
+ 1808 -303 1808 -303 1774 -267.5 c 0,8,9
+ 1740 -232 1740 -232 1719 -214 c 1,10,-1
+ 1822 -112 l 1,11,12
+ 1835 -124 1835 -124 1860 -148 c 0,13,14
+ 1885 -172 1885 -172 1900 -198.5 c 0,15,16
+ 1915 -225 1915 -225 1897 -245 c 1,0,-1
+1744 145 m 0,17,18
+ 1690 154 1690 154 1609 71 c 2,19,-1
+ 1578 41 l 1,20,-1
+ 1578 42 l 1,21,22
+ 1557 104 1557 104 1530 163 c 0,23,24
+ 1503 221 1503 221 1488 269.5 c 0,25,26
+ 1473 318 1473 318 1488 351 c 1,27,-1
+ 1490 351 l 1,28,29
+ 1490 352 1490 352 1489 353 c 256,30,31
+ 1488 354 1488 354 1487 353 c 2,32,-1
+ 1364 231 l 2,33,34
+ 1334 199 1334 199 1348.5 145.5 c 0,35,36
+ 1363 92 1363 92 1393 26 c 0,37,38
+ 1429 -48 1429 -48 1450 -126.5 c 0,39,40
+ 1471 -205 1471 -205 1442 -275 c 1,41,42
+ 1266 -395 1266 -395 1066.5 -410 c 0,43,44
+ 867 -425 867 -425 685.5 -361 c 0,45,46
+ 504 -297 504 -297 380.5 -179.5 c 0,47,48
+ 257 -62 257 -62 232 83.5 c 0,49,50
+ 207 229 207 229 321 376 c 0,51,52
+ 322 378 322 378 321 379 c 256,53,54
+ 320 380 320 380 319 379 c 2,55,-1
+ 226 286 l 1,56,57
+ 73 126 73 126 92 -34.5 c 0,58,59
+ 111 -195 111 -195 249 -322.5 c 0,60,61
+ 387 -450 387 -450 590.5 -511.5 c 0,62,63
+ 794 -573 794 -573 1010.5 -536 c 0,64,65
+ 1227 -499 1227 -499 1403 -330 c 1,66,-1
+ 1540 -193 l 2,67,68
+ 1589 -141 1589 -141 1594 -81 c 0,69,70
+ 1598 -37 1598 -37 1587 8 c 1,71,72
+ 1597 9 1597 9 1607 8 c 0,73,74
+ 1661 -2 1661 -2 1736 -83 c 1,75,-1
+ 1793 -26 l 1,76,77
+ 1787 -33 1787 -33 1780 -40 c 1,78,-1
+ 1780 -41 l 1,79,-1
+ 1917 96 l 2,80,81
+ 1994 175 1994 175 2001.5 244 c 0,82,83
+ 2009 313 2009 313 1977.5 373 c 0,84,85
+ 1946 433 1946 433 1906 485 c 0,86,87
+ 1868 533 1868 533 1847 575 c 0,88,89
+ 1826 617 1826 617 1845 654 c 0,90,91
+ 1845 655 1845 655 1844 656 c 256,92,93
+ 1843 657 1843 657 1842 656 c 2,94,-1
+ 1723 537 l 2,95,96
+ 1685 497 1685 497 1705 450 c 0,97,98
+ 1725 403 1725 403 1768 348 c 0,99,100
+ 1809 296 1809 296 1840.5 236 c 0,101,102
+ 1872 176 1872 176 1864 108 c 0,103,104
+ 1862 90 1862 90 1856 72 c 1,105,106
+ 1792 136 1792 136 1744 145 c 0,17,18
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 696 1332 1593
@@ -34618,79 +34702,79 @@ AnchorPoint: "Anchor-0" 1432 692 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1998 844 m 1
- 1998 843 l 1
- 1906 751 l 2
- 1905 751 1905 751 1904 751 c 0
- 1903 752 1903 752 1903 753 c 0
- 1909 785 1909 785 1874.5 821 c 0
- 1840 857 1840 857 1820 874 c 1
- 1923 977 l 1
- 1936 964 1936 964 1961 940.5 c 0
- 1986 917 1986 917 2000.5 890.5 c 0
- 2015 864 2015 864 1998 844 c 1
-1827 844 m 1
- 1827 843 l 1
- 1735 751 l 2
- 1734 751 1734 751 1733 751 c 0
- 1732 752 1732 752 1732 753 c 0
- 1738 785 1738 785 1703.5 821 c 0
- 1669 857 1669 857 1649 874 c 1
- 1751 977 l 1
- 1765 964 1765 964 1790 940.5 c 0
- 1815 917 1815 917 1829.5 890.5 c 0
- 1844 864 1844 864 1827 844 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1998 844 m 1,0,-1
+ 1998 843 l 1,1,-1
+ 1906 751 l 2,2,3
+ 1905 751 1905 751 1904 751 c 0,4,5
+ 1903 752 1903 752 1903 753 c 0,6,7
+ 1909 785 1909 785 1874.5 821 c 0,8,9
+ 1840 857 1840 857 1820 874 c 1,10,-1
+ 1923 977 l 1,11,12
+ 1936 964 1936 964 1961 940.5 c 0,13,14
+ 1986 917 1986 917 2000.5 890.5 c 0,15,16
+ 2015 864 2015 864 1998 844 c 1,0,-1
+1827 844 m 1,17,-1
+ 1827 843 l 1,18,-1
+ 1735 751 l 2,19,20
+ 1734 751 1734 751 1733 751 c 0,21,22
+ 1732 752 1732 752 1732 753 c 0,23,24
+ 1738 785 1738 785 1703.5 821 c 0,25,26
+ 1669 857 1669 857 1649 874 c 1,27,-1
+ 1751 977 l 1,28,29
+ 1765 964 1765 964 1790 940.5 c 0,30,31
+ 1815 917 1815 917 1829.5 890.5 c 0,32,33
+ 1844 864 1844 864 1827 844 c 1,17,-1
+1744 145 m 0,34,35
+ 1690 154 1690 154 1609 71 c 2,36,-1
+ 1578 41 l 1,37,-1
+ 1578 42 l 1,38,39
+ 1557 104 1557 104 1530 163 c 0,40,41
+ 1503 221 1503 221 1488 269.5 c 0,42,43
+ 1473 318 1473 318 1488 351 c 1,44,-1
+ 1490 351 l 1,45,46
+ 1490 352 1490 352 1489 353 c 256,47,48
+ 1488 354 1488 354 1487 353 c 2,49,-1
+ 1364 231 l 2,50,51
+ 1334 199 1334 199 1348.5 145.5 c 0,52,53
+ 1363 92 1363 92 1393 26 c 0,54,55
+ 1429 -48 1429 -48 1450 -126.5 c 0,56,57
+ 1471 -205 1471 -205 1442 -275 c 1,58,59
+ 1266 -395 1266 -395 1066.5 -410 c 0,60,61
+ 867 -425 867 -425 685.5 -361 c 0,62,63
+ 504 -297 504 -297 380.5 -179.5 c 0,64,65
+ 257 -62 257 -62 232 83.5 c 0,66,67
+ 207 229 207 229 321 376 c 0,68,69
+ 322 378 322 378 321 379 c 256,70,71
+ 320 380 320 380 319 379 c 2,72,-1
+ 226 286 l 1,73,74
+ 73 126 73 126 92 -34.5 c 0,75,76
+ 111 -195 111 -195 249 -322.5 c 0,77,78
+ 387 -450 387 -450 590.5 -511.5 c 0,79,80
+ 794 -573 794 -573 1010.5 -536 c 0,81,82
+ 1227 -499 1227 -499 1403 -330 c 1,83,-1
+ 1540 -193 l 2,84,85
+ 1589 -141 1589 -141 1594 -81 c 0,86,87
+ 1598 -37 1598 -37 1587 8 c 1,88,89
+ 1597 9 1597 9 1607 8 c 0,90,91
+ 1661 -2 1661 -2 1736 -83 c 1,92,-1
+ 1793 -26 l 1,93,94
+ 1787 -33 1787 -33 1780 -40 c 1,95,-1
+ 1780 -41 l 1,96,-1
+ 1917 96 l 2,97,98
+ 1994 175 1994 175 2001.5 244 c 0,99,100
+ 2009 313 2009 313 1977.5 373 c 0,101,102
+ 1946 433 1946 433 1906 485 c 0,103,104
+ 1868 533 1868 533 1847 575 c 0,105,106
+ 1826 617 1826 617 1845 654 c 0,107,108
+ 1845 655 1845 655 1844 656 c 256,109,110
+ 1843 657 1843 657 1842 656 c 2,111,-1
+ 1723 537 l 2,112,113
+ 1685 497 1685 497 1705 450 c 0,114,115
+ 1725 403 1725 403 1768 348 c 0,116,117
+ 1809 296 1809 296 1840.5 236 c 0,118,119
+ 1872 176 1872 176 1864 108 c 0,120,121
+ 1862 90 1862 90 1856 72 c 1,122,123
+ 1792 136 1792 136 1744 145 c 0,34,35
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 704 1354 1581
@@ -34706,90 +34790,90 @@ AnchorPoint: "Anchor-0" 1449 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1925 932 m 1
- 1926 931 l 1
- 1833 839 l 2
- 1832 839 1832 839 1831 839 c 0
- 1830 840 1830 840 1830 841 c 0
- 1836 873 1836 873 1801.5 909 c 0
- 1767 945 1767 945 1747 963 c 1
- 1850 1065 l 1
- 1863 1053 1863 1053 1888 1029 c 0
- 1913 1005 1913 1005 1927.5 978.5 c 0
- 1942 952 1942 952 1925 932 c 1
-1998 733 m 1
- 1998 732 l 1
- 1906 640 l 2
- 1905 640 1905 640 1904 640 c 0
- 1903 641 1903 641 1903 642 c 0
- 1909 674 1909 674 1874.5 710 c 0
- 1840 746 1840 746 1820 763 c 1
- 1923 866 l 1
- 1936 854 1936 854 1961 830 c 0
- 1986 806 1986 806 2000.5 779.5 c 0
- 2015 753 2015 753 1998 733 c 1
-1827 733 m 1
- 1827 732 l 1
- 1735 640 l 2
- 1734 640 1734 640 1733 640 c 0
- 1732 641 1732 641 1732 642 c 0
- 1738 674 1738 674 1703.5 710 c 0
- 1669 746 1669 746 1649 763 c 1
- 1751 866 l 1
- 1765 854 1765 854 1790 830 c 0
- 1815 806 1815 806 1829.5 779.5 c 0
- 1844 753 1844 753 1827 733 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1925 932 m 1,0,-1
+ 1926 931 l 1,1,-1
+ 1833 839 l 2,2,3
+ 1832 839 1832 839 1831 839 c 0,4,5
+ 1830 840 1830 840 1830 841 c 0,6,7
+ 1836 873 1836 873 1801.5 909 c 0,8,9
+ 1767 945 1767 945 1747 963 c 1,10,-1
+ 1850 1065 l 1,11,12
+ 1863 1053 1863 1053 1888 1029 c 0,13,14
+ 1913 1005 1913 1005 1927.5 978.5 c 0,15,16
+ 1942 952 1942 952 1925 932 c 1,0,-1
+1998 733 m 1,17,-1
+ 1998 732 l 1,18,-1
+ 1906 640 l 2,19,20
+ 1905 640 1905 640 1904 640 c 0,21,22
+ 1903 641 1903 641 1903 642 c 0,23,24
+ 1909 674 1909 674 1874.5 710 c 0,25,26
+ 1840 746 1840 746 1820 763 c 1,27,-1
+ 1923 866 l 1,28,29
+ 1936 854 1936 854 1961 830 c 0,30,31
+ 1986 806 1986 806 2000.5 779.5 c 0,32,33
+ 2015 753 2015 753 1998 733 c 1,17,-1
+1827 733 m 1,34,-1
+ 1827 732 l 1,35,-1
+ 1735 640 l 2,36,37
+ 1734 640 1734 640 1733 640 c 0,38,39
+ 1732 641 1732 641 1732 642 c 0,40,41
+ 1738 674 1738 674 1703.5 710 c 0,42,43
+ 1669 746 1669 746 1649 763 c 1,44,-1
+ 1751 866 l 1,45,46
+ 1765 854 1765 854 1790 830 c 0,47,48
+ 1815 806 1815 806 1829.5 779.5 c 0,49,50
+ 1844 753 1844 753 1827 733 c 1,34,-1
+1744 145 m 0,51,52
+ 1690 154 1690 154 1609 71 c 2,53,-1
+ 1578 41 l 1,54,-1
+ 1578 42 l 1,55,56
+ 1557 104 1557 104 1530 163 c 0,57,58
+ 1503 221 1503 221 1488 269.5 c 0,59,60
+ 1473 318 1473 318 1488 351 c 1,61,-1
+ 1490 351 l 1,62,63
+ 1490 352 1490 352 1489 353 c 256,64,65
+ 1488 354 1488 354 1487 353 c 2,66,-1
+ 1364 231 l 2,67,68
+ 1334 199 1334 199 1348.5 145.5 c 0,69,70
+ 1363 92 1363 92 1393 26 c 0,71,72
+ 1429 -48 1429 -48 1450 -126.5 c 0,73,74
+ 1471 -205 1471 -205 1442 -275 c 1,75,76
+ 1266 -395 1266 -395 1066.5 -410 c 0,77,78
+ 867 -425 867 -425 685.5 -361 c 0,79,80
+ 504 -297 504 -297 380.5 -179.5 c 0,81,82
+ 257 -62 257 -62 232 83.5 c 0,83,84
+ 207 229 207 229 321 376 c 0,85,86
+ 322 378 322 378 321 379 c 256,87,88
+ 320 380 320 380 319 379 c 2,89,-1
+ 226 286 l 1,90,91
+ 73 126 73 126 92 -34.5 c 0,92,93
+ 111 -195 111 -195 249 -322.5 c 0,94,95
+ 387 -450 387 -450 590.5 -511.5 c 0,96,97
+ 794 -573 794 -573 1010.5 -536 c 0,98,99
+ 1227 -499 1227 -499 1403 -330 c 1,100,-1
+ 1540 -193 l 2,101,102
+ 1589 -141 1589 -141 1594 -81 c 0,103,104
+ 1598 -37 1598 -37 1587 8 c 1,105,106
+ 1597 9 1597 9 1607 8 c 0,107,108
+ 1661 -2 1661 -2 1736 -83 c 1,109,-1
+ 1793 -26 l 1,110,111
+ 1787 -33 1787 -33 1780 -40 c 1,112,-1
+ 1780 -41 l 1,113,-1
+ 1917 96 l 2,114,115
+ 1994 175 1994 175 2001.5 244 c 0,116,117
+ 2009 313 2009 313 1977.5 373 c 0,118,119
+ 1946 433 1946 433 1906 485 c 0,120,121
+ 1868 533 1868 533 1847 575 c 0,122,123
+ 1826 617 1826 617 1845 654 c 0,124,125
+ 1845 655 1845 655 1844 656 c 256,126,127
+ 1843 657 1843 657 1842 656 c 2,128,-1
+ 1723 537 l 2,129,130
+ 1685 497 1685 497 1705 450 c 0,131,132
+ 1725 403 1725 403 1768 348 c 0,133,134
+ 1809 296 1809 296 1840.5 236 c 0,135,136
+ 1872 176 1872 176 1864 108 c 0,137,138
+ 1862 90 1862 90 1856 72 c 1,139,140
+ 1792 136 1792 136 1744 145 c 0,51,52
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 708 1340 1712
@@ -34805,79 +34889,79 @@ AnchorPoint: "Anchor-0" 1513 694 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1897 -245 m 1
- 1898 -245 l 1
- 1806 -338 l 2
- 1805 -338 1805 -338 1804 -338 c 0
- 1803 -337 1803 -337 1803 -335 c 0
- 1808 -303 1808 -303 1774 -267.5 c 0
- 1740 -232 1740 -232 1719 -214 c 1
- 1822 -112 l 1
- 1835 -124 1835 -124 1860 -148 c 0
- 1885 -172 1885 -172 1900 -198.5 c 0
- 1915 -225 1915 -225 1897 -245 c 1
-1726 -245 m 1
- 1727 -245 l 1
- 1635 -338 l 2
- 1634 -338 1634 -338 1632 -338 c 1
- 1632 -337 1632 -337 1632 -335 c 0
- 1637 -303 1637 -303 1603 -267.5 c 0
- 1569 -232 1569 -232 1548 -214 c 1
- 1651 -112 l 1
- 1664 -124 1664 -124 1689 -148 c 0
- 1714 -172 1714 -172 1729 -198.5 c 0
- 1744 -225 1744 -225 1726 -245 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1897 -245 m 1,0,-1
+ 1898 -245 l 1,1,-1
+ 1806 -338 l 2,2,3
+ 1805 -338 1805 -338 1804 -338 c 0,4,5
+ 1803 -337 1803 -337 1803 -335 c 0,6,7
+ 1808 -303 1808 -303 1774 -267.5 c 0,8,9
+ 1740 -232 1740 -232 1719 -214 c 1,10,-1
+ 1822 -112 l 1,11,12
+ 1835 -124 1835 -124 1860 -148 c 0,13,14
+ 1885 -172 1885 -172 1900 -198.5 c 0,15,16
+ 1915 -225 1915 -225 1897 -245 c 1,0,-1
+1726 -245 m 1,17,-1
+ 1727 -245 l 1,18,-1
+ 1635 -338 l 2,19,20
+ 1634 -338 1634 -338 1632 -338 c 1,21,22
+ 1632 -337 1632 -337 1632 -335 c 0,23,24
+ 1637 -303 1637 -303 1603 -267.5 c 0,25,26
+ 1569 -232 1569 -232 1548 -214 c 1,27,-1
+ 1651 -112 l 1,28,29
+ 1664 -124 1664 -124 1689 -148 c 0,30,31
+ 1714 -172 1714 -172 1729 -198.5 c 0,32,33
+ 1744 -225 1744 -225 1726 -245 c 1,17,-1
+1744 145 m 0,34,35
+ 1690 154 1690 154 1609 71 c 2,36,-1
+ 1578 41 l 1,37,-1
+ 1578 42 l 1,38,39
+ 1557 104 1557 104 1530 163 c 0,40,41
+ 1503 221 1503 221 1488 269.5 c 0,42,43
+ 1473 318 1473 318 1488 351 c 1,44,-1
+ 1490 351 l 1,45,46
+ 1490 352 1490 352 1489 353 c 256,47,48
+ 1488 354 1488 354 1487 353 c 2,49,-1
+ 1364 231 l 2,50,51
+ 1334 199 1334 199 1348.5 145.5 c 0,52,53
+ 1363 92 1363 92 1393 26 c 0,54,55
+ 1429 -48 1429 -48 1450 -126.5 c 0,56,57
+ 1471 -205 1471 -205 1442 -275 c 1,58,59
+ 1266 -395 1266 -395 1066.5 -410 c 0,60,61
+ 867 -425 867 -425 685.5 -361 c 0,62,63
+ 504 -297 504 -297 380.5 -179.5 c 0,64,65
+ 257 -62 257 -62 232 83.5 c 0,66,67
+ 207 229 207 229 321 376 c 0,68,69
+ 322 378 322 378 321 379 c 256,70,71
+ 320 380 320 380 319 379 c 2,72,-1
+ 226 286 l 1,73,74
+ 73 126 73 126 92 -34.5 c 0,75,76
+ 111 -195 111 -195 249 -322.5 c 0,77,78
+ 387 -450 387 -450 590.5 -511.5 c 0,79,80
+ 794 -573 794 -573 1010.5 -536 c 0,81,82
+ 1227 -499 1227 -499 1403 -330 c 1,83,-1
+ 1540 -193 l 2,84,85
+ 1589 -141 1589 -141 1594 -81 c 0,86,87
+ 1598 -37 1598 -37 1587 8 c 1,88,89
+ 1597 9 1597 9 1607 8 c 0,90,91
+ 1661 -2 1661 -2 1736 -83 c 1,92,-1
+ 1793 -26 l 1,93,94
+ 1787 -33 1787 -33 1780 -40 c 1,95,-1
+ 1780 -41 l 1,96,-1
+ 1917 96 l 2,97,98
+ 1994 175 1994 175 2001.5 244 c 0,99,100
+ 2009 313 2009 313 1977.5 373 c 0,101,102
+ 1946 433 1946 433 1906 485 c 0,103,104
+ 1868 533 1868 533 1847 575 c 0,105,106
+ 1826 617 1826 617 1845 654 c 0,107,108
+ 1845 655 1845 655 1844 656 c 256,109,110
+ 1843 657 1843 657 1842 656 c 2,111,-1
+ 1723 537 l 2,112,113
+ 1685 497 1685 497 1705 450 c 0,114,115
+ 1725 403 1725 403 1768 348 c 0,116,117
+ 1809 296 1809 296 1840.5 236 c 0,118,119
+ 1872 176 1872 176 1864 108 c 0,120,121
+ 1862 90 1862 90 1856 72 c 1,122,123
+ 1792 136 1792 136 1744 145 c 0,34,35
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 702 1335 1587
@@ -34893,68 +34977,68 @@ AnchorPoint: "Anchor-0" 1518 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1925 844 m 1
- 1926 843 l 1
- 1833 751 l 2
- 1832 751 1832 751 1831 751 c 0
- 1830 752 1830 752 1830 753 c 0
- 1836 785 1836 785 1801.5 821 c 0
- 1767 857 1767 857 1747 874 c 1
- 1850 977 l 1
- 1863 964 1863 964 1888 940.5 c 0
- 1913 917 1913 917 1927.5 890.5 c 0
- 1942 864 1942 864 1925 844 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1925 844 m 1,0,-1
+ 1926 843 l 1,1,-1
+ 1833 751 l 2,2,3
+ 1832 751 1832 751 1831 751 c 0,4,5
+ 1830 752 1830 752 1830 753 c 0,6,7
+ 1836 785 1836 785 1801.5 821 c 0,8,9
+ 1767 857 1767 857 1747 874 c 1,10,-1
+ 1850 977 l 1,11,12
+ 1863 964 1863 964 1888 940.5 c 0,13,14
+ 1913 917 1913 917 1927.5 890.5 c 0,15,16
+ 1942 864 1942 864 1925 844 c 1,0,-1
+1744 145 m 0,17,18
+ 1690 154 1690 154 1609 71 c 2,19,-1
+ 1578 41 l 1,20,-1
+ 1578 42 l 1,21,22
+ 1557 104 1557 104 1530 163 c 0,23,24
+ 1503 221 1503 221 1488 269.5 c 0,25,26
+ 1473 318 1473 318 1488 351 c 1,27,-1
+ 1490 351 l 1,28,29
+ 1490 352 1490 352 1489 353 c 256,30,31
+ 1488 354 1488 354 1487 353 c 2,32,-1
+ 1364 231 l 2,33,34
+ 1334 199 1334 199 1348.5 145.5 c 0,35,36
+ 1363 92 1363 92 1393 26 c 0,37,38
+ 1429 -48 1429 -48 1450 -126.5 c 0,39,40
+ 1471 -205 1471 -205 1442 -275 c 1,41,42
+ 1266 -395 1266 -395 1066.5 -410 c 0,43,44
+ 867 -425 867 -425 685.5 -361 c 0,45,46
+ 504 -297 504 -297 380.5 -179.5 c 0,47,48
+ 257 -62 257 -62 232 83.5 c 0,49,50
+ 207 229 207 229 321 376 c 0,51,52
+ 322 378 322 378 321 379 c 256,53,54
+ 320 380 320 380 319 379 c 2,55,-1
+ 226 286 l 1,56,57
+ 73 126 73 126 92 -34.5 c 0,58,59
+ 111 -195 111 -195 249 -322.5 c 0,60,61
+ 387 -450 387 -450 590.5 -511.5 c 0,62,63
+ 794 -573 794 -573 1010.5 -536 c 0,64,65
+ 1227 -499 1227 -499 1403 -330 c 1,66,-1
+ 1540 -193 l 2,67,68
+ 1589 -141 1589 -141 1594 -81 c 0,69,70
+ 1598 -37 1598 -37 1587 8 c 1,71,72
+ 1597 9 1597 9 1607 8 c 0,73,74
+ 1661 -2 1661 -2 1736 -83 c 1,75,-1
+ 1793 -26 l 1,76,77
+ 1787 -33 1787 -33 1780 -40 c 1,78,-1
+ 1780 -41 l 1,79,-1
+ 1917 96 l 2,80,81
+ 1994 175 1994 175 2001.5 244 c 0,82,83
+ 2009 313 2009 313 1977.5 373 c 0,84,85
+ 1946 433 1946 433 1906 485 c 0,86,87
+ 1868 533 1868 533 1847 575 c 0,88,89
+ 1826 617 1826 617 1845 654 c 0,90,91
+ 1845 655 1845 655 1844 656 c 256,92,93
+ 1843 657 1843 657 1842 656 c 2,94,-1
+ 1723 537 l 2,95,96
+ 1685 497 1685 497 1705 450 c 0,97,98
+ 1725 403 1725 403 1768 348 c 0,99,100
+ 1809 296 1809 296 1840.5 236 c 0,101,102
+ 1872 176 1872 176 1864 108 c 0,103,104
+ 1862 90 1862 90 1856 72 c 1,105,106
+ 1792 136 1792 136 1744 145 c 0,17,18
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 699 1326 1587
@@ -34970,78 +35054,78 @@ AnchorPoint: "Anchor-0" 1351 847 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1934 773 m 1
- 1934 774 l 1
- 2004 845 l 1
- 1915 845 1915 845 1854 878.5 c 0
- 1793 912 1793 912 1812 976 c 1
- 1844 968 1844 968 1877.5 943 c 0
- 1911 918 1911 918 1902 886 c 0
- 1902 885 1902 885 1902 884 c 0
- 1904 883 1904 883 1905 884 c 2
- 1963 942 l 2
- 1988 971 1988 971 1965 997.5 c 0
- 1942 1024 1942 1024 1907.5 1038.5 c 0
- 1873 1053 1873 1053 1863 1047 c 2
- 1792 976 l 2
- 1713 893 1713 893 1744 843 c 1
- 1724 840 1724 840 1711 828 c 2
- 1652 768 l 2
- 1651 767 1651 767 1652 766 c 256
- 1653 765 1653 765 1654 765 c 0
- 1687 775 1687 775 1787 774.5 c 0
- 1887 774 1887 774 1934 773 c 1
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1934 773 m 1,0,-1
+ 1934 774 l 1,1,-1
+ 2004 845 l 1,2,3
+ 1915 845 1915 845 1854 878.5 c 0,4,5
+ 1793 912 1793 912 1812 976 c 1,6,7
+ 1844 968 1844 968 1877.5 943 c 0,8,9
+ 1911 918 1911 918 1902 886 c 0,10,11
+ 1902 885 1902 885 1902 884 c 0,12,13
+ 1904 883 1904 883 1905 884 c 2,14,-1
+ 1963 942 l 2,15,16
+ 1988 971 1988 971 1965 997.5 c 0,17,18
+ 1942 1024 1942 1024 1907.5 1038.5 c 0,19,20
+ 1873 1053 1873 1053 1863 1047 c 2,21,-1
+ 1792 976 l 2,22,23
+ 1713 893 1713 893 1744 843 c 1,24,25
+ 1724 840 1724 840 1711 828 c 2,26,-1
+ 1652 768 l 2,27,28
+ 1651 767 1651 767 1652 766 c 256,29,30
+ 1653 765 1653 765 1654 765 c 0,31,32
+ 1687 775 1687 775 1787 774.5 c 0,33,34
+ 1887 774 1887 774 1934 773 c 1,0,-1
+1744 145 m 0,35,36
+ 1690 154 1690 154 1609 71 c 2,37,-1
+ 1578 41 l 1,38,-1
+ 1578 42 l 1,39,40
+ 1557 104 1557 104 1530 163 c 0,41,42
+ 1503 221 1503 221 1488 269.5 c 0,43,44
+ 1473 318 1473 318 1488 351 c 1,45,-1
+ 1490 351 l 1,46,47
+ 1490 352 1490 352 1489 353 c 256,48,49
+ 1488 354 1488 354 1487 353 c 2,50,-1
+ 1364 231 l 2,51,52
+ 1334 199 1334 199 1348.5 145.5 c 0,53,54
+ 1363 92 1363 92 1393 26 c 0,55,56
+ 1429 -48 1429 -48 1450 -126.5 c 0,57,58
+ 1471 -205 1471 -205 1442 -275 c 1,59,60
+ 1266 -395 1266 -395 1066.5 -410 c 0,61,62
+ 867 -425 867 -425 685.5 -361 c 0,63,64
+ 504 -297 504 -297 380.5 -179.5 c 0,65,66
+ 257 -62 257 -62 232 83.5 c 0,67,68
+ 207 229 207 229 321 376 c 0,69,70
+ 322 378 322 378 321 379 c 256,71,72
+ 320 380 320 380 319 379 c 2,73,-1
+ 226 286 l 1,74,75
+ 73 126 73 126 92 -34.5 c 0,76,77
+ 111 -195 111 -195 249 -322.5 c 0,78,79
+ 387 -450 387 -450 590.5 -511.5 c 0,80,81
+ 794 -573 794 -573 1010.5 -536 c 0,82,83
+ 1227 -499 1227 -499 1403 -330 c 1,84,-1
+ 1540 -193 l 2,85,86
+ 1589 -141 1589 -141 1594 -81 c 0,87,88
+ 1598 -37 1598 -37 1587 8 c 1,89,90
+ 1597 9 1597 9 1607 8 c 0,91,92
+ 1661 -2 1661 -2 1736 -83 c 1,93,-1
+ 1793 -26 l 1,94,95
+ 1787 -33 1787 -33 1780 -40 c 1,96,-1
+ 1780 -41 l 1,97,-1
+ 1917 96 l 2,98,99
+ 1994 175 1994 175 2001.5 244 c 0,100,101
+ 2009 313 2009 313 1977.5 373 c 0,102,103
+ 1946 433 1946 433 1906 485 c 0,104,105
+ 1868 533 1868 533 1847 575 c 0,106,107
+ 1826 617 1826 617 1845 654 c 0,108,109
+ 1845 655 1845 655 1844 656 c 256,110,111
+ 1843 657 1843 657 1842 656 c 2,112,-1
+ 1723 537 l 2,113,114
+ 1685 497 1685 497 1705 450 c 0,115,116
+ 1725 403 1725 403 1768 348 c 0,117,118
+ 1809 296 1809 296 1840.5 236 c 0,119,120
+ 1872 176 1872 176 1864 108 c 0,121,122
+ 1862 90 1862 90 1856 72 c 1,123,124
+ 1792 136 1792 136 1744 145 c 0,35,36
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
 LCarets2: 3 702 1329 1587
@@ -35057,61 +35141,61 @@ AnchorPoint: "Anchor-0" 1351 847 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1744 145 m 0
- 1690 154 1690 154 1609 71 c 2
- 1578 41 l 1
- 1578 42 l 1
- 1557 104 1557 104 1530 163 c 0
- 1503 221 1503 221 1488 269.5 c 0
- 1473 318 1473 318 1488 351 c 1
- 1490 351 l 1
- 1490 352 1490 352 1489 353 c 256
- 1488 354 1488 354 1487 353 c 2
- 1364 231 l 2
- 1334 199 1334 199 1348.5 145.5 c 0
- 1363 92 1363 92 1393 26 c 0
- 1429 -48 1429 -48 1450 -126.5 c 0
- 1471 -205 1471 -205 1442 -275 c 1
- 1266 -395 1266 -395 1066.5 -410 c 0
- 867 -425 867 -425 685.5 -361 c 0
- 504 -297 504 -297 380.5 -179.5 c 0
- 257 -62 257 -62 232 83.5 c 0
- 207 229 207 229 321 376 c 0
- 322 378 322 378 321 379 c 256
- 320 380 320 380 319 379 c 2
- 226 286 l 1
- 73 126 73 126 92 -34.5 c 0
- 111 -195 111 -195 249 -322.5 c 0
- 387 -450 387 -450 590.5 -511.5 c 0
- 794 -573 794 -573 1010.5 -536 c 0
- 1227 -499 1227 -499 1403 -330 c 1
- 1540 -193 l 2
- 1589 -141 1589 -141 1594 -81 c 0
- 1598 -37 1598 -37 1587 8 c 1
- 1597 9 1597 9 1607 8 c 0
- 1661 -2 1661 -2 1736 -83 c 1
- 1793 -26 l 1
- 1787 -33 1787 -33 1780 -40 c 1
- 1780 -41 l 1
- 1917 96 l 2
- 1994 175 1994 175 2001.5 244 c 0
- 2009 313 2009 313 1977.5 373 c 0
- 1946 433 1946 433 1906 485 c 0
- 1868 533 1868 533 1847 575 c 0
- 1826 617 1826 617 1845 654 c 0
- 1845 655 1845 655 1844 656 c 256
- 1843 657 1843 657 1842 656 c 2
- 1723 537 l 2
- 1685 497 1685 497 1705 450 c 0
- 1725 403 1725 403 1768 348 c 0
- 1809 296 1809 296 1840.5 236 c 0
- 1872 176 1872 176 1864 108 c 0
- 1862 90 1862 90 1856 72 c 1
- 1792 136 1792 136 1744 145 c 0
+1744 145 m 0,0,1
+ 1690 154 1690 154 1609 71 c 2,2,-1
+ 1578 41 l 1,3,-1
+ 1578 42 l 1,4,5
+ 1557 104 1557 104 1530 163 c 0,6,7
+ 1503 221 1503 221 1488 269.5 c 0,8,9
+ 1473 318 1473 318 1488 351 c 1,10,-1
+ 1490 351 l 1,11,12
+ 1490 352 1490 352 1489 353 c 256,13,14
+ 1488 354 1488 354 1487 353 c 2,15,-1
+ 1364 231 l 2,16,17
+ 1334 199 1334 199 1348.5 145.5 c 0,18,19
+ 1363 92 1363 92 1393 26 c 0,20,21
+ 1429 -48 1429 -48 1450 -126.5 c 0,22,23
+ 1471 -205 1471 -205 1442 -275 c 1,24,25
+ 1266 -395 1266 -395 1066.5 -410 c 0,26,27
+ 867 -425 867 -425 685.5 -361 c 0,28,29
+ 504 -297 504 -297 380.5 -179.5 c 0,30,31
+ 257 -62 257 -62 232 83.5 c 0,32,33
+ 207 229 207 229 321 376 c 0,34,35
+ 322 378 322 378 321 379 c 256,36,37
+ 320 380 320 380 319 379 c 2,38,-1
+ 226 286 l 1,39,40
+ 73 126 73 126 92 -34.5 c 0,41,42
+ 111 -195 111 -195 249 -322.5 c 0,43,44
+ 387 -450 387 -450 590.5 -511.5 c 0,45,46
+ 794 -573 794 -573 1010.5 -536 c 0,47,48
+ 1227 -499 1227 -499 1403 -330 c 1,49,-1
+ 1540 -193 l 2,50,51
+ 1589 -141 1589 -141 1594 -81 c 0,52,53
+ 1598 -37 1598 -37 1587 8 c 1,54,55
+ 1597 9 1597 9 1607 8 c 0,56,57
+ 1661 -2 1661 -2 1736 -83 c 1,58,-1
+ 1793 -26 l 1,59,60
+ 1787 -33 1787 -33 1780 -40 c 1,61,-1
+ 1780 -41 l 1,62,-1
+ 1917 96 l 2,63,64
+ 1994 175 1994 175 2001.5 244 c 0,65,66
+ 2009 313 2009 313 1977.5 373 c 0,67,68
+ 1946 433 1946 433 1906 485 c 0,69,70
+ 1868 533 1868 533 1847 575 c 0,71,72
+ 1826 617 1826 617 1845 654 c 0,73,74
+ 1845 655 1845 655 1844 656 c 256,75,76
+ 1843 657 1843 657 1842 656 c 2,77,-1
+ 1723 537 l 2,78,79
+ 1685 497 1685 497 1705 450 c 0,80,81
+ 1725 403 1725 403 1768 348 c 0,82,83
+ 1809 296 1809 296 1840.5 236 c 0,84,85
+ 1872 176 1872 176 1864 108 c 0,86,87
+ 1862 90 1862 90 1856 72 c 1,88,89
+ 1792 136 1792 136 1744 145 c 0,0,1
 EndSplineSet
 Refer: 446 -1 N 1 0 0 1 669 323 2
-LCarets2: 3 705 1343 1599
 Ligature2: "'liga' JAWI" ba.kosong.init nya.medi nya.medi nya.fina
+LCarets2: 3 705 1343 1599
 EndChar
 
 StartChar: NameMe.550
@@ -35123,8 +35207,8 @@ Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
 Refer: 472 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nya.init nya.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.551
@@ -35135,8 +35219,8 @@ LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 472 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nya.init ba.kosong.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.552
@@ -35147,8 +35231,8 @@ LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 473 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nya.init ba.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.553
@@ -35159,8 +35243,8 @@ LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 474 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nya.init ta.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.554
@@ -35171,8 +35255,8 @@ LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 475 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 474
 Ligature2: "'liga' JAWI" nya.init tha.medi
+LCarets2: 1 474
 EndChar
 
 StartChar: NameMe.555
@@ -35183,23 +35267,24 @@ LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 476 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nya.init nun.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.556
 Encoding: 556 -1 540
 Width: 925
 Flags: W
+AnchorPoint: "tandaV" 430 550 basechar 0
 LayerCount: 2
 Fore
 Refer: 447 -1 N 1 0 0 1 443 -526 2
 Refer: 477 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 468
 Ligature2: "'liga' JAWI" nya.init ya.medi
+LCarets2: 1 468
 EndChar
 
-StartChar: NameMe.557
+StartChar: nya.init_ye.init
 Encoding: 557 -1 541
 Width: 925
 Flags: W
@@ -35207,6 +35292,7 @@ LayerCount: 2
 Fore
 Refer: 478 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 443 -526 2
+Ligature2: "'liga' JAWI" nya.init ye.medi_hamzah-ats
 LCarets2: 1 477
 EndChar
 
@@ -35218,8 +35304,8 @@ LayerCount: 2
 Fore
 Refer: 479 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
-LCarets2: 1 480
 Ligature2: "'liga' JAWI" ta.init nya.medi
+LCarets2: 1 480
 EndChar
 
 StartChar: NameMe.560
@@ -35230,20 +35316,21 @@ LayerCount: 2
 Fore
 Refer: 481 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" nun.init nya.medi
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.561
 Encoding: 561 -1 544
 Width: 925
 Flags: W
+AnchorPoint: "tandaV" 790 770 basechar 0
 LayerCount: 2
 Fore
 Refer: 482 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
-LCarets2: 1 471
 Ligature2: "'liga' JAWI" ya.init nya.medi
+LCarets2: 1 471
 EndChar
 
 StartChar: NameMe.562
@@ -35254,8 +35341,8 @@ LayerCount: 2
 Fore
 Refer: 483 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
-LCarets2: 1 477
 Ligature2: "'liga' JAWI" ye.init_hamzah-ats nya.init
+LCarets2: 1 477
 EndChar
 
 StartChar: NameMe.563
@@ -35290,71 +35377,71 @@ AnchorPoint: "Anchor-0" 2050 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-2153 -246 m 2
- 2061 -338 l 2
- 2060 -339 2060 -339 2059 -338 c 0
- 2058 -338 2058 -338 2058 -336 c 0
- 2064 -305 2064 -305 2029.5 -269 c 0
- 1995 -233 1995 -233 1975 -215 c 1
- 2078 -112 l 1
- 2091 -125 2091 -125 2116 -149 c 0
- 2141 -173 2141 -173 2156 -199.5 c 0
- 2171 -226 2171 -226 2153 -246 c 2
-2532 144 m 0
- 2498 149 2498 149 2454 119 c 1
- 2489 163 2489 163 2491 201 c 0
- 2494 248 2494 248 2469 287 c 0
- 2444 326 2444 326 2413 357 c 0
- 2391 381 2391 381 2377 401 c 0
- 2363 421 2363 421 2368 438 c 0
- 2368 439 2368 439 2367 440 c 256
- 2366 441 2366 441 2365 440 c 2
- 2239 314 l 2
- 2222 295 2222 295 2235.5 272 c 0
- 2249 249 2249 249 2276 220 c 0
- 2302 193 2302 193 2325.5 160 c 0
- 2349 127 2349 127 2354 87 c 1
- 2295 149 2295 149 2255 166 c 0
- 2215 183 2215 183 2172 139 c 2
- 2166 133 l 1
- 2023 -1 2023 -1 1845 -21.5 c 0
- 1667 -42 1667 -42 1471 4.5 c 0
- 1275 51 1275 51 1078 119 c 0
- 902 179 902 179 738 219.5 c 0
- 574 260 574 260 434.5 248.5 c 0
- 295 237 295 237 193 139 c 2
- 91 37 l 2
- 90 36 90 36 91 35 c 0
- 92 33 92 33 93 34 c 0
- 196 110 196 110 330.5 114 c 0
- 465 118 465 118 620 78 c 0
- 775 38 775 38 941 -19 c 0
- 1139 -86 1139 -86 1336.5 -133 c 0
- 1534 -180 1534 -180 1713 -158 c 0
- 1892 -136 1892 -136 2035 2 c 0
- 2088 50 2088 50 2136.5 20.5 c 0
- 2185 -9 2185 -9 2226 -58 c 0
- 2239 -72 2239 -72 2251 -84 c 1
- 2322 -13 l 1
- 2363 12 2363 12 2395 7 c 0
- 2449 -3 2449 -3 2524 -84 c 1
- 2583 -25 l 1
- 2576 -33 2576 -33 2568 -41 c 1
- 2705 96 l 2
- 2782 175 2782 175 2789.5 243.5 c 0
- 2797 312 2797 312 2765.5 372 c 0
- 2734 432 2734 432 2694 484 c 0
- 2656 532 2656 532 2635 574.5 c 0
- 2614 617 2614 617 2633 654 c 0
- 2634 655 2634 655 2633 656 c 0
- 2632 656 2632 656 2631 655 c 2
- 2512 536 l 2
- 2474 496 2474 496 2494 449 c 0
- 2514 402 2514 402 2557 348 c 0
- 2597 296 2597 296 2628.5 236 c 0
- 2660 176 2660 176 2653 107 c 0
- 2651 89 2651 89 2644 71 c 1
- 2580 135 2580 135 2532 144 c 0
+2153 -246 m 2,0,-1
+ 2061 -338 l 2,1,2
+ 2060 -339 2060 -339 2059 -338 c 0,3,4
+ 2058 -338 2058 -338 2058 -336 c 0,5,6
+ 2064 -305 2064 -305 2029.5 -269 c 0,7,8
+ 1995 -233 1995 -233 1975 -215 c 1,9,-1
+ 2078 -112 l 1,10,11
+ 2091 -125 2091 -125 2116 -149 c 0,12,13
+ 2141 -173 2141 -173 2156 -199.5 c 0,14,15
+ 2171 -226 2171 -226 2153 -246 c 2,0,-1
+2532 144 m 0,16,17
+ 2498 149 2498 149 2454 119 c 1,18,19
+ 2489 163 2489 163 2491 201 c 0,20,21
+ 2494 248 2494 248 2469 287 c 0,22,23
+ 2444 326 2444 326 2413 357 c 0,24,25
+ 2391 381 2391 381 2377 401 c 0,26,27
+ 2363 421 2363 421 2368 438 c 0,28,29
+ 2368 439 2368 439 2367 440 c 256,30,31
+ 2366 441 2366 441 2365 440 c 2,32,-1
+ 2239 314 l 2,33,34
+ 2222 295 2222 295 2235.5 272 c 0,35,36
+ 2249 249 2249 249 2276 220 c 0,37,38
+ 2302 193 2302 193 2325.5 160 c 0,39,40
+ 2349 127 2349 127 2354 87 c 1,41,42
+ 2295 149 2295 149 2255 166 c 0,43,44
+ 2215 183 2215 183 2172 139 c 2,45,-1
+ 2166 133 l 1,46,47
+ 2023 -1 2023 -1 1845 -21.5 c 0,48,49
+ 1667 -42 1667 -42 1471 4.5 c 0,50,51
+ 1275 51 1275 51 1078 119 c 0,52,53
+ 902 179 902 179 738 219.5 c 0,54,55
+ 574 260 574 260 434.5 248.5 c 0,56,57
+ 295 237 295 237 193 139 c 2,58,-1
+ 91 37 l 2,59,60
+ 90 36 90 36 91 35 c 0,61,62
+ 92 33 92 33 93 34 c 0,63,64
+ 196 110 196 110 330.5 114 c 0,65,66
+ 465 118 465 118 620 78 c 0,67,68
+ 775 38 775 38 941 -19 c 0,69,70
+ 1139 -86 1139 -86 1336.5 -133 c 0,71,72
+ 1534 -180 1534 -180 1713 -158 c 0,73,74
+ 1892 -136 1892 -136 2035 2 c 0,75,76
+ 2088 50 2088 50 2136.5 20.5 c 0,77,78
+ 2185 -9 2185 -9 2226 -58 c 0,79,80
+ 2239 -72 2239 -72 2251 -84 c 1,81,-1
+ 2322 -13 l 1,82,83
+ 2363 12 2363 12 2395 7 c 0,84,85
+ 2449 -3 2449 -3 2524 -84 c 1,86,-1
+ 2583 -25 l 1,87,88
+ 2576 -33 2576 -33 2568 -41 c 1,89,-1
+ 2705 96 l 2,90,91
+ 2782 175 2782 175 2789.5 243.5 c 0,92,93
+ 2797 312 2797 312 2765.5 372 c 0,94,95
+ 2734 432 2734 432 2694 484 c 0,96,97
+ 2656 532 2656 532 2635 574.5 c 0,98,99
+ 2614 617 2614 617 2633 654 c 0,100,101
+ 2634 655 2634 655 2633 656 c 0,102,103
+ 2632 656 2632 656 2631 655 c 2,104,-1
+ 2512 536 l 2,105,106
+ 2474 496 2474 496 2494 449 c 0,107,108
+ 2514 402 2514 402 2557 348 c 0,109,110
+ 2597 296 2597 296 2628.5 236 c 0,111,112
+ 2660 176 2660 176 2653 107 c 0,113,114
+ 2651 89 2651 89 2644 71 c 1,115,116
+ 2580 135 2580 135 2532 144 c 0,16,17
 EndSplineSet
 Refer: 447 -1 S 1 0 0 1 2309 -526 2
 Ligature2: "'liga' JAWI" nya.init ba.medi ba.medi ba.medi
@@ -35493,7 +35580,7 @@ Refer: 447 -1 S 1 0 0 1 2159 -526 2
 Ligature2: "'liga' JAWI" nya.init tha.medi tha.medi tha.medi
 EndChar
 
-StartChar: .notdef
+StartChar: ba.kosong_nya.medi
 Encoding: 586 -1 561
 Width: 2638
 Flags: W
@@ -35504,7 +35591,7 @@ Refer: 447 -1 N 1 0 0 1 1819 -526 2
 Ligature2: "'liga' JAWI" ba.kosong.init nya.medi nya.medi nya.medi
 EndChar
 
-StartChar: .notdef
+StartChar: nya.init_nya.medi
 Encoding: 587 -1 562
 Width: 2638
 Flags: W
@@ -35513,6 +35600,7 @@ Fore
 Refer: 447 -1 S 1 0 0 1 2157 -526 2
 Refer: 517 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 1819 -526 2
+LCarets2: 3 0 0 0
 Ligature2: "'liga' JAWI" nya.init nya.medi nya.medi nya.medi
 EndChar
 
@@ -35525,35 +35613,35 @@ AnchorPoint: "Anchor-0" 213 850 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-311 -69 m 1
- 310 -69 l 1
- 375 -6 375 -6 476 95 c 1
- 507 -18 507 -18 465 -142 c 1
- 431 -115 431 -115 396.5 -101.5 c 0
- 362 -88 362 -88 345 -101 c 2
- 217 -230 l 2
- 216 -231 216 -231 217 -232 c 0
- 217 -233 217 -233 218 -233 c 0
- 244 -227 244 -227 284.5 -250 c 0
- 325 -273 325 -273 357 -304 c 1
- 426 -236 426 -236 494 -168 c 0
- 605 -52 605 -52 623 57 c 0
- 641 166 641 166 603.5 265.5 c 0
- 566 365 566 365 510.5 450 c 0
- 455 535 455 535 418 601.5 c 0
- 381 668 381 668 400 712 c 0
- 400 713 400 713 399 714 c 256
- 398 715 398 715 397 714 c 2
- 275 592 l 2
- 130 447 130 447 101 341.5 c 0
- 72 236 72 236 131.5 141 c 0
- 191 46 191 46 311 -69 c 1
-254 521 m 1
- 272 452 272 452 324 386 c 0
- 376 320 376 320 414.5 247.5 c 0
- 453 175 453 175 428 87 c 1
- 306 205 306 205 254 304.5 c 0
- 202 404 202 404 254 521 c 1
+311 -69 m 1,0,-1
+ 310 -69 l 1,1,2
+ 375 -6 375 -6 476 95 c 1,3,4
+ 507 -18 507 -18 465 -142 c 1,5,6
+ 431 -115 431 -115 396.5 -101.5 c 0,7,8
+ 362 -88 362 -88 345 -101 c 2,9,-1
+ 217 -230 l 2,10,11
+ 216 -231 216 -231 217 -232 c 0,12,13
+ 217 -233 217 -233 218 -233 c 0,14,15
+ 244 -227 244 -227 284.5 -250 c 0,16,17
+ 325 -273 325 -273 357 -304 c 1,18,19
+ 426 -236 426 -236 494 -168 c 0,20,21
+ 605 -52 605 -52 623 57 c 0,22,23
+ 641 166 641 166 603.5 265.5 c 0,24,25
+ 566 365 566 365 510.5 450 c 0,26,27
+ 455 535 455 535 418 601.5 c 0,28,29
+ 381 668 381 668 400 712 c 0,30,31
+ 400 713 400 713 399 714 c 256,32,33
+ 398 715 398 715 397 714 c 2,34,-1
+ 275 592 l 2,35,36
+ 130 447 130 447 101 341.5 c 0,37,38
+ 72 236 72 236 131.5 141 c 0,39,40
+ 191 46 191 46 311 -69 c 1,0,-1
+254 521 m 1,41,42
+ 272 452 272 452 324 386 c 0,43,44
+ 376 320 376 320 414.5 247.5 c 0,45,46
+ 453 175 453 175 428 87 c 1,47,48
+ 306 205 306 205 254 304.5 c 0,49,50
+ 202 404 202 404 254 521 c 1,41,42
 EndSplineSet
 Refer: 444 64434 S 1 0 0 1 267 781 2
 Substitution2: "'fina' JAWI" va.fina
@@ -35568,31 +35656,31 @@ AnchorPoint: "Anchor-0" 285 853 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-310 -69 m 1
- 310 -69 l 1
- 374 -6 374 -6 476 95 c 1
- 497 11 497 11 482 -79 c 0
- 467 -169 467 -169 396 -261 c 0
- 395 -262 395 -262 396 -263 c 256
- 397 -264 397 -264 398 -263 c 2
- 492 -169 l 2
- 604 -54 604 -54 622.5 55.5 c 0
- 641 165 641 165 603.5 264.5 c 0
- 566 364 566 364 510 449.5 c 0
- 454 535 454 535 417 601.5 c 0
- 380 668 380 668 399 712 c 0
- 399 713 399 713 398 714 c 256
- 397 715 397 715 396 714 c 2
- 274 592 l 2
- 129 447 129 447 100 341.5 c 0
- 71 236 71 236 130.5 141 c 0
- 190 46 190 46 310 -69 c 1
-253 521 m 1
- 271 452 271 452 323 386 c 0
- 375 320 375 320 413.5 247.5 c 0
- 452 175 452 175 428 87 c 1
- 305 205 305 205 253.5 304.5 c 0
- 202 404 202 404 253 521 c 1
+310 -69 m 1,0,-1
+ 310 -69 l 1,1,2
+ 374 -6 374 -6 476 95 c 1,3,4
+ 497 11 497 11 482 -79 c 0,5,6
+ 467 -169 467 -169 396 -261 c 0,7,8
+ 395 -262 395 -262 396 -263 c 256,9,10
+ 397 -264 397 -264 398 -263 c 2,11,-1
+ 492 -169 l 2,12,13
+ 604 -54 604 -54 622.5 55.5 c 0,14,15
+ 641 165 641 165 603.5 264.5 c 0,16,17
+ 566 364 566 364 510 449.5 c 0,18,19
+ 454 535 454 535 417 601.5 c 0,20,21
+ 380 668 380 668 399 712 c 0,22,23
+ 399 713 399 713 398 714 c 256,24,25
+ 397 715 397 715 396 714 c 2,26,-1
+ 274 592 l 2,27,28
+ 129 447 129 447 100 341.5 c 0,29,30
+ 71 236 71 236 130.5 141 c 0,31,32
+ 190 46 190 46 310 -69 c 1,0,-1
+253 521 m 1,33,34
+ 271 452 271 452 323 386 c 0,35,36
+ 375 320 375 320 413.5 247.5 c 0,37,38
+ 452 175 452 175 428 87 c 1,39,40
+ 305 205 305 205 253.5 304.5 c 0,41,42
+ 202 404 202 404 253 521 c 1,33,34
 EndSplineSet
 Refer: 444 64434 S 1 0 0 1 267 781 2
 Ligature2: "'liga' JAWI" va.fina va va
@@ -35660,6 +35748,7 @@ LayerCount: 2
 Fore
 Refer: 501 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 S 1 0 0 1 1819 -526 2
+LCarets2: 3 0 0 0
 Ligature2: "'liga' JAWI" tha.init nya.medi nya.medi nya.medi
 EndChar
 
@@ -35754,11 +35843,11 @@ LayerCount: 2
 Fore
 Refer: 480 -1 N 1 0 0 1 0 0 2
 Refer: 447 -1 N 1 0 0 1 51 -526 2
-LCarets2: 1 474
 Ligature2: "'liga' JAWI" tha.init nya.medi
+LCarets2: 1 474
 EndChar
 
-StartChar: .notdef
+StartChar: ye.init_hamzah-ats_nya.medi
 Encoding: 585 -1 575
 Width: 2638
 Flags: W
@@ -35781,34 +35870,36 @@ Encoding: 601 -1 577
 AltUni2: 00065a.ffffffff.0
 Width: 327
 Flags: W
+AnchorPoint: "tandaV-liga" 194 -5 mark 0
+AnchorPoint: "tandaV" 194 -4 mark 0
 LayerCount: 2
 Back
 Refer: 444 64434 S 1 0 0 1 138.421 781 2
 Fore
 SplineSet
-91.16015625 319.703125 m 4,0,1
- 91.16015625 207.217773438 91.16015625 207.217773438 168.236328125 147.490234375 c 5,2,3
- 170.3515625 217.28125 170.3515625 217.28125 203.95703125 265.272460938 c 6,4,-1
- 275.080078125 366.84765625 l 6,5,6
- 288.5078125 386.024414062 288.5078125 386.024414062 306.96484375 401.720703125 c 5,7,-1
- 309.421875 400 l 5,8,-1
- 255.708984375 323.291015625 l 5,9,10
- 241.67578125 285.4375 241.67578125 285.4375 241.67578125 237.868164062 c 4,11,12
- 241.67578125 177.307617188 241.67578125 177.307617188 264.421875 101 c 5,13,-1
- 193.298828125 -0.5751953125 l 5,14,15
- 141.83203125 14.29296875 141.83203125 14.29296875 103.1953125 41.3466796875 c 4,16,17
- 17.578125 101.295898438 17.578125 101.295898438 17.578125 219.849609375 c 4,18,19
- 17.578125 226.408203125 17.578125 226.408203125 17.83984375 233.145507812 c 6,20,-1
- 88.96484375 334.720703125 l 5,21,-1
- 91.421875 333 l 5,22,23
- 91.16015625 326.26171875 91.16015625 326.26171875 91.16015625 319.703125 c 4,0,1
+91.16015625 319.703125 m 0,0,1
+ 91.16015625 326.26171875 91.16015625 326.26171875 91.421875 333 c 1,2,3
+ 91.421875 333 91.421875 333 88.96484375 334.720703125 c 1,4,-1
+ 17.83984375 233.145507812 l 2,5,6
+ 17.578125 226.408203125 17.578125 226.408203125 17.578125 219.849609375 c 0,7,8
+ 17.578125 101.295898438 17.578125 101.295898438 103.1953125 41.3466796875 c 0,9,10
+ 141.83203125 14.29296875 141.83203125 14.29296875 193.298828125 -0.5751953125 c 1,11,12
+ 193.298828125 -0.5751953125 193.298828125 -0.5751953125 264.421875 101 c 1,13,14
+ 241.67578125 177.307617188 241.67578125 177.307617188 241.67578125 237.868164062 c 0,15,16
+ 241.67578125 285.4375 241.67578125 285.4375 255.708984375 323.291015625 c 1,17,18
+ 255.708984375 323.291015625 255.708984375 323.291015625 309.421875 400 c 1,19,-1
+ 306.96484375 401.720703125 l 1,20,21
+ 288.5078125 386.024414062 288.5078125 386.024414062 275.080078125 366.84765625 c 2,22,23
+ 275.080078125 366.84765625 275.080078125 366.84765625 203.95703125 265.272460938 c 2,24,25
+ 170.3515625 217.28125 170.3515625 217.28125 168.236328125 147.490234375 c 1,26,27
+ 91.16015625 207.217773438 91.16015625 207.217773438 91.16015625 319.703125 c 0,0,1
 EndSplineSet
 EndChar
 
 StartChar: uni06C6
 Encoding: 602 1734 578
 Width: 630
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-1" 285 -433 basechar 0
 AnchorPoint: "Anchor-0" 232 916 basechar 0
 LayerCount: 2
@@ -35850,23 +35941,24 @@ SplineSet
  130 447 130 447 101 341.5 c 128,-1,38
  72 236 72 236 131.5 141 c 128,-1,39
  191 46 191 46 311 -69 c 1,7,-1
-219.737967953 1064.70342395 m 4,40,41
- 219.737967953 952.217345815 219.737967953 952.217345815 296.815629717 892.490309192 c 5,42,43
- 298.931124962 962.281126385 298.931124962 962.281126385 332.534934918 1010.27234077 c 6,44,-1
- 403.658413025 1111.84719426 l 6,45,46
- 417.086461562 1131.02443501 417.086461562 1131.02443501 435.542543867 1146.72072931 c 5,47,-1
- 438 1145 l 5,48,-1
- 384.287805853 1068.29103699 l 5,49,50
- 370.25443787 1030.43745129 370.25443787 1030.43745129 370.25443787 982.868456987 c 4,51,52
- 370.25443787 922.307692308 370.25443787 922.307692308 393 846 c 5,53,-1
- 321.876521892 744.425146508 l 5,54,55
- 270.40982883 759.293302282 270.40982883 759.293302282 231.773625083 786.346663393 c 4,56,57
- 146.157033674 846.296046094 146.157033674 846.296046094 146.157033674 964.849298849 c 4,58,59
- 146.157033674 971.407907903 146.157033674 971.407907903 146.41906576 978.145875817 c 6,60,-1
- 217.542543867 1079.72072931 l 5,61,-1
- 220 1078 l 5,62,63
- 219.737967953 1071.26203256 219.737967953 1071.26203256 219.737967953 1064.70342395 c 4,40,41
+219.737967953 1064.70342395 m 0,40,41
+ 219.737967953 952.217345815 219.737967953 952.217345815 296.815629717 892.490309192 c 1,42,43
+ 298.931124962 962.281126385 298.931124962 962.281126385 332.534934918 1010.27234077 c 2,44,-1
+ 403.658413025 1111.84719426 l 2,45,46
+ 417.086461562 1131.02443501 417.086461562 1131.02443501 435.542543867 1146.72072931 c 1,47,-1
+ 438 1145 l 1,48,-1
+ 384.287805853 1068.29103699 l 1,49,50
+ 370.25443787 1030.43745129 370.25443787 1030.43745129 370.25443787 982.868456987 c 0,51,52
+ 370.25443787 922.307692308 370.25443787 922.307692308 393 846 c 1,53,-1
+ 321.876521892 744.425146508 l 1,54,55
+ 270.40982883 759.293302282 270.40982883 759.293302282 231.773625083 786.346663393 c 0,56,57
+ 146.157033674 846.296046094 146.157033674 846.296046094 146.157033674 964.849298849 c 0,58,59
+ 146.157033674 971.407907903 146.157033674 971.407907903 146.41906576 978.145875817 c 2,60,-1
+ 217.542543867 1079.72072931 l 1,61,-1
+ 220 1078 l 1,62,63
+ 219.737967953 1071.26203256 219.737967953 1071.26203256 219.737967953 1064.70342395 c 0,40,41
 EndSplineSet
+MultipleSubs2: "'ccmp' tandaV" wau tandaV
 EndChar
 
 StartChar: NameMe.527
@@ -36042,7 +36134,8 @@ SplineSet
  361 -71 361 -71 493 1 c 1
  494 2 l 1
 EndSplineSet
-Refer: 444 64434 S 1 0 0 1 183 663 2
+Refer: 444 64434 N 1 0 0 1 183 663 2
+LCarets2: 2 0 0
 Ligature2: "'liga' JAWI" va.fina va va.fina
 EndChar
 
@@ -36129,6 +36222,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 24 1569 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "'rlig' Hamzah" hamzah-tigaSuku ZWNJ
 Ligature2: "'rlig' Hamzah" hamzah ZWNJ
 EndChar
@@ -36138,6 +36232,19 @@ Encoding: 599 8204 588
 Width: 0
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: uni06CE
+Encoding: 603 1742 589
+Width: 1052
+LigCaretCntFixed: 1
+Flags: W
+LayerCount: 2
+Fore
+Refer: 577 -1 N 1 0 0 1 21 557 2
+Refer: 60 1610 N 1 0 0 1 0 0 3
+MultipleSubs2: "'ccmp' tandaV" ya tandaV
+Decomposition: "+BkoGWgAA"
 EndChar
 EndChars
 EndSplineFont
