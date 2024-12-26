@@ -1,0 +1,54 @@
+/* Nipis Gila - Extra Light*/
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-nipis-gila.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+/* Nipis - Light */
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-nipis.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+/* Biasa - Regular */
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-biasa.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+/* Sedang - Medium */
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-sedang.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+/* Tebal Sedang - Semi Bold */
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-tebal-sedang.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
+/* Tebal - Bold */
+@font-face {
+  font-family: 'JAWI Readex Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://cdn.jsdelivr.net/gh/niskala5570/pasuanjawi@2.872/Persendirian%20%26%20Perdagangan/Readex%20Pro/woff2/JAWI-Readex%20Pro-tebal.woff2) format('woff2');
+  unicode-range: U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+10E60-10E7F,U+1EC70-1ECBF,U+1ED00-1ED4F,U+1EE00-1EEFF;
+}
