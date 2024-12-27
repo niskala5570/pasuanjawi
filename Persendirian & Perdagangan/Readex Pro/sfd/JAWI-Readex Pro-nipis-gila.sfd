@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1578154464
-ModificationTime: 1735189652
+ModificationTime: 1735318078
 PfmFamily: 81
 TTFWeight: 200
 TTFWidth: 5
@@ -57,13 +57,13 @@ OS2XHeight: 525
 OS2Vendor: 'NONE'
 OS2CodePages: 200001d3.00080000
 OS2UnicodeRanges: a00020ff.c000205b.00000000.00000000
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 0"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 1"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 2"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 3"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 5" { "'ccmp' Glyph Composition/Decomposition lookup 5 contextual 0"  "'ccmp' Glyph Composition/Decomposition lookup 5 contextual 1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 8" { "'ccmp' Glyph Composition/Decomposition lookup 8 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 9" { "'ccmp' Glyph Composition/Decomposition lookup 9 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 2 0 0 "'ccmp' Glyph Composition/Decomposition lookup 10" { "'ccmp' Glyph Composition/Decomposition lookup 10 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 11" { "'ccmp' Glyph Composition/Decomposition lookup 11 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 2 1 0 "'ccmp' Glyph Composition/Decomposition JAWI" { "'ccmp' Ha"  "'ccmp' WAU"  "'ccmp' Ya"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'MLY ' 'URD ' 'dflt' > 'grek' <'dflt' > 'latn' <'CAT ' 'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 0"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 1"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 2"  "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 3"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 5" { "'ccmp' Glyph Composition/Decomposition lookup 5 contextual 0"  "'ccmp' Glyph Composition/Decomposition lookup 5 contextual 1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 8" { "'ccmp' Glyph Composition/Decomposition lookup 8 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 9" { "'ccmp' Glyph Composition/Decomposition lookup 9 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 2 0 0 "'ccmp' Glyph Composition/Decomposition lookup 10" { "'ccmp' Glyph Composition/Decomposition lookup 10 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 11" { "'ccmp' Glyph Composition/Decomposition lookup 11 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 2 1 0 "'ccmp' Glyph Composition/Decomposition JAWI" { "'ccmp' Ha"  "'ccmp' WAU"  "'ccmp' Ya"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'grek' <'dflt' > 'latn' <'CAT ' 'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 13" { "'locl' Localized Forms in Latin lookup 13 subtable"  } ['locl' ('latn' <'CRT ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 14" { "'locl' Localized Forms in Latin lookup 14 subtable"  } ['locl' ('latn' <'KAZ ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 15" { "'locl' Localized Forms in Latin lookup 15 subtable"  } ['locl' ('latn' <'TAT ' > ) ]
@@ -87,50 +87,51 @@ Lookup: 1 9 0 "Single Substitution lookup 49" { "Single Substitution lookup 49 s
 Lookup: 1 9 0 "Single Substitution lookup 50" { "Single Substitution lookup 50 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
-Lookup: 1 0 0 "'fina' Terminal Forms lookup 40" { "'fina' Terminal Forms lookup 40 subtable"  "'fina' JAWI"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'medi' Medial Forms lookup 39" { "'medi' Medial Forms lookup 39 subtable"  "'medi' JAWi"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'init' Initial Forms lookup 38" { "'init' JAWI"  "'init' Initial Forms lookup 38 subtable"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 1 "'rlig' Required Ligatures in Arabic lookup 41" { "'rlig' Required Ligatures in Arabic lookup 41 subtable"  } ['rlig' ('arab' <'dflt' 'MLY ' 'URD ' > ) ]
-Lookup: 6 9 0 "'calt' Contextual Alternates lookup 47" { "'calt' Contextual Alternates lookup 47 contextual 0"  "'calt' Contextual Alternates lookup 47 contextual 1"  "'calt' Contextual Alternates lookup 47 contextual 2"  "'calt' Contextual Alternates lookup 47 contextual 3"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 8 1 "'liga' Standard Ligatures lookup 43" { "'liga' Standard Ligatures lookup 43 subtable"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 8 0 "'dlig' Discretionary Ligatures lookup 42" { "'dlig' Discretionary Ligatures lookup 42 subtable"  } ['dlig' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 29" { "'frac' Diagonal Fractions lookup 29 subtable"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 30" { "'frac' Diagonal Fractions lookup 30 subtable"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 6 0 0 "'frac' Diagonal Fractions lookup 31" { "'frac' Diagonal Fractions lookup 31 contextual 0"  "'frac' Diagonal Fractions lookup 31 contextual 1"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'numr' Numerators lookup 27" { "'numr' Numerators lookup 27 subtable"  } ['numr' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 0 "'ordn' Ordinals lookup 36" { "'ordn' Ordinals lookup 36 subtable"  } ['ordn' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 37" { "'case' Case-Sensitive Forms lookup 37 subtable"  } ['case' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Style Set 1 lookup 55" { "'ss01' Style Set 1 lookup 55 subtable"  } ['ss01' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Style Set 2 lookup 56" { "'ss02' Style Set 2 lookup 56 subtable"  } ['ss02' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'ss03' Style Set 3 lookup 57" { "'ss03' Style Set 3 lookup 57 subtable"  } ['ss03' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'dnom' Denominators lookup 28" { "'dnom' Denominators lookup 28 subtable"  } ['dnom' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution JAWI" { "Single Substitution Syin"  } ['    ' ('DFLT' <'dflt' > 'arab' <'MLY ' 'URD ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 5 0 0 "'rclt' Required Contextual Alternates JAWI" { "'rclt' Required Contextual Alternates Syin"  } ['rclt' ('DFLT' <'dflt' > 'arab' <'MLY ' 'URD ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 5 1 0 "'rclt' Required Contextual Alternates in Arabic Hamza 3/4" { "'rclt' Hamzah Tiga Suku"  } ['rclt' ('DFLT' <'dflt' > 'arab' <'MLY ' 'dflt' > ) ]
-Lookup: 1 1 0 "Hamzah Tiga Suku - Naik" { "Hamzah Tiga Suku - Naik-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'MLY ' 'dflt' > ) ]
-Lookup: 1 1 0 "Hamzah Tiga Suku - Turun" { "Hamzah Tiga Suku - Turun-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'MLY ' 'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'subs' Subscript lookup 24" { "'subs' Subscript lookup 24 subtable" ("inferior") } ['subs' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 25" { "'sinf' Scientific Inferiors lookup 25 subtable"  } ['sinf' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sups' Superscript lookup 26" { "'sups' Superscript lookup 26 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 1 0 0 "'zero' Slashed Zero lookup 44" { "'zero' Slashed Zero lookup 44 subtable"  } ['zero' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ordn' Ordinals lookup 34" { "'ordn' Ordinals lookup 34 contextual 0"  "'ordn' Ordinals lookup 34 contextual 1"  } ['ordn' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 6 9 0 "'calt' Contextual Alternates lookup 45" { "'calt' Contextual Alternates lookup 45 contextual 0"  "'calt' Contextual Alternates lookup 45 contextual 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'fina' Terminal Forms lookup 40" { "'fina' Terminal Forms lookup 40 subtable"  "'fina' JAWI"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'medi' Medial Forms lookup 39" { "'medi' Medial Forms lookup 39 subtable"  "'medi' JAWi"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'init' Initial Forms lookup 38" { "'init' JAWI"  "'init' Initial Forms lookup 38 subtable"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 1 "'rlig' Required Ligatures in Arabic lookup 41" { "'rlig' Required Ligatures in Arabic lookup 41 subtable"  } ['rlig' ('arab' <'dflt' 'ARA ' 'MLY ' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates lookup 47" { "'calt' Contextual Alternates lookup 47 contextual 0"  "'calt' Contextual Alternates lookup 47 contextual 1"  "'calt' Contextual Alternates lookup 47 contextual 2"  "'calt' Contextual Alternates lookup 47 contextual 3"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 8 1 "'liga' Standard Ligatures lookup 43" { "'liga' Standard Ligatures lookup 43 subtable"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 8 0 "'dlig' Discretionary Ligatures lookup 42" { "'dlig' Discretionary Ligatures lookup 42 subtable"  } ['dlig' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 29" { "'frac' Diagonal Fractions lookup 29 subtable"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'frac' Diagonal Fractions lookup 30" { "'frac' Diagonal Fractions lookup 30 subtable"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'frac' Diagonal Fractions lookup 31" { "'frac' Diagonal Fractions lookup 31 contextual 0"  "'frac' Diagonal Fractions lookup 31 contextual 1"  } ['frac' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'numr' Numerators lookup 27" { "'numr' Numerators lookup 27 subtable"  } ['numr' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'ordn' Ordinals lookup 36" { "'ordn' Ordinals lookup 36 subtable"  } ['ordn' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 37" { "'case' Case-Sensitive Forms lookup 37 subtable"  } ['case' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 55" { "'ss01' Style Set 1 lookup 55 subtable"  } ['ss01' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 lookup 56" { "'ss02' Style Set 2 lookup 56 subtable"  } ['ss02' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Style Set 3 lookup 57" { "'ss03' Style Set 3 lookup 57 subtable"  } ['ss03' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'dnom' Denominators lookup 28" { "'dnom' Denominators lookup 28 subtable"  } ['dnom' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution JAWI" { "Single Substitution Syin"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 5 0 0 "'rclt' Required Contextual Alternates JAWI" { "'rclt' Required Contextual Alternates Syin"  } ['rclt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'grek' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 5 1 0 "'rclt' Required Contextual Alternates in Arabic Hamza 3/4" { "'rclt' Hamzah Tiga Suku"  } ['rclt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > ) ]
+Lookup: 1 1 0 "Hamzah Tiga Suku - Naik" { "Hamzah Tiga Suku - Naik-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > ) ]
+Lookup: 1 1 0 "Hamzah Tiga Suku - Turun" { "Hamzah Tiga Suku - Turun-1"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > ) ]
+Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'subs' Subscript lookup 24" { "'subs' Subscript lookup 24 subtable" ("inferior") } ['subs' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sinf' Scientific Inferiors lookup 25" { "'sinf' Scientific Inferiors lookup 25 subtable"  } ['sinf' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'sups' Superscript lookup 26" { "'sups' Superscript lookup 26 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'zero' Slashed Zero lookup 44" { "'zero' Slashed Zero lookup 44 subtable"  } ['zero' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ordn' Ordinals lookup 34" { "'ordn' Ordinals lookup 34 contextual 0"  "'ordn' Ordinals lookup 34 contextual 1"  } ['ordn' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates lookup 45" { "'calt' Contextual Alternates lookup 45 contextual 0"  "'calt' Contextual Alternates lookup 45 contextual 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 9 0 "Single Substitution lookup 46" { "Single Substitution lookup 46 subtable" ("wide") } []
-Lookup: 6 9 0 "'calt' Contextual Alternates lookup 51" { "'calt' Contextual Alternates lookup 51 contextual 0"  "'calt' Contextual Alternates lookup 51 contextual 1"  "'calt' Contextual Alternates lookup 51 contextual 2"  "'calt' Contextual Alternates lookup 51 contextual 3"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates lookup 51" { "'calt' Contextual Alternates lookup 51 contextual 0"  "'calt' Contextual Alternates lookup 51 contextual 1"  "'calt' Contextual Alternates lookup 51 contextual 2"  "'calt' Contextual Alternates lookup 51 contextual 3"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 9 0 "Single Substitution lookup 52" { "Single Substitution lookup 52 subtable" ("wide") } []
 Lookup: 1 9 0 "Single Substitution lookup 53" { "Single Substitution lookup 53 subtable" ("wide") } []
 Lookup: 1 9 0 "Single Substitution lookup 54" { "Single Substitution lookup 54 subtable" ("wide") } []
 Lookup: 258 8 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark lookup 1" { "'abvm' Above Base Mark lookup 1 subtable"  } ['abvm' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark lookup 2" { "'blwm' Below Base Mark lookup 2 subtable"  } ['blwm' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 3" { "'mark' Mark Positioning lookup 3 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 261 0 0 "'mark' Mark Positioning lookup 4" { "'mark' Mark Positioning lookup 4 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 262 16 0 "'mkmk' Mark to Mark lookup 5" { "'mkmk' Mark to Mark lookup 5 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 262 65552 0 "'mkmk' Mark to Mark lookup 6" { "'mkmk' Mark to Mark lookup 6 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 262 131088 0 "'mkmk' Mark to Mark lookup 7" { "'mkmk' Mark to Mark lookup 7 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'MLY ' 'URD ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 258 1 0 "'kern' Horizontal Kerning - Tasydid" { "'kern' Horizontal Kerning - Tasydid-1" [150,15,6] } ['kern' ('DFLT' <'dflt' > 'arab' <'MLY ' 'URD ' 'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark lookup 1" { "'abvm' Above Base Mark lookup 1 subtable"  } ['abvm' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark lookup 2" { "'blwm' Below Base Mark lookup 2 subtable"  } ['blwm' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 3" { "'mark' Mark Positioning lookup 3 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 261 0 0 "'mark' Mark Positioning lookup 4" { "'mark' Mark Positioning lookup 4 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 262 16 0 "'mkmk' Mark to Mark lookup 5" { "'mkmk' Mark to Mark lookup 5 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 262 65552 0 "'mkmk' Mark to Mark lookup 6" { "'mkmk' Mark to Mark lookup 6 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 262 131088 0 "'mkmk' Mark to Mark lookup 7" { "'mkmk' Mark to Mark lookup 7 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'latn' <'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'NLD ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > ) ]
+Lookup: 258 1 0 "'kern' Horizontal Kerning - Tasydid" { "'kern' Horizontal Kerning - Tasydid-1" [150,15,6] } ['kern' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark lookup 9" { "'mkmk' Mark to Mark lookup 9-1"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'MLY ' > 'grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 3
 "MarkSet-0" 138 dotbelowar twodotshorizontalbelowar uni0656 uni0655 uni0650 dotbelowcomb uni0324 uni0326 uni0327 uni032E uni0331 uni0326.case uni0327.case
@@ -4283,9 +4284,9 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "" "" "" "2.872 JAWI 2024 NISKALA" "" "" "Lexend - Niskala" "Bonnie Shaver-Troup, Thomas Jockin" "" "https://www.lexend.com" "https://www.lexend.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "JAWI Readex Pro" "ExtraLight" "" "" "" "JAWI Readex Pro" "ExtraLight"
 GaspTable: 1 65535 15 1
-OtfFeatName: 'ss03' 1033 "I J no bar"
-OtfFeatName: 'ss02' 1033 "g double-storey"
 OtfFeatName: 'ss01' 1033 "a single-storey"
+OtfFeatName: 'ss02' 1033 "g double-storey"
+OtfFeatName: 'ss03' 1033 "I J no bar"
 Encoding: Custom
 UnicodeInterp: none
 NameList: JAWI
@@ -4295,7 +4296,7 @@ FitToEm: 0
 WinInfo: 918 17 14
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "tta3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-0" "'abvm' Above Base Mark lookup 1 subtable" "Anchor-1" "'blwm' Below Base Mark lookup 2 subtable" "Anchor-2" "'mark' Mark Positioning lookup 3 subtable" "Anchor-3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-4" "'mark' Mark Positioning lookup 3 subtable" "Anchor-5" "'mark' Mark Positioning lookup 3 subtable" "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8" "'mark' Mark Positioning lookup 4 subtable" "Anchor-9" "'mkmk' Mark to Mark lookup 5 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 6 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 7 subtable"
+AnchorClass2: "mkmk jawi" "'mkmk' Mark to Mark lookup 9-1" "tta3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-0" "'abvm' Above Base Mark lookup 1 subtable" "Anchor-1" "'blwm' Below Base Mark lookup 2 subtable" "Anchor-2" "'mark' Mark Positioning lookup 3 subtable" "Anchor-3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-4" "'mark' Mark Positioning lookup 3 subtable" "Anchor-5" "'mark' Mark Positioning lookup 3 subtable" "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8" "'mark' Mark Positioning lookup 4 subtable" "Anchor-9" "'mkmk' Mark to Mark lookup 5 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 6 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 7 subtable"
 BeginChars: 1144 1143
 
 StartChar: .notdef
@@ -47747,6 +47748,7 @@ PUSHB_2
  0
 WCVTP
 EndTTInstrs
+AnchorPoint: "mkmk jawi" 231 610 mark 0
 AnchorPoint: "Anchor-10" 224 688 basemark 0
 AnchorPoint: "Anchor-10" 224 525 mark 0
 AnchorPoint: "Anchor-7" 224 525 mark 0
@@ -52036,6 +52038,7 @@ NPUSHB
  22
 CALL
 EndTTInstrs
+AnchorPoint: "mkmk jawi" 254 736 mark 0
 AnchorPoint: "Anchor-10" 251 831 basemark 0
 AnchorPoint: "Anchor-10" 251 700 mark 0
 AnchorPoint: "Anchor-7" 251 700 mark 0
@@ -53532,6 +53535,7 @@ StartChar: tandaV
 Encoding: 1111 1626 1110
 Width: 0
 Flags: W
+AnchorPoint: "mkmk jawi" 250 850 basemark 0
 AnchorPoint: "Anchor-10" 250 790 basemark 0
 AnchorPoint: "Anchor-10" 250 525 mark 0
 AnchorPoint: "Anchor-7" 250 525 mark 0
@@ -53762,6 +53766,7 @@ StartChar: tandaA
 Encoding: 1131 1627 1130
 Width: 0
 Flags: W
+AnchorPoint: "mkmk jawi" 250 850 basemark 0
 AnchorPoint: "Anchor-10" 250 790 basemark 0
 AnchorPoint: "Anchor-10" 250 525 mark 0
 AnchorPoint: "Anchor-7" 250 525 mark 0
@@ -53778,6 +53783,7 @@ StartChar: tandaA.bwh
 Encoding: 1132 -1 1131
 Width: -10
 Flags: W
+AnchorPoint: "mkmk jawi" 250 350 basemark 0
 AnchorPoint: "Anchor-10" 250 550 basemark 0
 AnchorPoint: "Anchor-10" 250 920 mark 0
 AnchorPoint: "Anchor-8" 250 920 mark 0
@@ -53869,6 +53875,7 @@ Encoding: 1141 -1 1140
 AltUni2: 0006db.ffffffff.0
 Width: 0
 Flags: W
+AnchorPoint: "mkmk jawi" 220 800 basemark 0
 AnchorPoint: "tta3" 270 438 mark 0
 AnchorPoint: "Anchor-10" 213 846 basemark 0
 AnchorPoint: "Anchor-10" 215 438 mark 0
