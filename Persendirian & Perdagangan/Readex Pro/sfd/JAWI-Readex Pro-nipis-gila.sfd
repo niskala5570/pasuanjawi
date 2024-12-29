@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1578154464
-ModificationTime: 1735318078
+ModificationTime: 1735452972
 PfmFamily: 81
 TTFWeight: 200
 TTFWidth: 5
@@ -249,7 +249,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 51 contextual 0" 0 0 0 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates lookup 45 contextual 1" 0 0 0 1
  1 1 0
-  Coverage: 16 uniFEF3 nya.init
+  Coverage: 46 uniFEF3 nya.init koma.jawi koma-bernoktah.jawi
   BCoverage: 39 ro.yeh ro.fina.yeh zai.fina.yeh zai.yeh
  1
   SeqLookup: 0 "Single Substitution lookup 46"
@@ -257,7 +257,7 @@ EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates lookup 45 contextual 0" 0 0 0 1
  1 0 1
   Coverage: 22 ro uniFEAE zai uniFEB0
-  FCoverage: 16 uniFEF3 nya.init
+  FCoverage: 46 uniFEF3 nya.init koma.jawi koma-bernoktah.jawi
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
@@ -4293,7 +4293,7 @@ NameList: JAWI
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 918 17 14
+WinInfo: 1043 7 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "mkmk jawi" "'mkmk' Mark to Mark lookup 9-1" "tta3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-0" "'abvm' Above Base Mark lookup 1 subtable" "Anchor-1" "'blwm' Below Base Mark lookup 2 subtable" "Anchor-2" "'mark' Mark Positioning lookup 3 subtable" "Anchor-3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-4" "'mark' Mark Positioning lookup 3 subtable" "Anchor-5" "'mark' Mark Positioning lookup 3 subtable" "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8" "'mark' Mark Positioning lookup 4 subtable" "Anchor-9" "'mkmk' Mark to Mark lookup 5 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 6 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 7 subtable"
@@ -52961,6 +52961,8 @@ StartChar: nga
 Encoding: 1062 1696 1061
 Width: 590
 Flags: W
+AnchorPoint: "Anchor-3" 359 -456 basechar 0
+AnchorPoint: "Anchor-2" 310 840 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 S 1 0 0 1 86 0 2
@@ -52974,6 +52976,8 @@ StartChar: nga.fina
 Encoding: 1063 -1 1062
 Width: 562
 Flags: W
+AnchorPoint: "Anchor-3" 359 -456 basechar 0
+AnchorPoint: "Anchor-2" 310 840 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 N 1 0 0 1 130 0 2
@@ -52984,6 +52988,8 @@ StartChar: nga.medi
 Encoding: 1064 -1 1063
 Width: 551
 Flags: W
+AnchorPoint: "Anchor-3" 302 0 basechar 0
+AnchorPoint: "Anchor-2" 307 840 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 N 1 0 0 1 95 0 2
@@ -52994,6 +53000,8 @@ StartChar: nga.init
 Encoding: 1065 -1 1064
 Width: 551
 Flags: W
+AnchorPoint: "Anchor-3" 302 0 basechar 0
+AnchorPoint: "Anchor-2" 307 840 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 S 1 0 0 1 99 0 2
@@ -53004,6 +53012,8 @@ StartChar: ca
 Encoding: 1066 1670 1065
 Width: 709
 Flags: W
+AnchorPoint: "Anchor-3" 389 -456 basechar 0
+AnchorPoint: "Anchor-2" 275 421 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 S -1 0 -0 -1 564 522 2
@@ -53017,6 +53027,8 @@ StartChar: ca.fina
 Encoding: 1067 -1 1066
 Width: 670
 Flags: W
+AnchorPoint: "Anchor-3" 389 -456 basechar 0
+AnchorPoint: "Anchor-2" 275 421 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 N -1 0 -0 -1 544 502 2
@@ -53027,6 +53039,8 @@ StartChar: ca.medi
 Encoding: 1068 -1 1067
 Width: 748
 Flags: W
+AnchorPoint: "Anchor-3" 320 -410 basechar 0
+AnchorPoint: "Anchor-2" 250 438 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 N -1 0 -0 -1 534 462 2
@@ -53037,6 +53051,8 @@ StartChar: ca.init
 Encoding: 1069 -1 1068
 Width: 737
 Flags: W
+AnchorPoint: "Anchor-3" 320 -410 basechar 0
+AnchorPoint: "Anchor-2" 250 438 basechar 0
 LayerCount: 2
 Fore
 Refer: 941 -1 S -1 0 -0 -1 534 462 2
@@ -53047,6 +53063,8 @@ StartChar: kaf
 Encoding: 1070 1705 1069
 Width: 939
 Flags: W
+AnchorPoint: "Anchor-3" 465 0 basechar 0
+AnchorPoint: "Anchor-2" 457 498 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -53080,6 +53098,8 @@ StartChar: kaf.fina
 Encoding: 1071 -1 1070
 Width: 920
 Flags: W
+AnchorPoint: "Anchor-3" 465 0 basechar 0
+AnchorPoint: "Anchor-2" 457 498 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -53115,6 +53135,8 @@ StartChar: kaf.medi
 Encoding: 1072 -1 1071
 Width: 527
 Flags: W
+AnchorPoint: "Anchor-2" 65 498 basechar 0
+AnchorPoint: "Anchor-3" 235 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 663 -1 N 1 0 0 1 0 0 2
@@ -53124,6 +53146,8 @@ StartChar: kaf.init
 Encoding: 1073 -1 1072
 Width: 475
 Flags: W
+AnchorPoint: "Anchor-2" 65 498 basechar 0
+AnchorPoint: "Anchor-3" 235 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 664 -1 N 1 0 0 1 0 0 2
@@ -53133,6 +53157,8 @@ StartChar: uni06AC
 Encoding: 1074 1708 1073
 Width: 939
 Flags: W
+AnchorPoint: "Anchor-2" 457 770 basechar 0
+AnchorPoint: "Anchor-3" 465 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 936 -1 S 1 0 0 1 349 91 2
@@ -53147,6 +53173,8 @@ StartChar: uni06AC.fina
 Encoding: 1075 -1 1074
 Width: 920
 Flags: W
+AnchorPoint: "Anchor-2" 457 770 basechar 0
+AnchorPoint: "Anchor-3" 465 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 936 -1 N 1 0 0 1 349 91 2
@@ -53157,6 +53185,8 @@ StartChar: uni06AC.medi
 Encoding: 1076 -1 1075
 Width: 527
 Flags: W
+AnchorPoint: "Anchor-3" 235 0 basechar 0
+AnchorPoint: "Anchor-2" 65 750 basechar 0
 LayerCount: 2
 Fore
 Refer: 1108 -1 N 1 0 0 1 0 0 2
@@ -53166,6 +53196,8 @@ StartChar: uni06AC.init
 Encoding: 1077 -1 1076
 Width: 475
 Flags: W
+AnchorPoint: "Anchor-3" 235 0 basechar 0
+AnchorPoint: "Anchor-2" 65 750 basechar 0
 LayerCount: 2
 Fore
 Refer: 1109 -1 N 1 0 0 1 0 0 2
@@ -53492,6 +53524,8 @@ StartChar: ga
 Encoding: 1107 1890 1106
 Width: 939
 Flags: W
+AnchorPoint: "Anchor-2" 450 710 basechar 0
+AnchorPoint: "Anchor-3" 465 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 1069 1705 S 1 0 0 1 0 0 2
@@ -53505,6 +53539,8 @@ StartChar: ga.fina
 Encoding: 1108 -1 1107
 Width: 920
 Flags: W
+AnchorPoint: "Anchor-2" 450 710 basechar 0
+AnchorPoint: "Anchor-3" 465 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 1070 -1 S 1 0 0 1 0 0 2
@@ -53515,6 +53551,8 @@ StartChar: ga.medi
 Encoding: 1109 -1 1108
 Width: 527
 Flags: W
+AnchorPoint: "Anchor-3" 235 0 basechar 0
+AnchorPoint: "Anchor-2" 65 750 basechar 0
 LayerCount: 2
 Fore
 Refer: 936 -1 N 1 0 0 1 -31 80 2
@@ -53525,6 +53563,8 @@ StartChar: ga.init
 Encoding: 1110 -1 1109
 Width: 475
 Flags: W
+AnchorPoint: "Anchor-3" 235 0 basechar 0
+AnchorPoint: "Anchor-2" 65 750 basechar 0
 LayerCount: 2
 Fore
 Refer: 936 -1 S 1 0 0 1 -31 80 2
